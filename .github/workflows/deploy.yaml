@@ -35,10 +35,10 @@ jobs:
               # uses: appleboy/telegram-action@ae54341a85fdcf97cbea354678d7b8c062286c15
               uses: appleboy/telegram-action@0.0.3
               with:
-                  to: ${{ secrets.TELEGRAM_TO }}
-                  token: ${{ secrets.TELEGRAM_TOKEN }}
+                  to: ${{secrets.TELEGRAM_TO}}
+                  token: ${{secrets.TELEGRAM_TOKEN}}
                   message: |
-                    ${{ github.actor }} created commit:
-                    Commit message: ${{ github.event.commits[0].message }}
-                    Repository: ${{ github.repository }}
-                    See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+                    ${{github.actor}} created commit:
+                    Commit message: ${{github.event.commits[0].message}}
+                    Repository: ${{github.repository}}
+                    See changes: https://github.com/${{github.repository}}/commit/${{github.sha}}
