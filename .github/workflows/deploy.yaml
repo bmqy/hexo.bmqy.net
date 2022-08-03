@@ -30,3 +30,11 @@ jobs:
             - name: Deploy
               run: |
                   npm run deploy
+                  
+            - name: Notify workflow status
+              uses: yakuhzi/notify-workflow@v2
+              if: always()
+              with:
+                chat_id: ${{ secrets.TELEGRAM_TO }}
+                bot_token: ${{ secrets.TELEGRAM_TOKEN }}
+                job_status: ${{ job.status }}
