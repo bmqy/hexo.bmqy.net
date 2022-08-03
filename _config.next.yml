@@ -41,7 +41,7 @@ scheme: Muse
 # scheme: Gemini
 
 # Dark Mode
-darkmode: false
+darkmode: true
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -94,8 +94,8 @@ open_graph:
 menu:
     home: / || fa fa-home
     about: /about/ || fa fa-user
-    # tags: /tags/ || fa fa-tags
-    categories: /categories/ || fa fa-th
+    tags: /tag/ || fa fa-tags
+    categories: /category/ || fa fa-th
     archives: /archives/ || fa fa-archive
     # schedule: /schedule/ || fa fa-calendar
     sitemap: /sitemap.xml || fa fa-sitemap
@@ -822,7 +822,7 @@ mermaid:
 # Use Animate.css to animate everything.
 # For more information: https://animate.style
 motion:
-    enable: true
+    enable: false
     async: false
     transition:
         # All available transition variants: https://theme-next.js.org/animate/
@@ -879,3 +879,8 @@ vendors:
 css: css
 js: js
 images: images
+
+#
+auto_excerpt:
+    enable: true
+    length: 150
