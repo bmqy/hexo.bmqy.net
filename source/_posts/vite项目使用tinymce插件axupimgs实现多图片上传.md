@@ -7,7 +7,7 @@ tags:
   - tinymce多图上传
 categories:
   - 清学小记
-abbrlink: 1438
+abbrlink: 2642
 ---
 
 ## 简介

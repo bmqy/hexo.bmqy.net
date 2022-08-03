@@ -6,7 +6,7 @@ tags:
   - idea配置文件目录
   - 同步idea配置
   - 清学小记
-abbrlink: 29181
+abbrlink: 1773
 date: 2018-10-19 00:00:00
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: altserver跳坑指北
 tags:
   - 清学小记
-abbrlink: 24168
+abbrlink: 2254
 date: 2020-08-01 00:00:00
 ---
 

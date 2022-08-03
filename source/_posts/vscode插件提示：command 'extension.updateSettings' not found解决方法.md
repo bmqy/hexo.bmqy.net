@@ -5,7 +5,7 @@ tags:
   - command not found
   - 命令找不到
   - 清学小记
-abbrlink: 58970
+abbrlink: 2139
 date: 2019-12-05 00:00:00
 ---
 

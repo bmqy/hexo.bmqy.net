@@ -7,7 +7,7 @@ tags:
   - apiDoc
 categories:
   - 清学小记
-abbrlink: 62144
+abbrlink: 2645
 ---
 
 ## 使用```apiDoc```生成接口数据

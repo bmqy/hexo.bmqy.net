@@ -6,7 +6,7 @@ tags:
   - Photoshop
   - 图片放入到indesign中后颜色变浅
   - 清学小记
-abbrlink: 50194
+abbrlink: 1509
 date: 2015-03-09 00:00:00
 ---
 

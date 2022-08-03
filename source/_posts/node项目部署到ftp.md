@@ -6,7 +6,7 @@ tags:
   - ftp-deploy
 categories:
   - 清学小记
-abbrlink: 6782
+abbrlink: 2640
 ---
 
 ## 简介

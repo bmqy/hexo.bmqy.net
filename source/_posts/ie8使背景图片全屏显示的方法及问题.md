@@ -6,7 +6,7 @@ tags:
   - IE8背景全屏
   - sizingMethod
   - 清学小记
-abbrlink: 57021
+abbrlink: 1494
 date: 2015-07-23 00:00:00
 ---
 

@@ -6,7 +6,7 @@ tags:
   - wordpress
   - wordpress database error
   - 清学小记
-abbrlink: 45101
+abbrlink: 1505
 date: 2015-04-05 00:00:00
 ---
 
