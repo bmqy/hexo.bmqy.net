@@ -21,7 +21,7 @@ const config = {
         ".git/**",
     ],
     // delete ALL existing files at destination before uploading, if true
-    deleteRemote: false,
+    deleteRemote: true,
     // Passive mode is forced (EPSV command is not sent)
     forcePasv: true,
     // use sftp or ftp
@@ -30,5 +30,5 @@ const config = {
 
 ftpDeploy
     .deploy(config)
-    .then((res) => console.log("finished:", res))
-    .catch((err) => console.log(err)); 
+    .then((res) => console.log("deploy finished."))
+    .catch((err) => console.log("deploy error: ", err)); 
