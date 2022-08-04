@@ -1,8 +1,6 @@
 const FtpDeploy = require("ftp-deploy");
 const ftpDeploy = new FtpDeploy();
 
-console.log(process);
-
 const config = {
     host: process.env.FTP_HOST,
     port: process.env.FTP_PORT,
@@ -30,5 +28,5 @@ const config = {
 
 ftpDeploy
     .deploy(config)
-    .then((res) => console.log("deploy finished."))
+    .then((res) => console.log("deploy finished: ", res))
     .catch((err) => console.log("deploy error: ", err)); 
