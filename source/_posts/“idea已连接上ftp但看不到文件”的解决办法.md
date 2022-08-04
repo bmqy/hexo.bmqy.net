@@ -5,6 +5,7 @@ tags:
   - ftp不显示文件
   - idea
   - idea ftp
+categories:
   - 清学小记
 abbrlink: 1453
 date: 2017-12-13 00:00:00

@@ -7,8 +7,9 @@ tags:
   - workflow
   - 快捷指令
   - 捷径
-  - 燕坊清作
   - 百度搜索风云榜
+categories:
+  - 燕坊清作
 abbrlink: 1831
 date: 2018-11-27 00:00:00
 ---

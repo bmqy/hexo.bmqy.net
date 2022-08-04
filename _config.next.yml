@@ -96,7 +96,7 @@ menu:
     about: /about/ || fa fa-user
     tags: /tag/ || fa fa-tags
     categories: /category/ || fa fa-th
-    archives: /archives/ || fa fa-archive
+    archives: /archive/ || fa fa-archive
     # schedule: /schedule/ || fa fa-calendar
     sitemap: /sitemap.xml || fa fa-sitemap
     # commonweal: /404/ || fa fa-heartbeat
@@ -282,7 +282,7 @@ follow_me:
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
 related_posts:
-    enable: false
+    enable: true
     title: # Custom header, leave empty to use the default one
     display_in_home: false
 
