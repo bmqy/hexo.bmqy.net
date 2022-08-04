@@ -6,6 +6,7 @@ tags:
   - apicloud按分支编译打包
   - TortoiseSVN
   - 打包APP
+categories:
   - 清学小记
 abbrlink: 2144
 date: 2020-01-06 00:00:00

@@ -5,6 +5,7 @@ tags:
   - ajaxFileUpload
   - ajaxFileUpload.js
   - javascript
+categories:
   - 燕衔春泥
 abbrlink: 1707
 date: 2018-07-19 00:00:00

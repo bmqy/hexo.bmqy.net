@@ -5,6 +5,7 @@ tags:
   - dedecms
   - dedecms重新安装
   - url多出include/
+categories:
   - 清学小记
 abbrlink: 1516
 date: 2015-01-13 00:00:00

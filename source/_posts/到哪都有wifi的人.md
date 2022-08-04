@@ -2,9 +2,10 @@
 layout: post
 title: 到哪都有wifi的人
 tags:
-  - 一清二白
   - 只能用流量的人
   - 移动流量真贵
+categories:
+  - 一清二白
 abbrlink: 1531
 date: 2014-09-29 00:00:00
 ---

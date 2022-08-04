@@ -5,6 +5,7 @@ tags:
   - hexo
   - wordpress
   - wordpress移动端
+categories:
   - 洗漱必吐
 abbrlink: 1703
 date: 2018-07-10 00:00:00

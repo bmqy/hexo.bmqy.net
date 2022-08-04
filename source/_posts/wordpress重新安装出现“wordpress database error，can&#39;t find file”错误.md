@@ -5,6 +5,7 @@ tags:
   - can't find file
   - wordpress
   - wordpress database error
+categories:
   - 清学小记
 abbrlink: 1505
 date: 2015-04-05 00:00:00

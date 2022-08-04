@@ -3,8 +3,9 @@ layout: post
 title: AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法
 tags:
   - aspcms
-  - 燕衔春泥
   - 调用栏目中文章数量
+categories:
+  - 燕衔春泥
 abbrlink: 1518
 date: 2015-01-11 00:00:00
 ---

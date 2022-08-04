@@ -4,8 +4,9 @@ title: 生命不息，折腾不止之“hexo”
 tags:
   - hexo
   - next主题
-  - 清学小记
   - 静态博客
+categories:
+  - 清学小记
 abbrlink: 1457
 date: 2017-07-18 00:00:00
 ---

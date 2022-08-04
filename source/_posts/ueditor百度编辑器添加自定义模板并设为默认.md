@@ -3,9 +3,10 @@ layout: post
 title: ueditor百度编辑器添加自定义模板并设为默认
 tags:
   - ueditor
-  - 清学小记
   - 自定义模板
   - 默认模板
+categories:
+  - 清学小记
 abbrlink: 1481
 date: 2016-05-28 00:00:00
 ---

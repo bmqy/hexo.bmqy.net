@@ -5,6 +5,7 @@ tags:
   - dedecms
   - 后台留言管理模块
   - 新留言发送邮件
+categories:
   - 清学小记
 abbrlink: 1517
 date: 2015-01-13 00:00:00

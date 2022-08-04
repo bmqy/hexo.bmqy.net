@@ -3,9 +3,10 @@ layout: post
 title: 自制chrome扩展：百度云分享链接一键登录
 tags:
   - chrome扩展
-  - 燕坊清作
   - 百度云一键登录
   - 百度云分享
+categories:
+  - 燕坊清作
 abbrlink: 1466
 date: 2017-01-24 00:00:00
 ---

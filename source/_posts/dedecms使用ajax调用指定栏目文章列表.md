@@ -5,8 +5,9 @@ tags:
   - ajax更新文章列表
   - ajax调用指定栏目文章
   - dedecms
-  - 清学小记
-  - 燕衔春泥
+categories:
+  - [清学小记]
+  - [燕衔春泥]
 abbrlink: 1501
 date: 2015-07-03 00:00:00
 ---

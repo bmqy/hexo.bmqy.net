@@ -4,6 +4,7 @@ title: Microsoft Store中的应用软件如何备份数据
 tags:
   - Microsoft Store应用备份
   - 微软远程桌面备份
+categories:
   - 清学小记
 abbrlink: 2237
 date: 2020-06-11 00:00:00

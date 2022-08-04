@@ -5,8 +5,9 @@ tags:
   - Continue reading改成中文
   - wordpress
   - wordpress子主题
-  - 清学小记
   - 首页文章列表显示摘要
+categories:
+  - 清学小记
 abbrlink: 1514
 date: 2015-02-06 00:00:00
 ---

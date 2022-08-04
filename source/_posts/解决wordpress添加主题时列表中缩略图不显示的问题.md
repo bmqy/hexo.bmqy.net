@@ -5,6 +5,7 @@ tags:
   - ping检测工具
   - wordpress主题缩略图
   - wordpress添加主题
+categories:
   - 燕衔春泥
 abbrlink: 1495
 date: 2015-07-18 00:00:00

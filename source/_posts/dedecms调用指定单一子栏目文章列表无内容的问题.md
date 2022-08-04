@@ -5,6 +5,7 @@ tags:
   - channelartlist
   - dedecms
   - 指定子栏目文章列表
+categories:
   - 清学小记
 abbrlink: 1519
 date: 2015-01-08 00:00:00

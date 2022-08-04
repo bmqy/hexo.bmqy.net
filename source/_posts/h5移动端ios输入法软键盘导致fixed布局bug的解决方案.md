@@ -5,8 +5,9 @@ tags:
   - fixed布局bug
   - h5移动端
   - ios输入法软键盘
-  - 清学小记
-  - 燕衔春泥
+categories:
+  - [清学小记]
+  - [燕衔春泥]
 abbrlink: 1456
 date: 2017-07-28 00:00:00
 ---

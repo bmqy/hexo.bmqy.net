@@ -5,6 +5,7 @@ tags:
   - wordpress
   - 指定分类下文章
   - 文章后自定义推广内容
+categories:
   - 清学小记
 abbrlink: 1496
 date: 2015-07-05 00:00:00

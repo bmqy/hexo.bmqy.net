@@ -5,6 +5,7 @@ tags:
   - apache2.4.9
   - php5.5.14
   - xdebug安装
+categories:
   - 燕衔春泥
 abbrlink: 1558
 date: 2014-07-08 00:00:00

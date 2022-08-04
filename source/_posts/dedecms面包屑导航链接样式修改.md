@@ -3,8 +3,9 @@ layout: post
 title: dedecms面包屑导航链接样式修改
 tags:
   - dedecms
-  - 清学小记
   - 面包屑导航
+categories:
+  - 清学小记
 abbrlink: 1506
 date: 2015-04-01 00:00:00
 ---

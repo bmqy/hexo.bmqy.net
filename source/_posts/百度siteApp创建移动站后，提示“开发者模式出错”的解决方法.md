@@ -3,8 +3,9 @@ layout: post
 title: 百度siteApp创建移动站后，提示“开发者模式出错”的解决方法
 tags:
   - 开发者模式出错
-  - 洗漱必吐
   - 百度siteApp移动站
+categories:
+  - 洗漱必吐
 abbrlink: 1489
 date: 2015-09-03 00:00:00
 ---

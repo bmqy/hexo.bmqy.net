@@ -4,6 +4,7 @@ title: vscode插件提示：command 'extension.updateSettings' not found解决�
 tags:
   - command not found
   - 命令找不到
+categories:
   - 清学小记
 abbrlink: 2139
 date: 2019-12-05 00:00:00

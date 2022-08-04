@@ -4,9 +4,10 @@ title: 'Android手机下输入框获取焦点时, 输入法挡住输入框bug的
 tags:
   - WeUI
   - 安卓input获得焦点
-  - 清学小记
-  - 燕衔春泥
   - 输入法遮挡住input
+categories:
+  - [清学小记]
+  - [燕衔春泥]
 abbrlink: 1478
 date: 2016-09-07 00:00:00
 ---

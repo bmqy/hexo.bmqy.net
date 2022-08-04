@@ -4,8 +4,9 @@ title: webstorm10配置less编译环境
 tags:
   - webstorm10
   - webstorm配置less
-  - 清学小记
   - 编译less
+categories:
+  - 清学小记
 abbrlink: 1487
 date: 2015-12-24 00:00:00
 ---

@@ -3,8 +3,9 @@ layout: post
 title: js获取鼠标当前所在页面位置
 tags:
   - js获取鼠标坐标
-  - 燕衔春泥
   - 鼠标在页面中的位置
+categories:
+  - 燕衔春泥
 abbrlink: 1522
 date: 2014-12-26 00:00:00
 ---

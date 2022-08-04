@@ -4,8 +4,9 @@ title: Google play下载app状态栏进度显示异常的应对方法
 tags:
   - app下载中断闪退
   - Googleplay
-  - 燕坊清作
   - 状态栏进度异常
+categories:
+  - 燕坊清作
 abbrlink: 1468
 date: 2017-01-13 00:00:00
 ---

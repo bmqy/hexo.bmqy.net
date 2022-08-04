@@ -3,8 +3,9 @@ layout: post
 title: 百度谷歌一键切换（bmqy修复版）
 tags:
   - chrome浏览器扩展
-  - 燕衔春泥
   - 百度谷歌一键切换
+categories:
+  - 燕衔春泥
 abbrlink: 1503
 date: 2015-05-13 00:00:00
 ---

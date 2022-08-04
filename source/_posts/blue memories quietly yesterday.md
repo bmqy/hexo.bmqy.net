@@ -6,6 +6,7 @@ tags:
   - memories
   - quietly
   - yesterday
+categories:
   - 清思燕想
 abbrlink: 1562
 date: 2014-06-28 00:00:00

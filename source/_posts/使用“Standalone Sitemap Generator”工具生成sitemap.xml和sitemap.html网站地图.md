@@ -5,8 +5,9 @@ tags:
   - sitemap.html
   - sitemap.xml
   - Standalone Sitemap Generator
-  - 清学小记
   - 网站地图生成工具
+categories:
+  - 清学小记
 abbrlink: 1507
 date: 2015-03-16 00:00:00
 ---

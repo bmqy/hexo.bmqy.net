@@ -4,8 +4,9 @@ title: dedecms清空所有文章且以后新建文章id从1开始
 tags:
   - dedecms
   - ID重新从1编号
-  - 清学小记
   - 清空文章
+categories:
+  - 清学小记
 abbrlink: 1525
 date: 2014-12-17 00:00:00
 ---

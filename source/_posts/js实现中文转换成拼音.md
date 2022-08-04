@@ -4,6 +4,7 @@ title: js实现中文转换成拼音
 tags:
   - javascript
   - 中文转拼音
+categories:
   - 燕衔春泥
 abbrlink: 1455
 date: 2017-08-03 00:00:00

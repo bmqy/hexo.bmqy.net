@@ -4,6 +4,7 @@ title: vscode软件窗口标题栏显示文件完整路径
 tags:
   - vscode
   - 标题栏完整路径
+categories:
   - 燕衔春泥
 abbrlink: 1451
 date: 2018-05-23 00:00:00

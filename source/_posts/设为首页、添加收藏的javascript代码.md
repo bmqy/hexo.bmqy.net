@@ -3,9 +3,10 @@ layout: post
 title: 设为首页、添加收藏的javascript代码
 tags:
   - javascript
-  - 添加收藏
-  - 清学小记
   - 设为首页
+  - 添加收藏
+categories:
+  - 清学小记
 abbrlink: 1492
 date: 2015-07-28 00:00:00
 ---

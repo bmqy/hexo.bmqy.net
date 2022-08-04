@@ -5,8 +5,9 @@ tags:
   - chrome浏览器
   - 安卓web调试
   - 微信页面
-  - 清学小记
   - 移动web调试
+categories:
+  - 清学小记
 abbrlink: 1474
 date: 2016-11-25 00:00:00
 ---
