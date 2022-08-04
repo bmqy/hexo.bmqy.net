@@ -14,6 +14,8 @@ date: 2022-03-15 13:00
 ## 简介
 在```vite```项目中使用```tinymce```富文本编辑器实现多图片上传，目前方案方案是使用```axupimgs```插件实现，在此记录下实现过程。
 
+<!-- more -->
+
 ## 参考文档
 本文主要参考：[TinyMCE中文文档中文手册](http://tinymce.ax-z.cn/more-plugins/axupimgs.php)、[在vue3.0+中使用tinymce及实现多图上传，文件上传，公式编辑等功能](https://www.cnblogs.com/huihuihero/p/13877589.html)两篇文档思路实现。
 

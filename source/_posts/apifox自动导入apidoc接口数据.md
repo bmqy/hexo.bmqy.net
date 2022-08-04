@@ -30,6 +30,9 @@ npm install apidoc@0.29.0 -g
 }
 ```
 - 生产文档命令
+
+<!-- more -->
+
 ```
 apidoc -i src -o apidoc/ -f .jsp
 ```

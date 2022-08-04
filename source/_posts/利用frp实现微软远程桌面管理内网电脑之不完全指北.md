@@ -32,6 +32,8 @@ date: 2020-03-25 00:00:00
 
 前往[github](https://github.com/fatedier/frp)下载[frp](https://github.com/fatedier/frp/releases)软件，建议按照自己电脑情况下载最新版本。
 
+<!-- more -->
+
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->

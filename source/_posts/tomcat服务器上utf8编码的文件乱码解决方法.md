@@ -19,6 +19,8 @@ date: 2022-03-15 12:45
 - html文件charset设置正确；
 - 需要转为utf-8-bom编码才可以正常访问；
 
+<!-- more -->
+
 ## 解决方法
 具体设置如下，其他非```tomcat```应用服务器也应该是一样的原理：
 
@@ -32,7 +34,6 @@ date: 2022-03-15 12:45
 
 - 如果是通过```windows```服务启动```tomcat```，则需要执行```tomcatw.exe```进行配置，增加```-Dfile.encoding=utf-8```
 ![tomcatw.exe设置](https://bmqy-image-1254016607.cos.ap-beijing.myqcloud.com/upload%2F20160701175412123.jpg)
-
 
 ## 引用
 

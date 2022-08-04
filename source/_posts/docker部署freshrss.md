@@ -24,6 +24,8 @@ vim docker-compose.yml
 ```
 - 配置文件内容如下：
 
+<!-- more -->
+
 ```
 version: "3"
 
