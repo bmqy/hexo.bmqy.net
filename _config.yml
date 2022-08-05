@@ -113,3 +113,27 @@ search:
     field: post
     content: true
     format: html
+# 字数统计
+symbols_count_time:
+    symbols: true
+    time: true
+    total_symbols: true
+    total_time: true
+    exclude_codeblock: false
+    awl: 4
+    wpm: 275
+    suffix: 'mins.'
+# RSS
+feed:
+    enable: true
+    type: rss2
+    path: feed.xml
+    limit: 20
+    hub:
+    content:
+    content_limit: 140
+    content_limit_delim: ' '
+    order_by: -date
+    icon: icon.png
+    autodiscovery: true
+    template:
