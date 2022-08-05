@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "hexo generate",
 		"clean": "hexo clean",
-		"deploy": "hexo clean && hexo generate && node ftp-deploy",
+		"deploy": "hexo deploy",
 		"server": "hexo server"
 	},
 	"hexo": {
@@ -15,6 +15,7 @@
 	"dependencies": {
 		"hexo": "^6.2.0",
 		"hexo-abbrlink2": "^1.0.2",
+		"hexo-deployer-cos": "^1.2.1",
 		"hexo-deployer-ftpsync": "^0.1.1",
 		"hexo-generator-archive": "^1.0.0",
 		"hexo-generator-category": "^1.0.0",
