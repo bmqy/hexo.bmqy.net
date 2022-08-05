@@ -1,13 +1,10 @@
-name: hexo-deploy-ftp
+name: hexo-deploy-cos
 
 on:
     workflow_dispatch:
     push:
         branches:
             - master
-    watch:
-        types:
-            - started
 
 env:
     FTP_HOST: ${{secrets.FTP_HOST}}
@@ -35,7 +32,7 @@ jobs:
               run: |
                   npm run deploy
 
-            - name: Notify workflow status
+            - name: Notify workflow status to telegram
               uses: yakuhzi/notify-workflow@v2
               if: always()
               with:
