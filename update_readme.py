@@ -17,7 +17,7 @@ def get_posts(feed_url):
 
     for entrie in feed_entries[0: all_number]:
         title = entrie["title"]
-        link = siteUrl + entrie["url"]
+        link = entrie["url"]
         result = result + "\n" + "[" + title + "](" + link + ")" + "\n"
 
     return result
