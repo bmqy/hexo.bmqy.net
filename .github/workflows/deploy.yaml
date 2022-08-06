@@ -20,6 +20,10 @@ env:
 jobs:
     build:
         runs-on: ubuntu-latest
+        strategy:
+        matrix:
+            # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
+            python-version: ['3.7.4']
 
         steps:
             - uses: actions/checkout@master
@@ -31,17 +35,14 @@ jobs:
               run: |
                   npm run deploy
 
-            - name: Run with setup-python 3.7
-              uses: actions/setup-python@v2.2.2
-              with:
-                  python-version: 3.7
-            - name: Install pipenv
-              run: pip install pipenv
             - name: Install dependecies
-              run: |
-                  pipenv  install  --dev
-            - name: Update Readme
-              run: pipenv run update_readme
+              uses: VaultVulp/action-pipenv@v2.0.1
+              with:
+                  command: install -d # Install all dependencies, including development ones
+            - name: Update readme
+              uses: VaultVulp/action-pipenv@v2.0.1
+              with:
+                  command: run update_readme
 
             - name: Notify workflow status to telegram
               uses: yakuhzi/notify-workflow@v2
