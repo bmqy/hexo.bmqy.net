@@ -7,14 +7,15 @@ import re
 def get_posts(feed_url):
 
     result = ""
-    feed = feedparser.parse(feed_url)
+    siteUrl = os.environ["SITE_URL"]
+    feed = feedparser.parse(siteUrl + feed_url)
     feed_entries = feed["entries"]
     feed_entries_length = len(feed_entries)
     all_number = feed_entries_length
 
     for entrie in feed_entries[0: all_number]:
         title = entrie["title"]
-        link = entrie["link"]
+        link = siteUrl + entrie["url"]
         result = result + "\n" + "[" + title + "](" + link + ")" + "\n"
 
     return result
@@ -22,7 +23,7 @@ def get_posts(feed_url):
 
 def main():
 
-    bmqy_feed = get_posts("https://www.bmqy.net/search.xml")
+    bmqy_feed = get_posts("/search.xml")
     print(bmqy_feed)
 
     insert_info = bmqy_feed

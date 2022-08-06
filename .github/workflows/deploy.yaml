@@ -16,6 +16,7 @@ env:
     COS_SECRET_KEY: ${{secrets.COS_SECRET_KEY}}
     COS_BUCKET: ${{secrets.COS_BUCKET}}
     COS_REGION: ${{secrets.COS_REGION}}
+    SITE_URL: ${{secrets.SITE_URL}}
 
 jobs:
     build:
