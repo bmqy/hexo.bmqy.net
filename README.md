@@ -316,7 +316,7 @@
 
 <!--END_SECTION:bmqy-->
 
-## hexo配置
+## Hexo配置
 ### 固定ID
 固定ID推荐使用```hexo-abbrlink2```
 - Add plugin to Hexo:
@@ -332,7 +332,7 @@ permalink: posts/:abbrlink/
 abbrlink:
   start: 1000 # the first id, default 0
 ```
-## next-theme配置
+## Next配置
 
 ### 创建标签云
 默认无标签页，打开链接会```404```
