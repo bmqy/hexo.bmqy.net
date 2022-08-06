@@ -49,6 +49,15 @@ jobs:
               with:
                   command: run update_readme
 
+            - name: Commit and push if changed # 更新README.md
+              run: |
+                  git diff
+                  git config --global user.email "qq88268459@126.com"
+                  git config --global user.name "bmqy"
+                  git add README.md
+                  git commit -m "Github Action Auto Updated"
+                  git push
+
             - name: Notify workflow status to telegram
               uses: yakuhzi/notify-workflow@v2
               if: always()
