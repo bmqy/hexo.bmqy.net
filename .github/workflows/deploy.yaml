@@ -20,10 +20,6 @@ env:
 jobs:
     build:
         runs-on: ubuntu-latest
-        strategy:
-            matrix:
-                # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
-                python-version: ['3.7.4']
 
         steps:
             - uses: actions/checkout@master
@@ -35,6 +31,10 @@ jobs:
               run: |
                   npm run deploy
 
+            - name: Run with setup-python 3.7.4
+              uses: actions/setup-python@v2.2.2
+              with:
+                  python-version: 3.7.4
             - name: Install dependecies
               uses: VaultVulp/action-pipenv@v2.0.1
               with:
