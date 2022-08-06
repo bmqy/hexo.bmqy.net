@@ -318,7 +318,7 @@
 
 ## 关于本项目
 ### 博客目录
-博客目录部分的生成受```https://github.com/zhaoolee/WordPressXMLRPCTools```项目启发，特此感谢.
+博客目录部分的生成受```https://github.com/zhaoolee/WordPressXMLRPCTools```项目启发，特此感谢。
 特此贴一下对项目的魔改```https://github.com/bmqy/WordPressXMLRPCTools```,再次感谢[@zhaoolee](https://github.com/zhaoolee/)。
 ### 环境变量配置
 - COS_BUCKET
