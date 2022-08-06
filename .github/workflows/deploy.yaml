@@ -41,7 +41,7 @@ jobs:
               run: |
                   pipenv  install  --dev
             - name: Update Readme
-              run: pipenv run update:readme
+              run: pipenv run update_readme
 
             - name: Notify workflow status to telegram
               uses: yakuhzi/notify-workflow@v2

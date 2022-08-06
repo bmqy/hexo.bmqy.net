@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
-update:readme = "python update_readme.py"
+update_readme = "python update_readme.py"
 
 [packages]
 markdown = "3.3.3"
