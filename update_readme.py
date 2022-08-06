@@ -2,6 +2,8 @@ import feedparser
 import time
 import os
 import re
+import pytz
+from datetime import datetime
 
 
 def get_posts(feed_url):
@@ -24,20 +26,22 @@ def get_posts(feed_url):
 def main():
 
     bmqy_feed = get_posts("/search.xml")
-    print(bmqy_feed)
+    # print(bmqy_feed)
 
     insert_info = bmqy_feed
 
     # 替换 ---start--- 到 ---end--- 之间的内容
-    insert_info = "---start---\n## 目录(" + time.strftime(
-        '%Y年%m月%d日') + "更新)" + "\n" + insert_info + "---end---"
+    # pytz.timezone('Asia/Shanghai')).strftime('%Y年%m月%d日%H时M分')
+    fmt = '%Y-%m-%d %H:%M:%S %Z%z'
+    insert_info = "<!--START_SECTION:bmqy-->\n\n### 目录(" + datetime.fromtimestamp(int(time.time()), pytz.timezone(
+        'Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S') + "更新)" + "\n" + insert_info + "\n<!--END_SECTION:bmqy-->"
 
     # 获取README.md内容
     with open(os.path.join(os.getcwd(), "README.md"), 'r', encoding='utf-8') as f:
         readme_md_content = f.read()
 
     new_readme_md_content = re.sub(
-        r'---start---(.|\n)*---end---', insert_info, readme_md_content)
+        r'\<\!\-\-START_SECTION:bmqy\-\->(.|\n)*\<\!\-\-END_SECTION:bmqy\-\-\>', insert_info, readme_md_content)
 
     with open(os.path.join(os.getcwd(), "README.md"), 'w', encoding='utf-8') as f:
         f.write(new_readme_md_content)
