@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+update:readme = "python update_readme.py"
+
+[packages]
+markdown = "3.3.3"
+python-wordpress-xmlrpc = "2.3"
+python-frontmatter = "0.5.0"
+
+[dev-packages]
+
+[requires]
+python_version = "*"

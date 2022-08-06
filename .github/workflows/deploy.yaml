@@ -27,10 +27,21 @@ jobs:
             - name: Install depends
               run: |
                   npm install
-
             - name: Deploy
               run: |
                   npm run deploy
+
+            - name: Run with setup-python 3.7
+              uses: actions/setup-python@v2.2.2
+              with:
+                  python-version: 3.7
+            - name: Install pipenv
+              run: pip install pipenv
+            - name: Install dependecies
+              run: |
+                  pipenv  install  --dev
+            - name: Update Readme
+              run: pipenv run update:readme
 
             - name: Notify workflow status to telegram
               uses: yakuhzi/notify-workflow@v2
