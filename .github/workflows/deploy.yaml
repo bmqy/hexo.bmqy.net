@@ -35,10 +35,10 @@ jobs:
               run: |
                   npm run deploy
 
-            - name: Run with setup-python 3.7.4
+            - name: Run with setup-python 3.7.5
               uses: actions/setup-python@v2.2.2
               with:
-                  python-version: 3.7.4
+                  python-version: 3.7.5
             - name: Install dependecies
               uses: VaultVulp/action-pipenv@v2.0.1
               with:
