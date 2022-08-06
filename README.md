@@ -1,4 +1,4 @@
-# 北门清燕博客Github仓库
+# 北门清燕的博客 - hexo版
 
 <!--START_SECTION:bmqy-->
 
