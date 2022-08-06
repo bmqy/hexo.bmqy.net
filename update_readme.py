@@ -24,6 +24,7 @@ def main():
 
     bmqy_feed = get_posts("https://www.bmqy.net/search.xml")
     print(bmqy_feed)
+
     insert_info = bmqy_feed
 
     # 替换 ---start--- 到 ---end--- 之间的内容
