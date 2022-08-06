@@ -316,6 +316,20 @@
 
 <!--END_SECTION:bmqy-->
 
+## 本项目环境变量配置
+- COS_BUCKET
+- COS_REGION
+- COS_SECRET_ID
+- COS_SECRET_KEY
+- SITE_URL
+- TELEGRAM_TO
+- TELEGRAM_TOKEN
+- ~~FTP_HOST~~
+- ~~FTP_PASSWORD~~
+- ~~FTP_PORT~~
+- ~~FTP_REMOTE~~
+- ~~FTP_USERNAME~~
+
 ## Hexo配置
 ### 固定ID
 固定ID推荐使用```hexo-abbrlink2```
