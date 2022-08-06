@@ -17,7 +17,7 @@ def get_posts(feed_url):
 
     for entrie in feed_entries[0: all_number]:
         title = entrie["title"]
-        link = siteUrl + entrie["url"]
+        link = entrie["url"]
         result = result + "\n" + "[" + title + "](" + link + ")" + "\n"
 
     return result
@@ -33,7 +33,7 @@ def main():
     # 替换 ---start--- 到 ---end--- 之间的内容
     # pytz.timezone('Asia/Shanghai')).strftime('%Y年%m月%d日%H时M分')
     fmt = '%Y-%m-%d %H:%M:%S %Z%z'
-    insert_info = "<!--START_SECTION:bmqy-->\n\n### 目录(" + datetime.fromtimestamp(int(time.time()), pytz.timezone(
+    insert_info = "<!--START_SECTION:bmqy-->\n\n## 博客目录(" + datetime.fromtimestamp(int(time.time()), pytz.timezone(
         'Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S') + "更新)" + "\n" + insert_info + "\n<!--END_SECTION:bmqy-->"
 
     # 获取README.md内容
