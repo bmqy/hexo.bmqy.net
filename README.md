@@ -455,5 +455,97 @@ deploy:
 use_date_for_updated 选项已经被废弃，将会在下个重大版本发布时去除。请改为使用 updated_option: 'date'。
 
 ### CDN缓存刷新
+> 该方案参考自：https://segmentfault.com/a/1190000039707833
+> 
 > 腾讯云官方给我们提供了一个解决方案，可以在COS存储桶的函数计算->CDN缓存刷新函数中配置一个函数，参考截图：
 ![](https://image.bmqy.net/upload/WX20220806-220705@2x.png)
+>
+>但这个方案存在一个问题，由于我们的静态网站有默认索引页面index.html，而官方提供的这个函数只会刷新对应的文件的URL，而不会刷新索引URL，例如http://www.bytelife.net/index.html这个文件，通常我们的请求是http://www.bytelife.net/，因此官方的方案针对于静态网站来说不算完美。
+>
+>优化方案
+>可以通过简单修改官方的函数来解决这个问题，点击刚刚创建的CDN缓存刷新函数列表中的函数名称，将index.js文件内容替换为下面的代码，最后点击右上角的“部署”按钮即可：
+``` js
+'use strict'
+
+const CosSdk = require('cos-nodejs-sdk-v5')
+const CdnSdk = require('./common/CdnSdk')
+const CdnRefreshTask = require('./common/CdnRefreshTask')
+const {
+  getParams,
+  getObjectUrl,
+  logger,
+  getLogSummary
+} = require('./common/utils')
+
+exports.main_handler = async (event, context, callback) => {
+  /**
+   * parse param from event and process.env
+   */
+  const { objects, cdnHosts, secretId, secretKey, token } = getParams(event)
+
+  logger({
+    title: 'param is parsed success, param as follow: ',
+    data: { objects, cdnHosts, event }
+  })
+  /**
+   * init cos instance
+   */
+  if (!secretId || !secretKey || !token) {
+    throw new Error(`secretId, secretKey or token is missing`)
+  }
+
+  const cdnSdkInstance = new CdnSdk({ secretId, secretKey, token })
+  const cosInstance = new CosSdk({
+    SecretId: secretId,
+    SecretKey: secretKey,
+    XCosSecurityToken: token
+  })
+
+  const taskList = objects.map(({ bucket, region, key }) => {
+    const purgeUrls = [];
+    // 主要变更内容在这个位置
+    cdnHosts.forEach(host => {
+      const tempUrl = getObjectUrl({
+        cosInstance,
+        bucket,
+        region,
+        key,
+        origin: `${/^(http\:\/\/|https\:\/\/)/.test(host) ? '' : 'https://'}${host}`
+      });
+      purgeUrls.push(tempUrl);
+      // 如果以 /index.html 结尾，则增加目录首页/
+      // 例如 https://www.xxxx.com/index.html, 则增加 https://www.xxxx.com/
+      if(tempUrl.lastIndexOf('/index.html') == (tempUrl.length - 11)){
+        purgeUrls.push(tempUrl.substr(0, tempUrl.length - 10))
+      }
+    });
+    return new CdnRefreshTask({
+      cdnSdkInstance,
+      urls: purgeUrls
+    })
+  })
+
+  const taskResults = []
+  for (const task of taskList) {
+    const results = await task.runPurgeTasks()
+    taskResults.push(...results)
+  }
+
+  logger({
+    title: 'cdn refresh full logs:',
+    data: taskResults
+  })
+
+  const { status, messages } = getLogSummary(taskResults)
+
+  logger({
+    messages: messages.map(item => item.replace(/\,\ /g, '\n'))
+  })
+
+  if (status === 'fail') {
+    throw messages.join('; ')
+  } else {
+    return messages.join('; ')
+  }
+}
+```
