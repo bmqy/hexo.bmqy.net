@@ -13,6 +13,13 @@ timezone: 'Asia/Shanghai'
 
 # All in one. Minifier & Optimization plugin for Hexo.
 all_minifier: true
+image_minifier:
+    enable: true
+    exclude:
+        - 'gif'
+        - 'jpg'
+        - 'png'
+        - 'svg'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -42,7 +49,7 @@ external_link:
     field: site # Apply to the whole site
     exclude: ''
 filename_case: 0
-render_drafts: false
+render_drafts: false`
 post_asset_folder: false
 relative_link: false
 future: true
