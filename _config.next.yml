@@ -577,7 +577,7 @@ comments:
         #disqus:
         #  text: Load Disqus
         #  order: -1
-        #gitalk:
+        gitalk:
         #  order: -2
 
 # Disqus
@@ -615,9 +615,9 @@ livere_uid: # <your_uid>
 gitalk:
     enable: true
     github_id: bmqy # GitHub repo owner
-    repo: https://github.com/bmqy/hexo.bmqy.net.comment # Repository name to store issues
-    client_id: c89508df5d95698228c0 # GitHub Application Client ID
-    client_secret: 9e12f3622a64f81e4d5ec1db5e6e3c47d699f541 # GitHub Application Client Secret
+    repo: hexo.bmqy.net.comment # Repository name to store issues
+    client_id: 3e21f349579a4b1515ca # GitHub Application Client ID
+    client_secret: 6b690645372cd5082ad53ff36a6709ac438725f4 # GitHub Application Client Secret
     admin_user: bmqy # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
     distraction_free_mode: true # Facebook-like distraction free mode
     # When the official proxy is not available, you can change it to your own proxy address
