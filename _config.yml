@@ -11,6 +11,9 @@ author: bmqy
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+# All in one. Minifier & Optimization plugin for Hexo.
+all_minifier: true
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://www.bmqy.net
