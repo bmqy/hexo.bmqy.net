@@ -262,13 +262,13 @@ tag_icon: false
 # Front-matter variable (nonsupport animation).
 reward_settings:
     # If true, a donate button will be displayed in every article by default.
-    enable: false
+    enable: true
     animation: false
-    #comment: Buy me a coffee
+    comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 
 reward:
-    #wechatpay: /images/wechatpay.png
-    #alipay: /images/alipay.png
+    wechatpay: /images/wechatpay.jpeg
+    alipay: /images/alipay.jpg
     #paypal: /images/paypal.png
     #bitcoin: /images/bitcoin.png
 
@@ -276,14 +276,14 @@ reward:
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
     #Twitter: https://twitter.com/username || fab fa-twitter
-    #Telegram: https://t.me/channel_name || fab fa-telegram
-    #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-    #RSS: /atom.xml || fa fa-rss
+    Telegram: https://t.me/tcbmqy || fab fa-telegram
+    WeChat: /images/wechat_channel.jpg || fab fa-weixin
+    RSS: /feed.xml || fa fa-rss
 
 # Wechat Subscriber
 wechat_subscriber:
     enabled: true
-    qcode: /uploads/qrcode_for_gh_258.jpg
+    qcode: /images/wechat_channel.jpg
     description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
 
 # Related popular posts
@@ -665,14 +665,14 @@ add_this_id:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-    tracking_id: # <app_id>
+    tracking_id: 49086648-2
     # By default, NexT will load an external gtag.js script on your site.
     # If you only need the pageview feature, set the following option to true to get a better performance.
     only_pageview: false
 
 # Baidu Analytics
 # See: https://tongji.baidu.com
-baidu_analytics: # <app_id>
+baidu_analytics: e3fe4ed0991c723b6da7a9915ae13c43
 
 # Growingio Analytics
 # See: https://www.growingio.com
