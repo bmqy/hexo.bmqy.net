@@ -32,6 +32,13 @@ permalink: posts/:abbrlink/
 abbrlink:
   start: 1000 # the first id, default 0
 ```
+### 资源目录
+```
+# Directory
+source_dir: source
+```
+在引用图片时通过路径```/images/image.jpg```，引入图片资源
+
 ## Next配置
 
 ### 创建标签云
