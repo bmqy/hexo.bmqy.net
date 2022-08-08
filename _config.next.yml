@@ -633,10 +633,11 @@ valine:
     enable: true
     appId: CFPPrlkGLO90sxKqtrpCIdmJ-gzGzoHsz # your leancloud application appid
     appKey: kjMzT6TGbPUBThS5l54bdOhg # your leancloud application appkey
+    serverURLs: https://valine.bmqy.net
     notify: false # 邮件提醒
-    verify: false # 是否需要验证
+    verify: true # 是否需要验证
     placeholder: 添加您的评论 # 输入框默认提示
-    avatar: mp # Gravatar style
+    avatar: mm # Gravatar style
     meta: ['nick', 'mail', 'link'] # 用户输入的个人信息
     pageSize: 10 # Pagination size
     lang: zh-CN # Language, available values: en, zh-cn
