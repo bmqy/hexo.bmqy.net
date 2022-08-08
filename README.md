@@ -2,7 +2,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2022-08-07 20:02:09更新)
+## 博客目录(2022-08-08 13:45:14更新)
 
 [2014.6.7拍摄](https://www.bmqy.net/1567.html)
 
@@ -199,6 +199,8 @@
 [再咏咳](https://www.bmqy.net/1486.html)
 
 [再平和自然地表现,也掩盖不了内心地焦急](https://www.bmqy.net/1557.html)
+
+[再次折腾hexo](https://www.bmqy.net/2649.html)
 
 [利用frp实现微软远程桌面管理内网电脑之不完全指北](https://www.bmqy.net/2174.html)
 
