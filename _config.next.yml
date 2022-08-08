@@ -567,7 +567,7 @@ comments:
     style: tabs
     # Choose a comment system to be displayed by default.
     # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-    active: gitalk
+    active: valine
     # Setting `true` means remembering the comment system selected by the visitor.
     storage: true
     # Lazyload all comment systems.
@@ -577,7 +577,7 @@ comments:
         #disqus:
         #  text: Load Disqus
         #  order: -1
-        gitalk:
+        # gitalk:
         #  order: -2
 
 # Disqus
@@ -613,7 +613,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io
 gitalk:
-    enable: true
+    enable: false
     github_id: bmqy # GitHub repo owner
     repo: hexo.bmqy.net.comment # Repository name to store issues
     client_id: 3e21f349579a4b1515ca # GitHub Application Client ID
@@ -626,6 +626,21 @@ gitalk:
     # If you want everyone visiting your site to see a uniform language, you can set a force language value
     # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
     language: zh-CN
+
+# Valine
+# For more information: https://valine.js.org, https://github.com/xCss/Valine
+valine:
+    enable: true
+    appId: CFPPrlkGLO90sxKqtrpCIdmJ-gzGzoHsz # your leancloud application appid
+    appKey: kjMzT6TGbPUBThS5l54bdOhg # your leancloud application appkey
+    notify: false # 邮件提醒
+    verify: false # 是否需要验证
+    placeholder: 添加您的评论 # 输入框默认提示
+    avatar: mp # Gravatar style
+    meta: ['nick', 'mail', 'link'] # 用户输入的个人信息
+    pageSize: 10 # Pagination size
+    lang: zh-CN # Language, available values: en, zh-cn
+    visitor: true # 文章访问量统计
 
 # Utterances
 # For more information: https://utteranc.es
