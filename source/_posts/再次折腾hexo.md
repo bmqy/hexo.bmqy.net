@@ -214,11 +214,10 @@ exports.main_handler = async (event, context) => {
 
   const results = await task.runTask();
   results.forEach(item => {
-    console.log(item)
     taskResults.push(item)
     // 如果以 /index.html 结尾，则增加目录首页/
     // 例如 https://www.xxxx.com/index.html, 则增加 https://www.xxxx.com/
-    if(item.lastIndexOf('/index.html') == (item.length - 11)){
+    if(item.params.urls[0].lastIndexOf('/index.html') == (item.params.urls[0].length - 11)){
       taskResults.push(item.substr(0, item.length - 10))
     }
   });
