@@ -47,7 +47,7 @@ jobs:
             - name: Update readme
               uses: VaultVulp/action-pipenv@v2.0.1
               with:
-                  command: run update_readme
+                  command: run readme
 
             - name: Commit and push if changed # 更新README.md
               run: |
