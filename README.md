@@ -2,7 +2,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2022-08-10 20:10:58更新)
+## 博客目录(2022-08-11 08:22:37更新)
 
 [再次折腾hexo](https://www.bmqy.net/2649.html)
 
@@ -66,6 +66,8 @@
 
 [【原创】ios捷径：微博热搜榜2.0强势更新](https://www.bmqy.net/1798.html)
 
+[h5移动端ios输入法软键盘导致fixed布局bug的解决方案](https://www.bmqy.net/1456.html)
+
 [ios捷径：bmqy捷径库](https://www.bmqy.net/1777.html)
 
 [自定义IntelliJ IDEA配置和插件的存放目录，以方便同步idea配置](https://www.bmqy.net/1773.html)
@@ -89,8 +91,6 @@
 [js格式化时间显示](https://www.bmqy.net/1454.html)
 
 [js实现中文转换成拼音](https://www.bmqy.net/1455.html)
-
-[h5移动端ios输入法软键盘导致fixed布局bug的解决方案](https://www.bmqy.net/1456.html)
 
 [生命不息，折腾不止之“hexo”](https://www.bmqy.net/1457.html)
 
