@@ -4,8 +4,8 @@
     <img alt="bmqy.net" src="https://image.bmqy.net/wp-content/uploads/2018/09/logo-1.png" width="150" height="150" style="margin-bottom: 10px;">
 </p>
 
-[![hexo.bmqy.net](https://img.shields.io/github/package-json/v/bmqy/hexo.bmqy.net "hexo.bmqy.net")](https://github.com/bmqy/hexo.bmqy.net "hexo.bmqy.net")
-[![theme-next version](https://img.shields.io/badge/Next-%3E=8.12.3-red?logo=hexo&style=flat-square)](https://www.npmjs.com/package/hexo-theme-next "theme-next")
+[![hexo.bmqy.net](https://img.shields.io/github/package-json/v/bmqy/hexo.bmqy.net?color=red "hexo.bmqy.net")](https://github.com/bmqy/hexo.bmqy.net "hexo.bmqy.net")
+[![theme-next version](https://img.shields.io/badge/Next-%3E=8.12.3-blue?logo=hexo&style=flat-square)](https://www.npmjs.com/package/hexo-theme-next "theme-next")
 [![Required Hexo version](https://img.shields.io/badge/hexo-%3E=5.3.0-blue?style=flat-square&logo=hexo)](https://hexo.io "hexo")
 [![github stars](https://img.shields.io/github/stars/bmqy/hexo.bmqy.net.svg "hexo.bmqy.net stars")](https://github.com/bmqy/hexo.bmqy.net "github stars")
 [![github forks](https://img.shields.io/github/forks/bmqy/hexo.bmqy.net.svg "hexo.bmqy.net forks")](https://github.com/bmqy/hexo.bmqy.net "github forks")
