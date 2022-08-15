@@ -10,9 +10,6 @@
 [![github stars](https://img.shields.io/github/stars/bmqy/hexo.bmqy.net.svg "hexo.bmqy.net stars")](https://github.com/bmqy/hexo.bmqy.net "github stars")
 [![github forks](https://img.shields.io/github/forks/bmqy/hexo.bmqy.net.svg "hexo.bmqy.net forks")](https://github.com/bmqy/hexo.bmqy.net "github forks")
 
-
-## 说明
-
 <!--START_SECTION:bmqy-->
 
 ## 博客目录(2022-08-11 15:33:05更新)
