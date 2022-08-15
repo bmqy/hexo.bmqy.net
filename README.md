@@ -1,10 +1,9 @@
 # 北门清燕的博客 - hexo版
 
-![bmqy.net](https://image.bmqy.net/wp-content/uploads/2018/09/logo-1.png)
-
+![bmqy.net](https://image.bmqy.net/wp-content/uploads/2018/09/logo-1.png "bmqy.net")
 [![github](https://img.shields.io/github/package-json/v/bmqy/hexo.bmqy.net "hexo.bmqy.net")](https://github.com/bmqy/hexo.bmqy.net "github")
-[![NPM version](https://img.shields.io/npm/v/hexo-theme-next?color=red&logo=hexo&style=flat-square)](https://www.npmjs.com/package/hexo-theme-next)
-[![Required Hexo version](https://img.shields.io/badge/hexo-%3E=5.3.0-blue?style=flat-square&logo=hexo)](https://hexo.io)
+[![theme-next version](https://img.shields.io/npm/v/hexo-theme-next?color=red&logo=hexo&style=flat-square)](https://www.npmjs.com/package/hexo-theme-next "theme-next")
+[![Required Hexo version](https://img.shields.io/badge/hexo-%3E=5.3.0-blue?style=flat-square&logo=hexo)](https://hexo.io "hexo")
 [![github stars](https://img.shields.io/github/stars/bmqy/hexo.bmqy.net.svg "hexo.bmqy.net stars")](https://github.com/bmqy/hexo.bmqy.net "github stars")
 [![github forks](https://img.shields.io/github/forks/bmqy/hexo.bmqy.net.svg "hexo.bmqy.net forks")](https://github.com/bmqy/hexo.bmqy.net "github forks")
 
@@ -13,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2022-08-15 13:16:47更新)
+## 博客目录(2022-08-11 15:33:05更新)
 
 [再次折腾hexo](https://www.bmqy.net/2649.html)
 
