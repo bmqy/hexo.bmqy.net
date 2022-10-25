@@ -39,7 +39,7 @@ jobs:
             - name: Refresh CDN # 安装 sdk 并运行刷新脚本
               run: |
                   pip install --upgrade tencentcloud-sdk-python
-                  python flush-dns.py -i $COS_SECRET_ID -k $COS_SECRET_KEY
+                  python refresh-cdn.py -i $COS_SECRET_ID -k $COS_SECRET_KEY
 
             - name: Run with setup-python 3.7.5
               uses: actions/setup-python@v2.2.2
