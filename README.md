@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2022-11-30 10:57:26更新)
+## 博客目录(2023-03-30 18:21:09更新)
 
 [再次折腾hexo](https://www.bmqy.net/2649.html)
 
@@ -20,37 +20,37 @@
 
 [apifox自动导入apidoc接口数据](https://www.bmqy.net/2645.html)
 
-[快捷指令：图床](https://www.bmqy.net/2637.html)
-
 [vite项目使用tinymce插件axupimgs实现多图片上传](https://www.bmqy.net/2642.html)
+
+[快捷指令：图床](https://www.bmqy.net/2637.html)
 
 [tomcat服务器上utf8编码的文件乱码解决方法](https://www.bmqy.net/2639.html)
 
+[七牛上传视频获取视频封面和缩略图](https://www.bmqy.net/2444.html)
+
 [node项目部署到ftp](https://www.bmqy.net/2640.html)
 
-[七牛上传视频获取视频封面和缩略图](https://www.bmqy.net/2444.html)
+[【原创】ios捷径：捷径库](https://www.bmqy.net/2342.html)
 
 [注销网站得慎重](https://www.bmqy.net/2364.html)
 
 [【原创】ios捷径：法定工作日打卡提醒](https://www.bmqy.net/2318.html)
 
-[【原创】ios捷径：捷径库](https://www.bmqy.net/2342.html)
+[【原创】ios捷径：倒班闹钟](https://www.bmqy.net/2287.html)
 
 [【原创】ios捷径：自动壁纸](https://www.bmqy.net/2312.html)
 
-[【原创】ios捷径：倒班闹钟](https://www.bmqy.net/2287.html)
+[altserver跳坑指北](https://www.bmqy.net/2254.html)
 
 [idea找回执行git pull操作后，被覆盖的本地未提交的代码](https://www.bmqy.net/2274.html)
-
-[altserver跳坑指北](https://www.bmqy.net/2254.html)
 
 [吐一吐三丰云免费服务器](https://www.bmqy.net/2246.html)
 
 [Microsoft Store中的应用软件如何备份数据](https://www.bmqy.net/2237.html)
 
-[卖盘](https://www.bmqy.net/2194.html)
-
 [利用frp实现微软远程桌面管理内网电脑之不完全指北](https://www.bmqy.net/2174.html)
+
+[卖盘](https://www.bmqy.net/2194.html)
 
 [apicloud用tortoisesvn管理代码，实现按不同分支编译打包app](https://www.bmqy.net/2144.html)
 
@@ -60,21 +60,23 @@
 
 [【原创】越狱插件安装注意事项](https://www.bmqy.net/2088.html)
 
-[api.closeFrameGroup的一些注意事项](https://www.bmqy.net/2081.html)
-
 [【原创】ios捷径：我的心愿单](https://www.bmqy.net/1992.html)
+
+[api.closeFrameGroup的一些注意事项](https://www.bmqy.net/2081.html)
 
 [【原创】ios捷径：一键获取urlscheme](https://www.bmqy.net/1933.html)
 
-[【原创】ios捷径：一键签到](https://www.bmqy.net/1874.html)
-
 [【原创】ios捷径：qq群一键签到](https://www.bmqy.net/1844.html)
+
+[【原创】ios捷径：一键签到](https://www.bmqy.net/1874.html)
 
 [【原创】ios捷径：百度搜索风云榜2.1.0](https://www.bmqy.net/1831.html)
 
 [【原创】ios捷径：一键天气预报](https://www.bmqy.net/1816.html)
 
 [【原创】ios捷径：微博热搜榜2.0强势更新](https://www.bmqy.net/1798.html)
+
+[js实现中文转换成拼音](https://www.bmqy.net/1455.html)
 
 [ios捷径：bmqy捷径库](https://www.bmqy.net/1777.html)
 
@@ -88,9 +90,9 @@
 
 [更换回wordpress。。。](https://www.bmqy.net/1703.html)
 
-[一键收取熊猫守护者威力值](https://www.bmqy.net/1450.html)
-
 [vscode软件窗口标题栏显示文件完整路径](https://www.bmqy.net/1451.html)
+
+[一键收取熊猫守护者威力值](https://www.bmqy.net/1450.html)
 
 [微信小程序“支付签名验证失败”问题的解决参考](https://www.bmqy.net/1452.html)
 
@@ -98,13 +100,11 @@
 
 [js格式化时间显示](https://www.bmqy.net/1454.html)
 
-[js实现中文转换成拼音](https://www.bmqy.net/1455.html)
-
 [h5移动端ios输入法软键盘导致fixed布局bug的解决方案](https://www.bmqy.net/1456.html)
 
-[生命不息，折腾不止之“hexo”](https://www.bmqy.net/1457.html)
-
 [echarts中tooltips自定义数据结构与样式](https://www.bmqy.net/1458.html)
+
+[生命不息，折腾不止之“hexo”](https://www.bmqy.net/1457.html)
 
 [淘米辅助工具](https://www.bmqy.net/1459.html)
 
@@ -114,13 +114,13 @@
 
 [wordpress新添加页面显示评论](https://www.bmqy.net/1462.html)
 
-[华为mate8（b584）root过程简要记录](https://www.bmqy.net/1463.html)
-
-[asp解析json的方法](https://www.bmqy.net/1464.html)
-
 [为子主题增加主题选项功能](https://www.bmqy.net/1465.html)
 
+[华为mate8（b584）root过程简要记录](https://www.bmqy.net/1463.html)
+
 [自制chrome扩展：百度云分享链接一键登录](https://www.bmqy.net/1466.html)
+
+[asp解析json的方法](https://www.bmqy.net/1464.html)
 
 [清燕的云集小店](https://www.bmqy.net/1467.html)
 
@@ -132,9 +132,9 @@
 
 [吐槽腾讯大王卡](https://www.bmqy.net/1471.html)
 
-[wordpress添加twentysixteen子主题](https://www.bmqy.net/1472.html)
-
 [idea配置less自动编译](https://www.bmqy.net/1473.html)
+
+[wordpress添加twentysixteen子主题](https://www.bmqy.net/1472.html)
 
 [使用chrome浏览器调试移动端web页面](https://www.bmqy.net/1474.html)
 
@@ -146,9 +146,9 @@
 
 [Android手机下输入框获取焦点时, 输入法挡住输入框bug的解决方法](https://www.bmqy.net/1478.html)
 
-[用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/1479.html)
-
 [wordpress头像不显示解决方法](https://www.bmqy.net/1480.html)
+
+[用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/1479.html)
 
 [ueditor百度编辑器添加自定义模板并设为默认](https://www.bmqy.net/1481.html)
 
@@ -160,9 +160,9 @@
 
 [做梦想](https://www.bmqy.net/1485.html)
 
-[再咏咳](https://www.bmqy.net/1486.html)
-
 [webstorm10配置less编译环境](https://www.bmqy.net/1487.html)
+
+[再咏咳](https://www.bmqy.net/1486.html)
 
 [数钱数到不愿醒，睡觉睡到腿抽筋儿](https://www.bmqy.net/1488.html)
 
@@ -182,15 +182,15 @@
 
 [仿站制作4](https://www.bmqy.net/1497.html)
 
-[仿站制作3](https://www.bmqy.net/1498.html)
-
 [仿站制作2](https://www.bmqy.net/1499.html)
+
+[仿站制作3](https://www.bmqy.net/1498.html)
 
 [仿站作品1](https://www.bmqy.net/1500.html)
 
-[wordpress在指定分类下的文章内容后显示自定义推广信息](https://www.bmqy.net/1496.html)
-
 [dedecms使用ajax调用指定栏目文章列表](https://www.bmqy.net/1501.html)
+
+[wordpress在指定分类下的文章内容后显示自定义推广信息](https://www.bmqy.net/1496.html)
 
 [生活就是做一点坏事，之后就再多做好事](https://www.bmqy.net/1502.html)
 
@@ -202,9 +202,9 @@
 
 [dedecms面包屑导航链接样式修改](https://www.bmqy.net/1506.html)
 
-[使用“Standalone Sitemap Generator”工具生成sitemap.xml和sitemap.html网站地图](https://www.bmqy.net/1507.html)
-
 [windows不能在本地计算机启动apache服务的解决方法](https://www.bmqy.net/1508.html)
+
+[使用“Standalone Sitemap Generator”工具生成sitemap.xml和sitemap.html网站地图](https://www.bmqy.net/1507.html)
 
 [图片放入到indesign中后变亮、颜色都变浅的解决办法](https://www.bmqy.net/1509.html)
 
@@ -212,19 +212,19 @@
 
 [2015上天班第一天](https://www.bmqy.net/1511.html)
 
-[诺不轻信人不负我，言不轻诺我不负人](https://www.bmqy.net/1513.html)
-
 [京城2015年的第一场雪](https://www.bmqy.net/1512.html)
 
-[wordpress使用twentyfifteen模板做子主题所遇问题的解决及记录](https://www.bmqy.net/1514.html)
+[诺不轻信人不负我，言不轻诺我不负人](https://www.bmqy.net/1513.html)
 
 [做梦也似大电影](https://www.bmqy.net/1515.html)
 
+[wordpress使用twentyfifteen模板做子主题所遇问题的解决及记录](https://www.bmqy.net/1514.html)
+
 [dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://www.bmqy.net/1516.html)
 
-[dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/1517.html)
-
 [AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法](https://www.bmqy.net/1518.html)
+
+[dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/1517.html)
 
 [dedecms调用指定单一子栏目文章列表无内容的问题](https://www.bmqy.net/1519.html)
 
@@ -232,15 +232,15 @@
 
 [Active Server Pages 错误 'ASP 0107'解决办法](https://www.bmqy.net/1521.html)
 
-[万网空间服务器上传网站后出现HTTP500.19错误](https://www.bmqy.net/1523.html)
-
 [js获取鼠标当前所在页面位置](https://www.bmqy.net/1522.html)
+
+[万网空间服务器上传网站后出现HTTP500.19错误](https://www.bmqy.net/1523.html)
 
 [ueditor编辑器创建超链接时添加class样式](https://www.bmqy.net/1524.html)
 
-[dedecms清空所有文章且以后新建文章id从1开始](https://www.bmqy.net/1525.html)
-
 [dedecms更换html编辑器为ueditor](https://www.bmqy.net/1526.html)
+
+[dedecms清空所有文章且以后新建文章id从1开始](https://www.bmqy.net/1525.html)
 
 [dedecms列表页调用文章内容](https://www.bmqy.net/1527.html)
 
@@ -256,9 +256,9 @@
 
 [miui开启节省流量功能后数据流量不能使用的问题](https://www.bmqy.net/1533.html)
 
-[治世之能臣，乱世之废柴](https://www.bmqy.net/1534.html)
-
 [来四张凑数](https://www.bmqy.net/1535.html)
+
+[治世之能臣，乱世之废柴](https://www.bmqy.net/1534.html)
 
 [感觉不错的水天一色](https://www.bmqy.net/1536.html)
 
@@ -270,9 +270,9 @@
 
 [差一点儿就拍中了闪电](https://www.bmqy.net/1540.html)
 
-[这算一景儿三拍么](https://www.bmqy.net/1542.html)
-
 [扬帆起航](https://www.bmqy.net/1541.html)
+
+[这算一景儿三拍么](https://www.bmqy.net/1542.html)
 
 [吐一吐360的开机优化](https://www.bmqy.net/1543.html)
 
@@ -280,9 +280,9 @@
 
 [八月第二波蓝天白云来袭](https://www.bmqy.net/1545.html)
 
-[八月第一张](https://www.bmqy.net/1546.html)
-
 [早晨的雨，起早的景儿](https://www.bmqy.net/1547.html)
+
+[八月第一张](https://www.bmqy.net/1546.html)
 
 [雷鸣雨早](https://www.bmqy.net/1548.html)
 
@@ -290,9 +290,9 @@
 
 [就止一张](https://www.bmqy.net/1550.html)
 
-[早早地一轮红日](https://www.bmqy.net/1551.html)
-
 [为了有所为而有所拍](https://www.bmqy.net/1552.html)
+
+[早早地一轮红日](https://www.bmqy.net/1551.html)
 
 [又一波儿天空来袭](https://www.bmqy.net/1553.html)
 
@@ -300,9 +300,9 @@
 
 [燕美清照之天上的海](https://www.bmqy.net/1555.html)
 
-[面对着巴西被7：1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://www.bmqy.net/1556.html)
-
 [安卓手机低电量时自动关机](https://www.bmqy.net/1559.html)
+
+[面对着巴西被7：1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://www.bmqy.net/1556.html)
 
 [再平和自然地表现,也掩盖不了内心地焦急](https://www.bmqy.net/1557.html)
 
@@ -312,11 +312,11 @@
 
 [新版百度首页设置“新窗口打开搜索页”](https://www.bmqy.net/1561.html)
 
-[blue memories quietly yesterday](https://www.bmqy.net/1562.html)
-
 [什么是偶像，因为他像偶。](https://www.bmqy.net/1563.html)
 
 [流浪哥](https://www.bmqy.net/1564.html)
+
+[blue memories quietly yesterday](https://www.bmqy.net/1562.html)
 
 [北门清燕](https://www.bmqy.net/1565.html)
 
