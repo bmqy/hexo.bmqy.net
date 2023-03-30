@@ -7,12 +7,14 @@
 		"build": "hexo generate",
 		"clean": "hexo clean",
 		"deploy": "hexo deploy",
+		"deploy:ftp": "hexo generate && node ftp-deploy",
 		"server": "hexo server"
 	},
 	"hexo": {
 		"version": "6.2.0"
 	},
 	"dependencies": {
+		"ftp-deploy": "^2.4.3",
 		"hexo": "^6.2.0",
 		"hexo-abbrlink2": "^1.0.2",
 		"hexo-deployer-cos": "^1.2.1",

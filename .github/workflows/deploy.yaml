@@ -32,9 +32,9 @@ jobs:
             - name: Install depends
               run: |
                   npm install
-            - name: Deploy
+            - name: Deploy Ftp
               run: |
-                  npm run deploy
+                  npm run deploy:ftp
 
             - name: Refresh CDN # 安装 sdk 并运行刷新脚本
               run: |
