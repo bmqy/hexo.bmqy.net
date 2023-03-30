@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2022-10-25 16:44:31更新)
+## 博客目录(2022-11-30 10:57:26更新)
 
 [再次折腾hexo](https://www.bmqy.net/2649.html)
 
@@ -32,9 +32,9 @@
 
 [注销网站得慎重](https://www.bmqy.net/2364.html)
 
-[【原创】ios捷径：捷径库](https://www.bmqy.net/2342.html)
-
 [【原创】ios捷径：法定工作日打卡提醒](https://www.bmqy.net/2318.html)
+
+[【原创】ios捷径：捷径库](https://www.bmqy.net/2342.html)
 
 [【原创】ios捷径：自动壁纸](https://www.bmqy.net/2312.html)
 

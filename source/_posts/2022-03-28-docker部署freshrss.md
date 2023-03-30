@@ -8,11 +8,14 @@ tags:
 categories:
   - 清学小记
 abbrlink: 2648
-date: 2022-03-28 17:48
+date: 2022-03-28 17:48:00
+updated: 2022-11-10 09:10:34
 ---
 
 
 ## 安装```FreshRSS```
+
+### docker-compose部署
 - 创建一个目录 ```freshrss``` 并进入该位置，新建 docker-compose.yml
 ```
 mkdir /freshrss && cd /freshrss
@@ -67,7 +70,20 @@ volumes:
 ```
 docker-compose up -d
 ```
-- 访问
+
+### docker命令部署
+```
+docker run -d --restart unless-stopped --log-opt max-size=10m \
+  -p 8080:80 \
+  -e TZ=Asia/Shanghai \
+  -e CRON_MIN='*/20' \
+  -v freshrss_data:/var/www/FreshRSS/data \
+  -v freshrss_extensions:/var/www/FreshRSS/extensions \
+  --name freshrss \
+  freshrss/freshrss
+```
+
+## 访问
 ```
 设置的站点域名（IP地址 + 端口）
 ```
