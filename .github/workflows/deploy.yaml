@@ -43,7 +43,7 @@ jobs:
                 port: ${{secrets.FTP_PORT}}
                 username: ${{secrets.FTP_USERNAME}}
                 password: ${{ secrets.FTP_PASSWORD }}
-                local-dir: './public'
+                local-dir: './public/'
                 server-dir: ${{secrets.FTP_REMOTE}}
 
             - name: Refresh CDN # 安装 sdk 并运行刷新脚本
