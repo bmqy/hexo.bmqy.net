@@ -20,7 +20,7 @@ env:
 
 jobs:
     build:
-        runs-on: ${{ matrix.operating-system }}
+        runs-on: ubuntu-latest
         strategy:
             matrix:
                 # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
