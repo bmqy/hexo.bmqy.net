@@ -1,38 +1,38 @@
 {
-	"name": "hexo.bmqy.net",
-	"description": "北门清燕的博客，hexo版。",
-	"version": "1.0.0",
-	"private": true,
-	"scripts": {
-		"build": "hexo generate",
-		"clean": "hexo clean",
-		"deploy": "hexo deploy",
-		"deploy:ftp": "hexo generate && node ftp-deploy",
-		"server": "hexo server"
-	},
-	"hexo": {
-		"version": "6.2.0"
-	},
-	"dependencies": {
-		"ftp-deploy": "^2.4.3",
-		"hexo": "^6.2.0",
-		"hexo-abbrlink2": "^1.0.2",
-		"hexo-deployer-cos": "^1.2.1",
-		"hexo-generator-archive": "^1.0.0",
-		"hexo-generator-category": "^1.0.0",
-		"hexo-generator-feed": "^3.0.0",
-		"hexo-generator-index": "^2.0.0",
-		"hexo-generator-searchdb": "^1.4.0",
-		"hexo-generator-sitemap": "^3.0.1",
-		"hexo-generator-tag": "^1.0.0",
-		"hexo-helper-live2d": "^3.1.1",
-		"hexo-next-valine": "github:next-theme/hexo-next-valine",
-		"hexo-renderer-ejs": "^2.0.0",
-		"hexo-renderer-marked": "^5.0.0",
-		"hexo-renderer-stylus": "^2.1.0",
-		"hexo-server": "^3.0.0",
-		"hexo-theme-landscape": "^0.0.3",
-		"hexo-theme-next": "^8.12.3",
-		"hexo-word-counter": "^0.0.3"
-	}
+  "name": "hexo.bmqy.net",
+  "description": "北门清燕的博客，hexo版。",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "deploy:ftp": "hexo generate && node ftp-deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "6.3.0"
+  },
+  "dependencies": {
+    "ftp-deploy": "^2.4.3",
+    "hexo": "^6.3.0",
+    "hexo-abbrlink2": "^1.0.2",
+    "hexo-deployer-cos": "^1.2.1",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-searchdb": "^1.4.1",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-helper-live2d": "^3.1.1",
+    "hexo-next-valine": "github:next-theme/hexo-next-valine",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-landscape": "^0.0.3",
+    "hexo-theme-next": "^8.15.0",
+    "hexo-word-counter": "^0.1.0"
+  }
 }
