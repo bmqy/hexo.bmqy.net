@@ -12,9 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-04-15 08:50:14更新)
+## 博客目录(2023-04-15 09:43:01更新)
 
-[](https://www.bmqy.net/2649.html)
+[测试ai](https://www.bmqy.net/2650.html)
 
 [再次折腾hexo](https://www.bmqy.net/2649.html)
 
