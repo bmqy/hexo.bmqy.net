@@ -23,7 +23,7 @@ custom_file_path:
     #header: source/_data/header.njk
     #sidebar: source/_data/sidebar.njk
     #postMeta: source/_data/post-meta.njk
-    #postBodyEnd: source/_data/post-body-end.njk
+    # postBodyEnd: source/_data/post-body-end.njk
     footer: source/_data/footer.njk
     #bodyEnd: source/_data/body-end.njk
     #variable: source/_data/variables.styl
@@ -65,7 +65,7 @@ creative_commons:
     # Available values: big | small
     size: small
     sidebar: false
-    post: false
+    post: true
     # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
     # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
     language:
