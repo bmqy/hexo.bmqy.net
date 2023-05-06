@@ -5,6 +5,8 @@ on:
     push:
         branches:
             - master
+    schedule:
+        - cron: '0 */6 * * *'
 
 env:
     FTP_HOST: ${{secrets.FTP_HOST}}
