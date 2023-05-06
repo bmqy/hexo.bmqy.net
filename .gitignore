@@ -9,3 +9,4 @@ _multiconfig.yml
 .history/
 *.env*
 *-lock.json
+elog.cache.json

@@ -36,8 +36,8 @@ module.exports = {
     },
   },
   image: {
-    enable: false,
-    platform: 'local',
+    enable: true,
+    platform: 'cos',
     local: {
       outputDir: '',
       prefixKey: '',
