@@ -48,16 +48,20 @@ jobs:
             - name: Build
               run: |
                   npm run build
+            
+            - name: Deploy
+              run: |
+                  npm run deploy
                   
-            - name: 📂 Deploy Ftp
-              uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-              with:
-                server: ${{secrets.FTP_HOST}}
-                port: ${{secrets.FTP_PORT}}
-                username: ${{secrets.FTP_USERNAME}}
-                password: ${{ secrets.FTP_PASSWORD }}
-                local-dir: './public/'
-                server-dir: ${{secrets.FTP_REMOTE}}
+            # - name: 📂 Deploy Ftp
+            #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+            #   with:
+            #     server: ${{secrets.FTP_HOST}}
+            #     port: ${{secrets.FTP_PORT}}
+            #     username: ${{secrets.FTP_USERNAME}}
+            #     password: ${{ secrets.FTP_PASSWORD }}
+            #     local-dir: './public/'
+            #     server-dir: ${{secrets.FTP_REMOTE}}
 
             - name: Refresh CDN # 安装 sdk 并运行刷新脚本
               run: |
