@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-05-06 21:35:11更新)
+## 博客目录(2023-05-07 02:13:29更新)
+
+[集成Elog使用notion数据库](https://www.bmqy.net/2651.html)
 
 [测试AI](https://www.bmqy.net/2650.html)
 
@@ -189,8 +191,6 @@
 [早晨的雨，起早的景儿](https://www.bmqy.net/1547.html)
 
 [雷鸣雨早](https://www.bmqy.net/1548.html)
-
-[仰望天空](https://www.bmqy.net/1549.html)
 
 [就止一张](https://www.bmqy.net/1550.html)
 
