@@ -36,7 +36,13 @@ jobs:
                 operating-system: ['ubuntu-latest']
 
         steps:
-            - uses: actions/checkout@master
+            - name: 检查分支
+              uses: actions/checkout@master
+
+            - name: 安装node环境
+              uses: actions/setup-node@master
+              with:
+                node-version: "16.x"
 
             - name: Install depends
               run: |
