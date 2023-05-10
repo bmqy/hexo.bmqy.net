@@ -44,6 +44,12 @@ jobs:
             - name: Elog Sync
               run: |
                   npm run elog:sync
+            
+            - name: 提交notion拉取的文章到GitHub仓库
+              run: |
+                echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
+                git add .
+                git commit -m "更新文档" -a
                   
             - name: Build
               run: |
@@ -81,13 +87,7 @@ jobs:
               with:
                   command: run readme
 
-            - name: 提交notion拉取的文章到GitHub仓库
-              run: |
-                echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
-                git add .
-                git commit -m "更新文档" -a
-
-            - name: Commit and push if changed # 更新README.md
+            - name: Commit README.md # 更新README.md
               run: |
                   git diff
                   git config --global user.email "qq88268459@126.com"
@@ -95,7 +95,7 @@ jobs:
                   git add README.md
                   git commit -m "Github Action Auto Updated"
 
-            - name: 推送文章到仓库
+            - name: 推送更新到仓库
               uses: ad-m/github-push-action@master
               with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
