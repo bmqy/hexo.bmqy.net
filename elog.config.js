@@ -24,7 +24,7 @@ module.exports = {
       filename: 'urlname',
       format: 'matter-markdown',
       catalog: false,
-      formatExt: 'elog.format.js',
+      formatExt: './elog.format.js',
     },
     confluence: {
       user: process.env.CONFLUENCE_USER,
