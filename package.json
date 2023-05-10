@@ -9,7 +9,10 @@
     "deploy": "hexo deploy",
     "deploy:ftp": "hexo generate && node ftp-deploy",
     "server": "hexo server",
-    "elog:sync": "elog sync"
+    "elog:init": "elog init",
+    "elog:sync-local": "elog sync -e .elog.env",
+    "elog:sync:": "elog sync",
+    "elog:clean": "elog clean"
   },
   "hexo": {
     "version": "6.3.0"

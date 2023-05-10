@@ -81,6 +81,12 @@ jobs:
               with:
                   command: run readme
 
+            - name: 提交notion拉取的文章到GitHub仓库
+              run: |
+                echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
+                git add .
+                git commit -m "更新文档" -a
+
             - name: Commit and push if changed # 更新README.md
               run: |
                   git diff
@@ -88,7 +94,11 @@ jobs:
                   git config --global user.name "bmqy"
                   git add README.md
                   git commit -m "Github Action Auto Updated"
-                  git push
+
+            - name: 推送文章到仓库
+              uses: ad-m/github-push-action@master
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Notify workflow status to telegram
               uses: yakuhzi/notify-workflow@v2
