@@ -54,6 +54,8 @@ jobs:
             - name: 提交notion拉取的文章到GitHub仓库
               run: |
                 echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
+                git config --global user.email "qq88268459@126.com"
+                git config --global user.name "bmqy"
                 git add .
                 git commit -m "更新文档" -a
                   
@@ -96,8 +98,6 @@ jobs:
             - name: Commit README.md # 更新README.md
               run: |
                   git diff
-                  git config --global user.email "qq88268459@126.com"
-                  git config --global user.name "bmqy"
                   git add README.md
                   git commit -m "Github Action Auto Updated"
 
