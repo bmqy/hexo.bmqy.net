@@ -9,4 +9,3 @@ _multiconfig.yml
 .history/
 *.env*
 *-lock.json
-/source/_posts/
