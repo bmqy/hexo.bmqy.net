@@ -9,7 +9,6 @@ const format = (doc) => {
   doc.properties.urlname = theDate.split(' ')[0] +'-'+ doc.properties.title
   doc.properties.date = theDate
   doc.properties.updated = theUpdate
-  doc.body = doc.body.parent || doc.body
   const newPost = matterMarkdownAdapter(doc);
   return newPost;
 };
