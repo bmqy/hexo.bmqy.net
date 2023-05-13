@@ -12,9 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-05-13 02:18:05更新)
-
-[wordpress平台next主题](https://www.bmqy.net/1754.html)
+## 博客目录(2023-05-13 09:07:25更新)
 
 [集成Elog使用notion数据库](https://www.bmqy.net/2651.html)
 
@@ -85,6 +83,8 @@
 [ios捷径：bmqy捷径库](https://www.bmqy.net/1777.html)
 
 [自定义IntelliJ IDEA配置和插件的存放目录，以方便同步idea配置](https://www.bmqy.net/1773.html)
+
+[wordpress平台next主题](https://www.bmqy.net/1754.html)
 
 [vscode本地调试asp](https://www.bmqy.net/1711.html)
 
