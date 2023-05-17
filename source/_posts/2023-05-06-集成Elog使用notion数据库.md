@@ -1,6 +1,6 @@
 ---
 date: "2023-05-06 06:08"
-updateTime: "2023-05-12T10:00:00.000Z"
+updateTime: "2023-05-17T04:00:00.000Z"
 catalog: []
 status: 已发布
 insertTime: "2023-05-06T06:08:00.000Z"
@@ -12,7 +12,8 @@ tags:
   - elog
   - notion
   - notion数据库
-updated: "2023-05-12 10:00"
+  - hexo
+updated: "2023-05-17 04:00"
 cover: ""
 categories:
   - 清学小记
@@ -75,6 +76,12 @@ title: 集成Elog使用notion数据库
 
 请参考[官方文档](https://elog.1874.cool/notion/vy55q9xwlqlsfrvk#notion-%E7%A4%BA%E4%BE%8B)
 
-## 其它
+## 图床配置
+
+### COS
+
+其它参数都按[官方文档](https://elog.1874.cool/notion/fe8ywmt999gon12w#%E8%85%BE%E8%AE%AF%E4%BA%91-cos-%E9%98%BF%E9%87%8C%E4%BA%91-oss-%E4%B8%83%E7%89%9B%E4%BA%91-qiniu)配置即可，这里只额外提一下`prefixKey`参数配置：路径开始和结尾不要带`/` 。
+
+# 其它
 
 更多关于`Elog`的内容与文档介绍，请前往[Elog](https://elog.1874.cool/)官网查看
