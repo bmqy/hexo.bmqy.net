@@ -39,4 +39,4 @@ SimpleMMO is a simple, yet deep pocket-sized MMO experience. It is an incrementa
 
 # 预览图
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4bf472e-76ef-4375-8393-902ca17ddae4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230516%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230516T153837Z&X-Amz-Expires=3600&X-Amz-Signature=f5b137c52e5e2186f124b44c4bb8e38619808856e260e38984d5a700f69b169d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://image.bmqy.net/upload/FhPqRHB5j5EEOGrMUqFNAHbZTj5q.png)
