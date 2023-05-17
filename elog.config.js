@@ -36,7 +36,7 @@ module.exports = {
     },
   },
   image: {
-    enable: false,
+    enable: true,
     platform: 'cos',
     local: {
       outputDir: '',
@@ -57,7 +57,7 @@ module.exports = {
       bucket: process.env.COS_BUCKET,
       region: process.env.COS_REGION,
       host: process.env.COS_HOST,
-      prefixKey: '',
+      prefixKey: 'upload',
       secretExt: '', // 可选
     },
     qiniu: {
