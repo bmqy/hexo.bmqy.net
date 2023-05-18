@@ -1,11 +1,11 @@
 ---
 date: "2023-05-06 06:08"
-updateTime: "2023-05-18T00:42:00.000Z"
+updateTime: "2023-05-18T11:15:00.000Z"
 catalog: []
 status: 已发布
 insertTime: "2023-05-06T06:08:00.000Z"
 _updated: ""
-excerpt: 为hexo集成elog使用notion数据库，这样更方便写博客
+excerpt: 为hexo集成elog使用notion数据库，这样更方便写博客。
 summary: ""
 _date: ""
 tags:
@@ -13,7 +13,7 @@ tags:
   - notion
   - notion数据库
   - hexo
-updated: "2023-05-18 00:42"
+updated: "2023-05-18 11:15"
 cover: ""
 categories:
   - 清学小记
@@ -70,7 +70,7 @@ title: 集成Elog使用notion数据库
 
 ### 导入工具
 
-目前暂无好的导入工具，期待广大网友的贡献 ing。。。
+目前暂无好的导入工具，期待广大网友的贡献。。。
 
 ## 持续集成
 

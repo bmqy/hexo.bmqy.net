@@ -44,19 +44,19 @@
       "id": "002f908e-16b2-4c58-b008-dcacee718770",
       "doc_id": "002f908e-16b2-4c58-b008-dcacee718770",
       "title": "002f908e-16b2-4c58-b008-dcacee718770",
-      "updated": 1684302360000,
+      "updated": 1684408740000,
       "body_original": "\n# 短篇武侠小说\n\n\n在一个古老的山洞里，有一位武林高手正在闭关修炼。他的名字叫做张无忌，是武林中的传奇人物。\n\n\n一天，一个年轻的女子来到了山洞口，她的名字叫做赵敏。赵敏是另一个武林门派的弟子，但是她被自己的门派所迫，不得不前来求助张无忌。\n\n\n张无忌见到赵敏后，深为她的遭遇所感动，决定帮助她摆脱困境。于是，他和赵敏一起踏上了一段充满危险的旅程。\n\n\n在旅途中，张无忌和赵敏遭遇了无数的挑战和考验，但是他们始终没有放弃，最终成功地打败了所有的敌人，拯救了赵敏。\n\n\n在这段旅程中，张无忌和赵敏之间产生了深厚的感情，他们最终成为了一对侠侣，共同守护着武林的和平与正义。\n\n",
       "properties": {
         "date": {
           "type": "string",
           "string": "2023-04-15 08:12"
         },
-        "updateTime": "2023-05-17T05:46:00.000Z",
+        "updateTime": "2023-05-18T11:19:00.000Z",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-04-28T14:04:00.000Z",
         "_updated": "2023-04-15T09:12:00.000+08:00",
-        "excerpt": "在一个古老的山洞里，有一位武林高手正在闭关修炼。他的名字叫做张无忌，是武林中的传奇人物。",
+        "excerpt": "在一个古老的山洞里，有一位武林高手正在闭关修炼。他的名字叫做张无忌，是武林中的传奇人物",
         "summary": "",
         "_date": "2023-04-15T08:12:00.000+08:00",
         "tags": [
@@ -83,19 +83,19 @@
       "id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
       "doc_id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
       "title": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
-      "updated": 1684370520000,
-      "body_original": "\n# 前言\n\n\n为了更好、更方便地使用`hexo`写博客，因此把博客集成了[https://github.com/LetTTGACO/elog](https://github.com/LetTTGACO/elog)。\n\n\n集成`Elog`使博客将`hexo`和`notion`的优点结合到了一起：\n\n- `hexo`博客纯静态部署，简单方便\n- `markdown`语法写博客优雅、专注\n- `github`上写博客还是不太友好，至少目前为止是\n\n# 部署流程\n\n\n## 集成Elog\n\n\n请参考[官方文档](https://elog.1874.cool/notion/start)\n\n\n## 设置Notion数据库\n\n\n`notion`数据库的设置请参考`elog`中的[文档](https://elog.1874.cool/notion/gvnxobqogetukays#notion)\n\n\n> 使用 [**Database 模板**](https://1874.notion.site/09ff9e1e141744c6af0a1f69d2a3d834?v=a09065f9266446afa745b475044daca6) 创建一个数据库\n\n\n> 创建 `Integration Token`，具体请参考 [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-1-create-an-integration)\n\n\n> 将复制的数据库连接到刚创建的 `Integration`，具体请参考 [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration)\n\n\n> 获取数据库 `DatabaseId`\n\n\n## 文章导入Notion\n\n\n目前并没有好的无损导入`notion`数据库方法，以下内容只供参考。\n\n\n### 直接导入.md文档\n\n- 首先需要从你的`github`上下载好`.md`文档\n- 之后可以通过`notion`的导入功能，批量导入到`notion`中\n- 再将其加入到你的`notion`数据库中\n- 最后你可能需要处理文章的各个字段属性，视个人情况看复杂程度。。\n\n### 通过csv文件导入\n\n- 将`.md`文档导入`notion`中\n- 使用相关工具将文档属性存成`csv`文件\n- 导入`csv`文件到`notion`数据库\n- 最后需要将导入到`notion`的`.md`文档，一一复制到数据库文章中\n\n### 导入工具\n\n\n目前暂无好的导入工具，期待广大网友的贡献ing。。。\n\n\n## 持续集成\n\n\n请参考[官方文档](https://elog.1874.cool/notion/vy55q9xwlqlsfrvk#notion-%E7%A4%BA%E4%BE%8B)\n\n\n## Pipedream workflows触发github actions\n\n\n此处借用[https://github.com/bmqy/serverless-api](https://github.com/bmqy/serverless-api)中代码：\n\n\n```javascript\nimport axios from \"axios\"\nexport default defineComponent({\n  async run({ steps, $ }) {\n    const user = 'github用户名'\n    const repo = 'github项目名'\n    const event_type = 'github action监听事件类型'\n    const token = 'github token'\n    const { data } = await axios.post(\n      `https://api.github.com/repos/${user}/${repo}/dispatches`,\n      { event_type },\n      {\n        headers: {\n          \"User-Agent\": \"@elog/serverless-api\",\n          Accept: '*/*',\n          Authorization: `token ${token}`,\n        },\n      }\n    )\n    return 'Success!'\n  },\n})\n```\n\n\n## 图床配置\n\n\n### COS\n\n\n其它参数都按[官方文档](https://elog.1874.cool/notion/fe8ywmt999gon12w#%E8%85%BE%E8%AE%AF%E4%BA%91-cos-%E9%98%BF%E9%87%8C%E4%BA%91-oss-%E4%B8%83%E7%89%9B%E4%BA%91-qiniu)配置即可，这里只额外提一下`prefixKey`参数配置：路径开始和结尾不要带`/` 。\n\n\n# 其它\n\n\n更多关于`Elog`的内容与文档介绍，请前往[Elog](https://elog.1874.cool/)官网查看\n\n",
+      "updated": 1684408500000,
+      "body_original": "\n# 前言\n\n\n为了更好、更方便地使用`hexo`写博客，因此把博客集成了[https://github.com/LetTTGACO/elog](https://github.com/LetTTGACO/elog)。\n\n\n集成`Elog`使博客将`hexo`和`notion`的优点结合到了一起：\n\n- `hexo`博客纯静态部署，简单方便\n- `markdown`语法写博客优雅、专注\n- `github`上写博客还是不太友好，至少目前为止是\n\n# 部署流程\n\n\n## 集成Elog\n\n\n请参考[官方文档](https://elog.1874.cool/notion/start)\n\n\n## 设置Notion数据库\n\n\n`notion`数据库的设置请参考`elog`中的[文档](https://elog.1874.cool/notion/gvnxobqogetukays#notion)\n\n\n> 使用 [**Database 模板**](https://1874.notion.site/09ff9e1e141744c6af0a1f69d2a3d834?v=a09065f9266446afa745b475044daca6) 创建一个数据库\n\n\n> 创建 `Integration Token`，具体请参考 [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-1-create-an-integration)\n\n\n> 将复制的数据库连接到刚创建的 `Integration`，具体请参考 [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration)\n\n\n> 获取数据库 `DatabaseId`\n\n\n## 文章导入Notion\n\n\n目前并没有好的无损导入`notion`数据库方法，以下内容只供参考。\n\n\n### 直接导入.md文档\n\n- 首先需要从你的`github`上下载好`.md`文档\n- 之后可以通过`notion`的导入功能，批量导入到`notion`中\n- 再将其加入到你的`notion`数据库中\n- 最后你可能需要处理文章的各个字段属性，视个人情况看复杂程度。。\n\n### 通过csv文件导入\n\n- 将`.md`文档导入`notion`中\n- 使用相关工具将文档属性存成`csv`文件\n- 导入`csv`文件到`notion`数据库\n- 最后需要将导入到`notion`的`.md`文档，一一复制到数据库文章中\n\n### 导入工具\n\n\n目前暂无好的导入工具，期待广大网友的贡献。。。\n\n\n## 持续集成\n\n\n请参考[官方文档](https://elog.1874.cool/notion/vy55q9xwlqlsfrvk#notion-%E7%A4%BA%E4%BE%8B)\n\n\n## Pipedream workflows触发github actions\n\n\n此处借用[https://github.com/bmqy/serverless-api](https://github.com/bmqy/serverless-api)中代码：\n\n\n```javascript\nimport axios from \"axios\"\nexport default defineComponent({\n  async run({ steps, $ }) {\n    const user = 'github用户名'\n    const repo = 'github项目名'\n    const event_type = 'github action监听事件类型'\n    const token = 'github token'\n    const { data } = await axios.post(\n      `https://api.github.com/repos/${user}/${repo}/dispatches`,\n      { event_type },\n      {\n        headers: {\n          \"User-Agent\": \"@elog/serverless-api\",\n          Accept: '*/*',\n          Authorization: `token ${token}`,\n        },\n      }\n    )\n    return 'Success!'\n  },\n})\n```\n\n\n## 图床配置\n\n\n### COS\n\n\n其它参数都按[官方文档](https://elog.1874.cool/notion/fe8ywmt999gon12w#%E8%85%BE%E8%AE%AF%E4%BA%91-cos-%E9%98%BF%E9%87%8C%E4%BA%91-oss-%E4%B8%83%E7%89%9B%E4%BA%91-qiniu)配置即可，这里只额外提一下`prefixKey`参数配置：路径开始和结尾不要带`/` 。\n\n\n# 其它\n\n\n更多关于`Elog`的内容与文档介绍，请前往[Elog](https://elog.1874.cool/)官网查看\n\n",
       "properties": {
         "date": {
           "type": "string",
           "string": "2023-05-06 06:08"
         },
-        "updateTime": "2023-05-18T00:42:00.000Z",
+        "updateTime": "2023-05-18T11:15:00.000Z",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-05-06T06:08:00.000Z",
         "_updated": "",
-        "excerpt": "为hexo集成elog使用notion数据库，这样更方便写博客",
+        "excerpt": "为hexo集成elog使用notion数据库，这样更方便写博客。",
         "summary": "",
         "_date": "",
         "tags": [
@@ -106,7 +106,7 @@
         ],
         "updated": {
           "type": "string",
-          "string": "2023-05-18 00:42"
+          "string": "2023-05-18 11:15"
         },
         "cover": "",
         "categories": [
@@ -6377,14 +6377,14 @@
       "id": "59f4d383-35fc-4949-827c-df1854b6a690",
       "doc_id": "59f4d383-35fc-4949-827c-df1854b6a690",
       "title": "59f4d383-35fc-4949-827c-df1854b6a690",
-      "updated": 1684369740000,
-      "body_original": "\n关于笑果我觉得还是罗翔老师说的好，但是他们没有好好听啊\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9aa70800-c673-4b2d-9126-0f0ae6343450/QQ%E6%88%AA%E5%9B%BE20230518082054.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T040131Z&X-Amz-Expires=3600&X-Amz-Signature=e9a68074968cb37614bc8f4608a51a37d032949ebaf7501b3cbd039fb70325aa&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/930109e5-5291-48b4-964f-dd1db31f0be1/QQ%E6%88%AA%E5%9B%BE20230518082107.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T040131Z&X-Amz-Expires=3600&X-Amz-Signature=3964625c318128613591f0dcf7610c6a6e9fab6ead89a7235f7602c47b2a2eeb&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7d5aa6fa-e8ab-4700-a718-d231f5ae43ad/QQ%E6%88%AA%E5%9B%BE20230518082119.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T040131Z&X-Amz-Expires=3600&X-Amz-Signature=11f71c50a66f9b14af1c8ef348ea8bea5e19eba2bb0d5c3ad119bbca43ad1841&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/52019dcd-57ee-49d0-9ce4-f10364ee87bb/QQ%E6%88%AA%E5%9B%BE20230518082131.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T040131Z&X-Amz-Expires=3600&X-Amz-Signature=5bb504b5f8f667649d08614c0a1ccf0a45f9dc7d01ca3c2ab030f8b7a0a90ba6&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/376a1022-e683-4550-9258-f6fb72fc193c/QQ%E6%88%AA%E5%9B%BE20230518082216.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T040131Z&X-Amz-Expires=3600&X-Amz-Signature=5bd90d5a8287c9ef8c0fcb4c195d7b0199b8de72e6c7d4eb21c18395d45e8c9a&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n",
+      "updated": 1684384980000,
+      "body_original": "\n关于笑果我觉得还是罗翔老师说的好，但是他们没有好好听啊\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9aa70800-c673-4b2d-9126-0f0ae6343450/QQ%E6%88%AA%E5%9B%BE20230518082054.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T112304Z&X-Amz-Expires=3600&X-Amz-Signature=d5858f3a325d3f90887af1d17cdd77c713a5eda807b2524115c4fe15f5c66d2f&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/930109e5-5291-48b4-964f-dd1db31f0be1/QQ%E6%88%AA%E5%9B%BE20230518082107.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T112304Z&X-Amz-Expires=3600&X-Amz-Signature=579ac38bce39d07386e0eb8d1b1673b9dadcbb1332e986e90dbb34475cc7b079&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7d5aa6fa-e8ab-4700-a718-d231f5ae43ad/QQ%E6%88%AA%E5%9B%BE20230518082119.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T112304Z&X-Amz-Expires=3600&X-Amz-Signature=bf10a50126ce26ce19d8c6b571034281a139327fd6b1641376786ed8183b4b35&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/52019dcd-57ee-49d0-9ce4-f10364ee87bb/QQ%E6%88%AA%E5%9B%BE20230518082131.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T112304Z&X-Amz-Expires=3600&X-Amz-Signature=1f3294d35e56277377259da816355c706c27a7ead904b72d1b42fa25e636373f&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/376a1022-e683-4550-9258-f6fb72fc193c/QQ%E6%88%AA%E5%9B%BE20230518082216.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230518T112304Z&X-Amz-Expires=3600&X-Amz-Signature=e715a9e67e0438772e7c29a1ad2a2edf3e90235d4323f44e17470816c0ba08b6&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n",
       "properties": {
         "date": {
           "type": "string",
           "string": "2023-05-18 00:22"
         },
-        "updateTime": "2023-05-18T00:29:00.000Z",
+        "updateTime": "2023-05-18T04:43:00.000Z",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-05-18T00:22:00.000Z",
@@ -6398,7 +6398,7 @@
         ],
         "updated": {
           "type": "string",
-          "string": "2023-05-18 00:29"
+          "string": "2023-05-18 04:43"
         },
         "cover": "",
         "categories": [
@@ -6406,7 +6406,7 @@
         ],
         "abbrlink": 2653,
         "urlname": "59f4d383-35fc-4949-827c-df1854b6a690",
-        "title": "关于笑果我觉得还是罗翔老师说的好，但是他们没有好好听啊"
+        "title": "关于笑果我觉得还是罗翔老师说的好"
       },
       "body": ""
     }
@@ -6416,7 +6416,7 @@
       "object": "page",
       "id": "59f4d383-35fc-4949-827c-df1854b6a690",
       "created_time": "2023-05-18T00:22:00.000Z",
-      "last_edited_time": "2023-05-18T00:29:00.000Z",
+      "last_edited_time": "2023-05-18T04:43:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6437,7 +6437,7 @@
           "type": "string",
           "string": "2023-05-18 00:22"
         },
-        "updateTime": "2023-05-18T00:29:00.000Z",
+        "updateTime": "2023-05-18T04:43:00.000Z",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-05-18T00:22:00.000Z",
@@ -6451,7 +6451,7 @@
         ],
         "updated": {
           "type": "string",
-          "string": "2023-05-18 00:29"
+          "string": "2023-05-18 04:43"
         },
         "cover": "",
         "categories": [
@@ -6459,7 +6459,7 @@
         ],
         "abbrlink": 2653,
         "urlname": "59f4d383-35fc-4949-827c-df1854b6a690",
-        "title": "关于笑果我觉得还是罗翔老师说的好，但是他们没有好好听啊"
+        "title": "关于笑果我觉得还是罗翔老师说的好"
       },
       "url": "https://www.notion.so/59f4d38335fc4949827cdf1854b6a690"
     },
@@ -6521,7 +6521,7 @@
       "object": "page",
       "id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
       "created_time": "2023-05-06T06:08:00.000Z",
-      "last_edited_time": "2023-05-18T00:42:00.000Z",
+      "last_edited_time": "2023-05-18T11:15:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6542,12 +6542,12 @@
           "type": "string",
           "string": "2023-05-06 06:08"
         },
-        "updateTime": "2023-05-18T00:42:00.000Z",
+        "updateTime": "2023-05-18T11:15:00.000Z",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-05-06T06:08:00.000Z",
         "_updated": "",
-        "excerpt": "为hexo集成elog使用notion数据库，这样更方便写博客",
+        "excerpt": "为hexo集成elog使用notion数据库，这样更方便写博客。",
         "summary": "",
         "_date": "",
         "tags": [
@@ -6558,7 +6558,7 @@
         ],
         "updated": {
           "type": "string",
-          "string": "2023-05-18 00:42"
+          "string": "2023-05-18 11:15"
         },
         "cover": "",
         "categories": [
@@ -6574,7 +6574,7 @@
       "object": "page",
       "id": "002f908e-16b2-4c58-b008-dcacee718770",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2023-05-17T05:46:00.000Z",
+      "last_edited_time": "2023-05-18T11:19:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6595,12 +6595,12 @@
           "type": "string",
           "string": "2023-04-15 08:12"
         },
-        "updateTime": "2023-05-17T05:46:00.000Z",
+        "updateTime": "2023-05-18T11:19:00.000Z",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-04-28T14:04:00.000Z",
         "_updated": "2023-04-15T09:12:00.000+08:00",
-        "excerpt": "在一个古老的山洞里，有一位武林高手正在闭关修炼。他的名字叫做张无忌，是武林中的传奇人物。",
+        "excerpt": "在一个古老的山洞里，有一位武林高手正在闭关修炼。他的名字叫做张无忌，是武林中的传奇人物",
         "summary": "",
         "_date": "2023-04-15T08:12:00.000+08:00",
         "tags": [
