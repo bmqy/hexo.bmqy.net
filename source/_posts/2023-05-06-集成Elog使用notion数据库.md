@@ -1,11 +1,11 @@
 ---
 date: "2023-05-06 06:08"
-updateTime: "2023-05-17T04:00:00.000Z"
+updateTime: "2023-05-18T00:42:00.000Z"
 catalog: []
 status: 已发布
 insertTime: "2023-05-06T06:08:00.000Z"
 _updated: ""
-excerpt: 集成elog使用notion数据库，这样更方便写博客
+excerpt: 为hexo集成elog使用notion数据库，这样更方便写博客
 summary: ""
 _date: ""
 tags:
@@ -13,7 +13,7 @@ tags:
   - notion
   - notion数据库
   - hexo
-updated: "2023-05-17 04:00"
+updated: "2023-05-18 00:42"
 cover: ""
 categories:
   - 清学小记
@@ -24,9 +24,9 @@ title: 集成Elog使用notion数据库
 
 # 前言
 
-为了更好、更方便地写博客，因此把博客集成了[https://github.com/LetTTGACO/elog](https://github.com/LetTTGACO/elog)。
+为了更好、更方便地使用`hexo`写博客，因此把博客集成了[https://github.com/LetTTGACO/elog](https://github.com/LetTTGACO/elog)。
 
-集成`Elog`使博客将 hexo 和 notion 的优点结合到了一起：
+集成`Elog`使博客将`hexo`和`notion`的优点结合到了一起：
 
 - `hexo`博客纯静态部署，简单方便
 - `markdown`语法写博客优雅、专注
@@ -44,11 +44,11 @@ title: 集成Elog使用notion数据库
 
 > 使用  [**Database 模板**](https://1874.notion.site/09ff9e1e141744c6af0a1f69d2a3d834?v=a09065f9266446afa745b475044daca6)  创建一个数据库
 
-> 创建 Integration Token，具体请参考  [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-1-create-an-integration)
+> 创建 `Integration Token`，具体请参考  [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-1-create-an-integration)
 
-> 将复制的数据库连接到刚创建的 Integration，具体请参考  [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration)
+> 将复制的数据库连接到刚创建的 `Integration`，具体请参考  [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration)
 
-> 获取数据库 DatabaseId
+> 获取数据库 `DatabaseId`
 
 ## 文章导入 Notion
 
@@ -75,6 +75,34 @@ title: 集成Elog使用notion数据库
 ## 持续集成
 
 请参考[官方文档](https://elog.1874.cool/notion/vy55q9xwlqlsfrvk#notion-%E7%A4%BA%E4%BE%8B)
+
+## Pipedream workflows 触发 github actions
+
+此处借用[https://github.com/bmqy/serverless-api](https://github.com/bmqy/serverless-api)中代码：
+
+```javascript
+import axios from "axios";
+export default defineComponent({
+  async run({ steps, $ }) {
+    const user = "github用户名";
+    const repo = "github项目名";
+    const event_type = "github action监听事件类型";
+    const token = "github token";
+    const { data } = await axios.post(
+      `https://api.github.com/repos/${user}/${repo}/dispatches`,
+      { event_type },
+      {
+        headers: {
+          "User-Agent": "@elog/serverless-api",
+          Accept: "*/*",
+          Authorization: `token ${token}`,
+        },
+      }
+    );
+    return "Success!";
+  },
+});
+```
 
 ## 图床配置
 
