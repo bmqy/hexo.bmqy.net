@@ -16,7 +16,7 @@ def get_posts(feed_url):
     all_number = feed_entries_length
 
     for i in range(all_number-1, -1, -1):
-        entrie = feed_entries[i] 
+        entrie = feed_entries[i]
         title = entrie["title"]
         link = entrie["url"]
         result = result + "\n" + "[" + title + "](" + link + ")" + "\n"
@@ -27,6 +27,9 @@ def get_posts(feed_url):
 def main():
 
     bmqy_feed = get_posts("/search.xml")
+    if bmqy_feed is None:
+        os._exit()
+
     # print(bmqy_feed)
 
     insert_info = bmqy_feed
