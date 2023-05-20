@@ -1,0 +1,49 @@
+---
+date: "2018-11-07 00:00"
+updateTime: "2023-05-05T10:36:00.000Z"
+catalog: []
+status: 已发布
+insertTime: "2023-04-28T14:04:00.000Z"
+_updated: ""
+excerpt: |-
+  一键天气预报：
+  一键快速查询当前所在城市或指定城市天气，并语音播报，支持剪切板粘贴。支持设置Siri语音口令运行捷径。
+summary: ""
+_date: "2018-11-07T00:00:00.000+08:00"
+tags:
+  - ios捷径
+  - shortcuts
+  - workflow
+  - 一键天气预报
+  - 快捷指令
+  - 捷径
+updated: "2018-11-07 00:00"
+cover: ""
+categories:
+  - 燕坊清作
+abbrlink: 1816
+urlname: db581b74-9f99-44aa-bc0e-15a55db97705
+title: 【原创】ios捷径：一键天气预报
+---
+
+**一键天气预报：**
+
+一键快速查询当前所在城市或指定城市天气，并语音播报，支持剪切板粘贴。支持设置 Siri 语音口令运行捷径。
+
+来个效果图预览吧：
+
+![](https://image.bmqy.net/upload/Fto5o-5ea0sNMlW_75VgGJCv2AcJ.jpg)
+
+一见天气预报
+
+![](https://image.bmqy.net/upload/Fto5o-5ea0sNMlW_75VgGJCv2AcJ.jpg)
+
+一键天气预报
+
+![](https://image.bmqy.net/upload/Fto5o-5ea0sNMlW_75VgGJCv2AcJ.jpg)
+
+一键天气预报
+
+点击安装：[一键天气预报](https://www.icloud.com/shortcuts/172a41a4f728489aab06b81fa0826572)
+
+如需获取作者更多快捷指令，请查看[捷径库](https://www.bmqy.net/2342.html)快捷指令。

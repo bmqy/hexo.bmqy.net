@@ -1,0 +1,41 @@
+---
+date: "2014-07-03 00:00"
+updateTime: "2023-05-08T00:16:00.000Z"
+catalog: []
+status: 已发布
+insertTime: "2023-04-28T14:04:00.000Z"
+_updated: ""
+excerpt: 用“Brackets”的朋友们都知道，这是个极好的web前端开发工具。但是对于我来说习惯了DW，更是习惯了把DW的编码视图调成宋体，字号调成11pt，这样用起来视觉感对我来说才是极好的。
+summary: ""
+_date: "2014-07-03T00:00:00.000+08:00"
+tags:
+  - Brackets
+  - Brackets扩展
+updated: "2014-07-03 00:00"
+cover: ""
+categories:
+  - 燕坊清作
+abbrlink: 1560
+urlname: 81261d40-bc0c-4e64-834d-53062360c40f
+title: “Brackets-宋体”扩展
+---
+
+用“Brackets”的朋友们都知道，这是个极好的 web 前端开发工具。但是对于我来说习惯了 DW，更是习惯了把 DW 的编码视图调成宋体，字号调成 11pt，这样用起来视觉感对我来说才是极好的。
+
+但是自从见识到了 Brackets 后，便被它深深吸引过去了。不过用了一段时间后发现，它不能更换字体，苦啊。于是搜了好多天寻找方法，不过只找到了扩展修改的方法，还好有一些换字体的扩展，不过都是换的一些谷歌的在线英文字体。
+
+于是俺就借鉴其中一款，弄了这个“Brackets-宋体”扩展，呵呵，满足一下自己的使用习惯，也分享出来给有同样需求的朋友们。
+
+[caption id="" align=“alignnone” width=“1025”]
+
+![](https://image.bmqy.net/upload/FicdJEJO_ZdO-rob5Nl-o9uN0a0D.jpg)
+
+使用“Brackets-宋体”前[/caption][caption id="" align=“alignnone” width=“1025”]
+
+![](https://image.bmqy.net/upload/FpD3evARZ4ckzLMMtpvo2VcJrPBk.jpg)
+
+使用“Brackets-宋体”后[/caption]
+
+此扩展可在“Brackets->文件->扩展管理”中搜索并安装。
+
+点此进入 [Brackets-宋体开源项目](https://code.google.com/p/brackets-simsun/)地址。

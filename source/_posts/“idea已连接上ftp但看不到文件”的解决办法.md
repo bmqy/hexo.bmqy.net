@@ -1,0 +1,35 @@
+---
+date: "2017-12-13 00:00"
+updateTime: "2023-05-08T00:01:00.000Z"
+catalog: []
+status: 已发布
+insertTime: "2023-04-28T14:04:00.000Z"
+_updated: ""
+excerpt: 菜单“Tools”→“Deployment”→“Configuration”，打开“ftp配置信息”界面；
+summary: ""
+_date: "2017-12-13T00:00:00.000+08:00"
+tags:
+  - ftp不显示文件
+  - idea
+updated: "2017-12-13 00:00"
+cover: ""
+categories:
+  - 清学小记
+abbrlink: 1453
+urlname: d1a63e89-bf75-4407-b71a-90ae5d107f7e
+title: “idea已连接上ftp但看不到文件”的解决办法
+---
+
+1. 菜单“Tools”→“Deployment”→“Configuration”，打开“ftp 配置信息”界面；
+
+   ![](https://image.bmqy.net/upload/Fto5o-5ea0sNMlW_75VgGJCv2AcJ.png)
+
+2. 确认 ftp 用户名、密码等信息无误后；
+
+   ![](https://image.bmqy.net/upload/Fto5o-5ea0sNMlW_75VgGJCv2AcJ.png)
+
+3. 点击 ftp 配置界面的“Advanced options”按钮，打开“Advanced Options”面板；
+
+   ![](https://image.bmqy.net/upload/Fto5o-5ea0sNMlW_75VgGJCv2AcJ.png)
+
+4. 勾选“Passive mode(被动模式)”，确定后即可看到 ftp 服务器的中文件了。

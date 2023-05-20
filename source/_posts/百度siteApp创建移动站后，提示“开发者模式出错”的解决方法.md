@@ -1,0 +1,43 @@
+---
+date: "2015-09-03 00:00"
+updateTime: "2023-05-08T00:06:00.000Z"
+catalog: []
+status: 已发布
+insertTime: "2023-04-28T14:04:00.000Z"
+_updated: ""
+excerpt: |-
+  前些天用百度siteApp创建了移动站之后，中间环节一直没出问题，包括解析域名，都很顺利。
+  可是创建成功后，一访问却提示这个“开发者模式出错”，各种百度谷歌，QQ群发问都没人说。
+summary: ""
+_date: "2015-09-03T00:00:00.000+08:00"
+tags:
+  - 开发者模式出错
+  - 百度siteApp移动站
+updated: "2015-09-03 00:00"
+cover: ""
+categories:
+  - 洗漱必吐
+abbrlink: 1489
+urlname: b2ea697b-d7c4-4057-b833-93bdf8491642
+title: 百度siteApp创建移动站后，提示“开发者模式出错”的解决方法
+---
+
+前些天用百度 siteApp 创建了移动站之后，中间环节一直没出问题，包括解析域名，都很顺利。
+
+可是创建成功后，一访问却提示这个“开发者模式出错”，各种百度谷歌，QQ 群发问都没人说。
+
+![](https://image.bmqy.net/upload/FmwPN6qYzNT9wzacHiJjXSNfOnj_.jpg)
+
+百度 siteApp，开发者模式出错
+
+然后，经过一不小心的瞎点，ok，问题结局了，其实方法很简单，也很意外。
+
+下面说方法：
+
+1、登陆百度 siteApp 平台；
+
+2、进入“管理我的 webapp”界面；
+
+**3、这是关键了：去换一种样式，至少不要选“通用模板 C”，其它我没尝试，能解决问题我就 ok 了，朋友们有时间请自行测试。**
+
+![](https://image.bmqy.net/upload/FjSeU6mChIOqFXAJiiipjwvGlK75.jpg)
