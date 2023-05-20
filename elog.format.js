@@ -6,7 +6,6 @@ const format = (doc) => {
   // ...对文档进行处理
   const theDate = doc.properties.date.string
   const theUpdate = doc.properties.updated.string
-  doc.properties.urlname = theDate.split(' ')[0] +'-'+ doc.properties.title
   doc.properties.date = theDate
   doc.properties.updated = theUpdate
   const newPost = matterMarkdownAdapter(doc);
