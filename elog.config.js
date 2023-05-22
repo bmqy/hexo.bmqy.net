@@ -21,7 +21,7 @@ module.exports = {
     platform: 'local',
     local: {
       outputDir: '/source/_posts',
-      filename: 'title',
+      filename: 'urlname',
       format: 'matter-markdown',
       catalog: false,
       formatExt: 'elog.format.js',
