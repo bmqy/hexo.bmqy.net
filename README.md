@@ -12,11 +12,11 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-06-10 06:13:04更新)
+## 博客目录(2023-06-10 06:23:33更新)
 
 [关于笑果我觉得还是罗翔老师说的好](https://www.bmqy.net/2653.html)
 
-[推荐正在玩的游戏：SimpleMMO，推荐SMMOHelper游戏助手](https://www.bmqy.net/2652.html)
+[推荐正在玩的游戏：SimpleMMO，附游戏助手SMMOHelper](https://www.bmqy.net/2652.html)
 
 [集成Elog使用notion数据库](https://www.bmqy.net/2651.html)
 
