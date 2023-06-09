@@ -1,6 +1,6 @@
 ---
 date: "2023-05-16 04:00"
-updateTime: "2023-05-16T05:53:00.000Z"
+updateTime: "2023-06-09T15:24:00.000Z"
 catalog: []
 status: 已发布
 insertTime: "2023-05-16T04:00:00.000Z"
@@ -14,7 +14,9 @@ tags:
   - Android
   - iOS
   - Web游戏
-updated: "2023-05-16 05:53"
+  - SMMOHelper
+  - 游戏助手
+updated: "2023-06-09 15:24"
 cover: ""
 categories:
   - 游戏时间
@@ -40,3 +42,24 @@ SimpleMMO is a simple, yet deep pocket-sized MMO experience. It is an incrementa
 # 预览图
 
 ![](https://image.bmqy.net/upload/FhPqRHB5j5EEOGrMUqFNAHbZTj5q.png)
+
+# [SMMOHelper](https://github.com/bmqy/QuantumultX/raw/master/Profiles/SMMOHelper.snippet)
+
+Simple-MMO 游戏助手，一款借助[QuantumltX](https://apps.apple.com/us/app/quantumult-x/id1443988620?l=zh)实现的游戏功能辅助工具，本助手致力于：不帮你玩游戏，但是可以让你更好地玩游戏。
+
+## 功能
+
+- 自动更新玩家 bio，记录等级升级日志
+- 金币捐赠，默认：2000
+- 工作次数，默认：10
+
+## 食用方法
+
+- 添加 quanx 配置片段，并启用;
+- 进入游戏，手动提交更新 bio(不需要修改直接提交保存即可);
+- 通知中可见“token 已更新”，即为脚本启用成功;
+- 正常游戏(旅行、打怪、任务等)即可自动记录升级时间至 bio 中
+
+## 效果截图
+
+![](https://image.bmqy.net/upload/FqtIwl5rYcyCSM3N3WowOkNEuRmo.jpeg)
