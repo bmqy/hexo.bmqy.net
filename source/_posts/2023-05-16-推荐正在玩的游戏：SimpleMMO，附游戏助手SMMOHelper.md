@@ -1,6 +1,6 @@
 ---
 date: "2023-05-16 04:00"
-updateTime: "2023-06-12T05:21:00.000Z"
+updateTime: "2023-06-14T00:08:00.000Z"
 sort: ""
 catalog: []
 status: 已发布
@@ -18,7 +18,7 @@ tags:
   - Web游戏
   - SMMOHelper
   - 游戏助手
-updated: "2023-06-12 05:21"
+updated: "2023-06-14 00:08"
 cover: ""
 categories:
   - 游戏时间
@@ -47,7 +47,7 @@ SimpleMMO is a simple, yet deep pocket-sized MMO experience. It is an incrementa
 
 # [SMMOHelper](https://github.com/bmqy/QuantumultX/raw/master/Profiles/SMMOHelper.snippet)
 
-Simple-MMO 游戏助手，一款借助[QuantumltX](https://apps.apple.com/us/app/quantumult-x/id1443988620?l=zh)实现的游戏功能辅助工具，本助手致力于：不帮你玩游戏，但是可以让你更好地玩游戏。
+`Simple-MMO`游戏助手，一款借助[QuantumltX](https://apps.apple.com/us/app/quantumult-x/id1443988620?l=zh)实现的`APP`、`web`端游戏功能辅助工具，本助手致力于：不帮你玩游戏，但是可以让你更好地玩游戏。
 
 ## 功能
 

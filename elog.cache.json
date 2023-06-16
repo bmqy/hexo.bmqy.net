@@ -4,14 +4,14 @@
       "id": "d848da6f-f334-4e7a-90f4-6cbfd938b94a",
       "doc_id": "d848da6f-f334-4e7a-90f4-6cbfd938b94a",
       "title": "d848da6f-f334-4e7a-90f4-6cbfd938b94a",
-      "updated": 1686547260000,
-      "body_original": "\n# 简介\n\n\nSimpleMMO is a simple, yet deep pocket-sized MMO experience. It is an incremental RPG with MMO elements at its very core. All you need to do is take a step with a simple click of a button and away you go.\n\n\n# 网址\n\n\n[https://galahadcreative.com/simplemmo](https://galahadcreative.com/simplemmo)\n\n\n# 支持平台\n\n- [Web](https://web.simple-mmo.com/)\n- [Android](https://play.google.com/store/apps/details?id=dawsn.simplemmo&hl=en_GB&gl=US)\n- [iOS](https://apps.apple.com/us/app/simplemmo-the-text-mmorpg/id1606898406)\n\n# 预览图\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4bf472e-76ef-4375-8393-902ca17ddae4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230612%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230612T052538Z&X-Amz-Expires=3600&X-Amz-Signature=a83043111a17d0fc7701e2bfc3de060231c07dd41b473facdc51274dac8a0a79&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n# [SMMOHelper](https://github.com/bmqy/QuantumultX/raw/master/Profiles/SMMOHelper.snippet)\n\n\nSimple-MMO游戏助手，一款借助[QuantumltX](https://apps.apple.com/us/app/quantumult-x/id1443988620?l=zh)实现的游戏功能辅助工具，本助手致力于：不帮你玩游戏，但是可以让你更好地玩游戏。\n\n\n## 功能\n\n- 自动更新玩家`bio`，记录等级升级日志\n- 金币捐赠，默认：`2000`\n- 工作次数，默认：`10`\n\n## 食用方法\n\n- 添加`quanx`重写配置片段，并启用;\n- 进入游戏，手动提交更新`bio`(不需要修改直接提交保存即可);\n- 通知中可见“`token`已更新”，即为脚本启用成功;\n- 正常游戏(旅行、打怪、任务等)即可自动记录升级时间至`bio`中\n\n## 效果截图\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1fabc8e3-7d7e-4d71-8142-2e4b2db51713/CF8EA95F-F6E3-4C34-B57D-76BBB141EF1A.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230612%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230612T052538Z&X-Amz-Expires=3600&X-Amz-Signature=068b096954130a3f66e383eddc2218705e0db5e4264c1cf58b80d5d57b3becc5&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n",
+      "updated": 1686701280000,
+      "body_original": "\n# 简介\n\n\nSimpleMMO is a simple, yet deep pocket-sized MMO experience. It is an incremental RPG with MMO elements at its very core. All you need to do is take a step with a simple click of a button and away you go.\n\n\n# 网址\n\n\n[https://galahadcreative.com/simplemmo](https://galahadcreative.com/simplemmo)\n\n\n# 支持平台\n\n- [Web](https://web.simple-mmo.com/)\n- [Android](https://play.google.com/store/apps/details?id=dawsn.simplemmo&hl=en_GB&gl=US)\n- [iOS](https://apps.apple.com/us/app/simplemmo-the-text-mmorpg/id1606898406)\n\n# 预览图\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4bf472e-76ef-4375-8393-902ca17ddae4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230616T025245Z&X-Amz-Expires=3600&X-Amz-Signature=793df9cdb3340c56b0ed89be70375fdbf3b27b11a931edfd0a16d6d5edf1ca06&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n# [SMMOHelper](https://github.com/bmqy/QuantumultX/raw/master/Profiles/SMMOHelper.snippet)\n\n\n`Simple-MMO`游戏助手，一款借助[QuantumltX](https://apps.apple.com/us/app/quantumult-x/id1443988620?l=zh)实现的`APP`、`web`端游戏功能辅助工具，本助手致力于：不帮你玩游戏，但是可以让你更好地玩游戏。\n\n\n## 功能\n\n- 自动更新玩家`bio`，记录等级升级日志\n- 金币捐赠，默认：`2000`\n- 工作次数，默认：`10`\n\n## 食用方法\n\n- 添加`quanx`重写配置片段，并启用;\n- 进入游戏，手动提交更新`bio`(不需要修改直接提交保存即可);\n- 通知中可见“`token`已更新”，即为脚本启用成功;\n- 正常游戏(旅行、打怪、任务等)即可自动记录升级时间至`bio`中\n\n## 效果截图\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1fabc8e3-7d7e-4d71-8142-2e4b2db51713/CF8EA95F-F6E3-4C34-B57D-76BBB141EF1A.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230616T025245Z&X-Amz-Expires=3600&X-Amz-Signature=b5d9bc4a562489264de9efb5b1627781fb365ccaabeb0ac4ee592b6c4bcca6e5&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n",
       "properties": {
         "date": {
           "type": "string",
           "string": "2023-05-16 04:00"
         },
-        "updateTime": "2023-06-12T05:21:00.000Z",
+        "updateTime": "2023-06-14T00:08:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -32,7 +32,7 @@
         ],
         "updated": {
           "type": "string",
-          "string": "2023-06-12 05:21"
+          "string": "2023-06-14 00:08"
         },
         "cover": "",
         "categories": [
@@ -48,17 +48,19 @@
       "id": "59f4d383-35fc-4949-827c-df1854b6a690",
       "doc_id": "59f4d383-35fc-4949-827c-df1854b6a690",
       "title": "59f4d383-35fc-4949-827c-df1854b6a690",
-      "updated": 1684384980000,
-      "body_original": "\n关于笑果我觉得还是罗翔老师说的好，但是他们没有好好听啊\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9aa70800-c673-4b2d-9126-0f0ae6343450/QQ%E6%88%AA%E5%9B%BE20230518082054.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230522T053326Z&X-Amz-Expires=3600&X-Amz-Signature=37bdd8d28c9be09ce54e46b53ca5d3605049455db1c1239858b5f0ce65f8f4ff&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/930109e5-5291-48b4-964f-dd1db31f0be1/QQ%E6%88%AA%E5%9B%BE20230518082107.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230522T053326Z&X-Amz-Expires=3600&X-Amz-Signature=a830af939dc187e579ad7084e469ad93441b6d7b96a0afbddeb27a4890f56867&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7d5aa6fa-e8ab-4700-a718-d231f5ae43ad/QQ%E6%88%AA%E5%9B%BE20230518082119.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230522T053326Z&X-Amz-Expires=3600&X-Amz-Signature=87a646e05cbc05cc1c44cc4e9223c80ffad45017555a24ea5fce91da2f5534ad&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/52019dcd-57ee-49d0-9ce4-f10364ee87bb/QQ%E6%88%AA%E5%9B%BE20230518082131.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230522T053326Z&X-Amz-Expires=3600&X-Amz-Signature=27def22ce4e8f6067b936995a28e6f6a3c81c63ccd76ac0f9dfbd29b97df7245&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/376a1022-e683-4550-9258-f6fb72fc193c/QQ%E6%88%AA%E5%9B%BE20230518082216.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230522%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230522T053326Z&X-Amz-Expires=3600&X-Amz-Signature=766bfcb48cef7f1ac8b74daa23d4852ac141a839191076bc4a334ad33317e46e&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n",
+      "updated": 1686883680000,
+      "body_original": "\n关于笑果我觉得还是罗翔老师说的好，但是他们没有好好听啊\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9aa70800-c673-4b2d-9126-0f0ae6343450/QQ%E6%88%AA%E5%9B%BE20230518082054.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230616T025245Z&X-Amz-Expires=3600&X-Amz-Signature=9f078dc1c792d81d78bd70a00ba73b1c7d6170f499b53cdafe9879894d06ed64&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/930109e5-5291-48b4-964f-dd1db31f0be1/QQ%E6%88%AA%E5%9B%BE20230518082107.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230616T025245Z&X-Amz-Expires=3600&X-Amz-Signature=6858f085344b6df125e8e8da8779190eaee283989eb46a807a4bd1a090bc924c&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7d5aa6fa-e8ab-4700-a718-d231f5ae43ad/QQ%E6%88%AA%E5%9B%BE20230518082119.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230616T025245Z&X-Amz-Expires=3600&X-Amz-Signature=af9dcf47c86471f322375ce8fba6efb186164ab8e063ebeae59c5bb10270ba52&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/52019dcd-57ee-49d0-9ce4-f10364ee87bb/QQ%E6%88%AA%E5%9B%BE20230518082131.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230616T025245Z&X-Amz-Expires=3600&X-Amz-Signature=487f1c590e13483975f7548351adeb879219fdd2860e28832724bc79af44533f&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n\n![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/376a1022-e683-4550-9258-f6fb72fc193c/QQ%E6%88%AA%E5%9B%BE20230518082216.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230616T025245Z&X-Amz-Expires=3600&X-Amz-Signature=42a31f3848a856645818a6a5fcfd25c14b38dae8b01698b5dfaaea7002e6d6ae&X-Amz-SignedHeaders=host&x-id=GetObject)\n\n",
       "properties": {
         "date": {
           "type": "string",
           "string": "2023-05-18 00:22"
         },
-        "updateTime": "2023-05-18T04:43:00.000Z",
+        "updateTime": "2023-06-16T02:48:00.000Z",
+        "sort": "",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-05-18T00:22:00.000Z",
+        "recommend": "",
         "_updated": "",
         "excerpt": "关于笑果我觉得还是罗翔老师说的好，但是他们没有好好听啊",
         "summary": "",
@@ -69,9 +71,9 @@
         ],
         "updated": {
           "type": "string",
-          "string": "2023-05-18 04:43"
+          "string": "2023-06-16 02:48"
         },
-        "cover": "",
+        "cover": "https://image.bmqy.net/upload/FlzM4TKQpnXS2trbgyvPwO1cMi9Q.jpg",
         "categories": [
           "洗漱必吐"
         ],
@@ -6120,7 +6122,7 @@
       "object": "page",
       "id": "59f4d383-35fc-4949-827c-df1854b6a690",
       "created_time": "2023-05-18T00:22:00.000Z",
-      "last_edited_time": "2023-05-18T04:43:00.000Z",
+      "last_edited_time": "2023-06-16T02:48:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6141,7 +6143,7 @@
           "type": "string",
           "string": "2023-05-18 00:22"
         },
-        "updateTime": "2023-05-18T04:43:00.000Z",
+        "updateTime": "2023-06-16T02:48:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -6157,9 +6159,9 @@
         ],
         "updated": {
           "type": "string",
-          "string": "2023-05-18 04:43"
+          "string": "2023-06-16 02:48"
         },
-        "cover": "",
+        "cover": "https://image.bmqy.net/upload/FlzM4TKQpnXS2trbgyvPwO1cMi9Q.jpg",
         "categories": [
           "洗漱必吐"
         ],
@@ -6174,7 +6176,7 @@
       "object": "page",
       "id": "d848da6f-f334-4e7a-90f4-6cbfd938b94a",
       "created_time": "2023-05-16T04:00:00.000Z",
-      "last_edited_time": "2023-06-12T05:21:00.000Z",
+      "last_edited_time": "2023-06-14T00:08:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6195,7 +6197,7 @@
           "type": "string",
           "string": "2023-05-16 04:00"
         },
-        "updateTime": "2023-06-12T05:21:00.000Z",
+        "updateTime": "2023-06-14T00:08:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -6216,7 +6218,7 @@
         ],
         "updated": {
           "type": "string",
-          "string": "2023-06-12 05:21"
+          "string": "2023-06-14 00:08"
         },
         "cover": "",
         "categories": [
