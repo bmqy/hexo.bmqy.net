@@ -113,6 +113,7 @@ search:
     field: post
     content: true
     format: html
+    template: ./source/template/search.xml
 # 字数统计
 symbols_count_time:
     symbols: true
