@@ -168,7 +168,7 @@ live2d:
     react:
         opacity: 1
 # 生成 restful 风格的 json 数据
-restful:
+restful_api:
   # site 可配置为数组选择性生成某些属性
   # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
   site: true        # hexo.config mix theme.config
@@ -192,3 +192,9 @@ restful:
   use_tag_slug: false      # Use slug for filename of tag data
   post: true               # 文章数据
   pages: false             # 额外的 Hexo 页面数据, 如 About
+  swipers_list: ['2015-02-20-京城2015年的第一场雪', '2014-08-10-扬帆起航', '2014-08-15-蓝蓝的天上白云飘']          # 生成指定的页面信息,填写你文章文件夹名称比如['css','js']，不加后缀名,主要用于轮播图api
+  search_all:
+    enable: true   # 默认开启
+    path: api/search.json
+    field: post
+    content: true
