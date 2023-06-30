@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-06-20 17:27:37更新)
+## 博客目录(2023-06-30 10:28:56更新)
 
 [原地](https://www.bmqy.net/1568.html)
 
@@ -116,9 +116,9 @@
 
 [AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法](https://www.bmqy.net/1518.html)
 
-[dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://www.bmqy.net/1516.html)
-
 [dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/1517.html)
+
+[dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://www.bmqy.net/1516.html)
 
 [做梦也似大电影](https://www.bmqy.net/1515.html)
 
