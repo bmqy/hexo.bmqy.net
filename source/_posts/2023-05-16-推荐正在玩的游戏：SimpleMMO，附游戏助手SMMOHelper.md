@@ -1,6 +1,6 @@
 ---
 date: "2023-05-16 04:00"
-updateTime: "2023-06-14T00:08:00.000Z"
+updateTime: "2023-06-30T01:10:00.000Z"
 sort: ""
 catalog: []
 status: 已发布
@@ -18,7 +18,9 @@ tags:
   - Web游戏
   - SMMOHelper
   - 游戏助手
-updated: "2023-06-14 00:08"
+  - 油猴
+  - 脚本
+updated: "2023-06-30 01:10"
 cover: ""
 categories:
   - 游戏时间
@@ -45,22 +47,23 @@ SimpleMMO is a simple, yet deep pocket-sized MMO experience. It is an incrementa
 
 ![](https://image.bmqy.net/upload/FhPqRHB5j5EEOGrMUqFNAHbZTj5q.png)
 
-# [SMMOHelper](https://github.com/bmqy/QuantumultX/raw/master/Profiles/SMMOHelper.snippet)
+# [SMMOHelper](https://github.com/bmqy/SMMOHelper)
 
-`Simple-MMO`游戏助手，一款借助[QuantumltX](https://apps.apple.com/us/app/quantumult-x/id1443988620?l=zh)实现的`APP`、`web`端游戏功能辅助工具，本助手致力于：不帮你玩游戏，但是可以让你更好地玩游戏。
+[Sample-mmo.com](https://www.notion.so/bmqy/www.simple-mmo.com)SMMO 助手，web 端游戏功能辅助工具。本助手致力于：不帮你玩游戏，但是可以让你更好地玩游戏。
 
-## 功能
+# 功能：
 
-- 自动更新玩家`bio`，记录等级升级日志
-- 金币捐赠，默认：`2000`
-- 工作次数，默认：`10`
+- [x] 自动更新玩家`Bio`，记录等级升级日志
+- [x] 金币捐赠，默认：`2000`
+- [x] 工作次数，默认：`10`
+- [x] 支持`Safari`浏览器插件`UserScripts`
+- [ ] 暂无更多功能，或可向作者反馈
 
-## 食用方法
+# 方法:
 
-- 添加`quanx`重写配置片段，并启用;
-- 进入游戏，手动提交更新`bio`(不需要修改直接提交保存即可);
-- 通知中可见“`token`已更新”，即为脚本启用成功;
-- 正常游戏(旅行、打怪、任务等)即可自动记录升级时间至`bio`中
+- 浏览器安装油猴脚本管理扩展；
+- 安装此脚本；
+- 正常游戏(旅行、打怪、任务等)即可自动记录升级时间至`Bio`中
 
 ## 效果截图
 
