@@ -83,15 +83,15 @@ jobs:
             - name: Run with setup-python 3.7
               uses: actions/setup-python@v2
               with:
-                  python-version: 3.7
+                python-version: '3.7'
+                update-environment: false
+                cache: 'pipenv'
+            - name: Install pipenv
+              run: pip3 install --user pipenv
             - name: Install dependecies
-              uses: VaultVulp/action-pipenv@v2.0.1
-              with:
-                  command: install -d # Install all dependencies, including development ones
+              run:  pipenv --python python3 && pipenv install
             - name: Update readme
-              uses: VaultVulp/action-pipenv@v2.0.1
-              with:
-                  command: run readme
+              run: pipenv run python readme.py
 
             - name: Commit README.md # 更新README.md
               run: |
