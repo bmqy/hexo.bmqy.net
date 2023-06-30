@@ -7,9 +7,9 @@ name = "pypi"
 readme = "python readme.py"
 
 [packages]
-requests = "2.25.1"
-feedparser = "6.0.2"
-pytz = "2020.5"
+requests = "*"
+feedparser = "*"
+pytz = "*"
 
 [dev-packages]
 
