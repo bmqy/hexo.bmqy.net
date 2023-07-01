@@ -168,7 +168,7 @@ live2d:
     react:
         opacity: 1
 # 生成 restful 风格的 json 数据
-restful_api:
+restful_xapi:
   # site 可配置为数组选择性生成某些属性
   # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
   site: true        # hexo.config mix theme.config
@@ -196,5 +196,6 @@ restful_api:
   search_all:
     enable: true   # 默认开启
     path: api/search.json
-    field: post
+    cover: true
+    excerpt: false
     content: true
