@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-08-09 06:58:35更新)
+## 博客目录(2023-08-09 07:07:09更新)
+
+[地震云](https://www.bmqy.net/2655.html)
 
 [罗刹海市](https://www.bmqy.net/2654.html)
 
