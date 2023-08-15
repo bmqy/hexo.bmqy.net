@@ -6218,7 +6218,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-08-08 22:52",
+        "date": {
+          "type": "string",
+          "string": "2023-08-08 22:52"
+        },
         "updateTime": "2023-08-08T23:01:00.000Z",
         "sort": "",
         "catalog": [],
@@ -6233,14 +6236,17 @@
           "地震云",
           "伪科学"
         ],
-        "updated": "2023-08-08 23:01",
+        "updated": {
+          "type": "string",
+          "string": "2023-08-08 23:01"
+        },
         "cover": "",
         "categories": [
           "洗漱必吐",
           "一清二白"
         ],
         "abbrlink": 2655,
-        "urlname": "2023-08-08-地震云",
+        "urlname": "dd8479ba-d631-4f48-a46b-81368c087a67",
         "title": "地震云"
       },
       "url": "https://www.notion.so/dd8479bad6314f48a46b81368c087a67",
