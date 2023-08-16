@@ -6254,7 +6254,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-08-15 05:17",
+        "date": {
+          "type": "string",
+          "string": "2023-08-15 05:17"
+        },
         "updateTime": "2023-08-16T01:19:00.000Z",
         "sort": "",
         "catalog": [],
@@ -6270,13 +6273,16 @@
           "rss",
           "RssHub"
         ],
-        "updated": "2023-08-16 01:19",
+        "updated": {
+          "type": "string",
+          "string": "2023-08-16 01:19"
+        },
         "cover": "",
         "categories": [
           "燕衔春泥"
         ],
         "abbrlink": 2656,
-        "urlname": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
+        "urlname": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
         "title": "将chrome谷歌浏览器轻松打造成rss阅读器"
       },
       "url": "https://www.notion.so/chrome-rss-ad0bdbe68fcc41a3bf99a1b9fbd1850a",
