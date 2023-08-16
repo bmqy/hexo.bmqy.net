@@ -1,6 +1,6 @@
 ---
 date: "2023-08-15 05:17"
-updateTime: "2023-08-16T00:32:00.000Z"
+updateTime: "2023-08-16T01:19:00.000Z"
 sort: ""
 catalog: []
 status: 已发布
@@ -13,7 +13,8 @@ _date: ""
 tags:
   - chrome扩展
   - rss
-updated: "2023-08-16 00:32"
+  - RssHub
+updated: "2023-08-16 01:19"
 cover: ""
 categories:
   - 燕衔春泥
@@ -96,6 +97,10 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 进入设置页开启以下选项：
 
 新的网址输入框，填入：`chrome-extension://mefgmmbdailogpfhfblcnnjfmnpnmdfa/reader.html`
+
+## rss 订阅源
+
+`rss`订阅源推荐[RSSHub](https://github.com/DIYgod/RSSHub)，具体使用、自部署方法可参考官方文档。
 
 ## 其它
 
