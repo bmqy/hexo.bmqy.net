@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-08-19 11:48:12更新)
+## 博客目录(2023-08-19 11:54:52更新)
+
+[一剑开天门](https://www.bmqy.net/2657.html)
 
 [将chrome谷歌浏览器轻松打造成rss阅读器](https://www.bmqy.net/2656.html)
 
