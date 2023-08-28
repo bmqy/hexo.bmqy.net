@@ -1,6 +1,6 @@
 ---
 date: "2023-08-15 05:17"
-updateTime: "2023-08-16T01:19:00.000Z"
+updateTime: "2023-08-28T08:39:00.000Z"
 sort: ""
 catalog: []
 status: 已发布
@@ -14,7 +14,7 @@ tags:
   - chrome扩展
   - rss
   - RssHub
-updated: "2023-08-16 01:19"
+updated: "2023-08-28 08:39"
 cover: ""
 categories:
   - 燕衔春泥
@@ -80,6 +80,35 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 
     此外本扩展还提供了 Vimium C 的 vomnibar.html 的副本，您可以将 Vimium C 的“定制搜索框页面”选项设置为 chrome-extension://cglpcedifkgalfdklahhcchnjepcckfn/vomnibar.html ，这将有助于减少 Vimium C 自身的内存占用
 
+# 可选 RSS 阅读器
+
+除了`FeedBro`，另推荐以下`RSS`阅读器，作为可选浏览器端阅读工具：
+
+## [**RSS Reader Extension (by Inoreader)**](https://chrome.google.com/webstore/detail/rss-reader-extension-by-i/kfimphpokifbjgmjflanmfeppcjimgah)
+
+`Inoreader`官方出品`chrome`扩展
+
+> Build your own newsfeed
+
+    With Inoreader, content comes to you, the minute it's available. Subscribe to RSS Feeds, Blogs, Podcasts, Twitter searches, Facebook pages, even Email Newsletters! Get unfiltered news feeds or filter them to your liking.
+
+    Use the RSS Reader extension by Inoreader to boost your productivity without leaving your current tab.
+
+     ★ Keep an eye on the number of unread articles with the counter.
+     ★ Glance though your updated subscriptions with a single click.
+     ★ Subscribe to RSS feeds or save pages while you browse.
+     ★ Indicate when RSS feeds are detected on the current site
+     ★ Beautifully format RSS feeds directly into your browser
+
+## [**RSS 阅读器 - RSS Reader**](https://chrome.google.com/webstore/detail/rss-reader/bfdoopgbjcacghflbbdikollnphobemo)
+
+> 可以轻松地订阅多个网站的更新，并在一个应用程序中查看所有更新的摘要和标题。
+>
+> 1. 数据存储到本地。
+> 2. 可以直接阅读内容，也支持拉取原网页。
+> 3. 支持 RSS Feed / ATOM Feed / JSON Feed 格式的源
+> 4. AI 摘要
+
 # 食用方法
 
 安装好以上两款扩展后，分别对两款扩展进行以下设置，完成后即可每次开启新标签页都会打开`Feedbro`以尽情浏览`rss`文章。
@@ -96,7 +125,7 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 
 进入设置页开启以下选项：
 
-新的网址输入框，填入：`chrome-extension://mefgmmbdailogpfhfblcnnjfmnpnmdfa/reader.html`
+新的网址输入框，填入：`chrome-extension://mefgmmbdailogpfhfblcnnjfmnpnmdfa/reader.html`，**亦可填入其它阅读器的阅读地址**
 
 ## rss 订阅源
 
