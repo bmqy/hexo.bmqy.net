@@ -1,6 +1,6 @@
 ---
 date: "2023-08-15 05:17"
-updateTime: "2023-08-28T08:58:00.000Z"
+updateTime: "2023-08-29T01:10:00.000Z"
 sort: ""
 catalog: []
 status: 已发布
@@ -16,7 +16,8 @@ tags:
   - RssHub
   - Inoreader
   - rss阅读器
-updated: "2023-08-28 08:58"
+  - Stylus
+updated: "2023-08-29 01:10"
 cover: ""
 categories:
   - 燕衔春泥
@@ -101,6 +102,12 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
      ★ Subscribe to RSS feeds or save pages while you browse.
      ★ Indicate when RSS feeds are detected on the current site
      ★ Beautifully format RSS feeds directly into your browser
+
+### 配合 Chrome 扩展：[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+
+安装[InoReader RSS 阅读优化](https://userstyles.world/style/11774/inoreader-rss)用户样式后，效果如图：
+
+![](https://image.bmqy.net/upload/FpvQBl6ItMI6qRFWvGVNhxXMn2RN.jpg)
 
 ## [**RSS 阅读器 - RSS Reader**](https://chrome.google.com/webstore/detail/rss-reader/bfdoopgbjcacghflbbdikollnphobemo)
 
