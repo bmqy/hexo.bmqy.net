@@ -7890,7 +7890,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2020-12-20 00:00",
+        "date": {
+          "type": "string",
+          "string": "2020-12-20 00:00"
+        },
         "updateTime": "2023-09-25T10:03:00.000Z",
         "sort": "",
         "catalog": [],
@@ -7909,13 +7912,16 @@
           "捷径",
           "捷径自动化"
         ],
-        "updated": "2020-12-20 00:00",
+        "updated": {
+          "type": "string",
+          "string": "2020-12-20 00:00"
+        },
         "cover": "",
         "categories": [
           "燕坊清作"
         ],
         "abbrlink": 2318,
-        "urlname": "2020-12-20-【原创】ios捷径：法定工作日打卡提醒",
+        "urlname": "21f7b716-528a-46f5-9ddc-47f574cf0788",
         "title": "【原创】ios捷径：法定工作日打卡提醒"
       },
       "url": "https://www.notion.so/ios-21f7b716528a46f59ddc47f574cf0788",
