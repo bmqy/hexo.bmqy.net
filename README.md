@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-10-13 18:31:08更新)
+## 博客目录(2023-10-13 18:45:48更新)
+
+[Virtualbox安装Ubuntu不完全指北](https://www.bmqy.net/2658.html)
 
 [一剑开天门](https://www.bmqy.net/2657.html)
 
