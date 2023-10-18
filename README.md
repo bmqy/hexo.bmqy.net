@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-10-18 15:03:26更新)
+## 博客目录(2023-10-18 15:16:11更新)
+
+[Microsoft 365 E5开发者订阅管理员双重认证丢失解决方法](https://www.bmqy.net/2659.html)
 
 [Virtualbox安装Ubuntu不完全指北](https://www.bmqy.net/2658.html)
 
