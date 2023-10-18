@@ -6320,7 +6320,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-10-13 06:14",
+        "date": {
+          "type": "string",
+          "string": "2023-10-13 06:14"
+        },
         "updateTime": "2023-10-13T10:39:00.000Z",
         "sort": "",
         "catalog": [],
@@ -6338,13 +6341,16 @@
           "virtualbox双向粘贴",
           "virtualbox拖拽文件"
         ],
-        "updated": "2023-10-13 10:39",
+        "updated": {
+          "type": "string",
+          "string": "2023-10-13 10:39"
+        },
         "cover": "",
         "categories": [
           "清学小记"
         ],
         "abbrlink": 2658,
-        "urlname": "2023-10-13-Virtualbox安装Ubuntu不完全指北",
+        "urlname": "77608518-750e-4419-bd10-a49d38fc7042",
         "title": "Virtualbox安装Ubuntu不完全指北"
       },
       "url": "https://www.notion.so/Virtualbox-Ubuntu-77608518750e4419bd10a49d38fc7042",
