@@ -6356,7 +6356,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-10-18 06:58",
+        "date": {
+          "type": "string",
+          "string": "2023-10-18 06:58"
+        },
         "updateTime": "2023-10-18T07:13:00.000Z",
         "sort": "",
         "catalog": [],
@@ -6372,13 +6375,16 @@
           "e5双重认证",
           "Microsoft Authenticator"
         ],
-        "updated": "2023-10-18 07:13",
+        "updated": {
+          "type": "string",
+          "string": "2023-10-18 07:13"
+        },
         "cover": "",
         "categories": [
           "清学小记"
         ],
         "abbrlink": 2659,
-        "urlname": "2023-10-18-Microsoft 365 E5开发者订阅管理员双重认证丢失解决方法",
+        "urlname": "b17c0b3a-f643-402d-9fbf-eb71f7bc84e9",
         "title": "Microsoft 365 E5开发者订阅管理员双重认证丢失解决方法"
       },
       "url": "https://www.notion.so/Microsoft-365-E5-b17c0b3af643402d9fbfeb71f7bc84e9",
