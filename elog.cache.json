@@ -6330,9 +6330,96 @@
       "body": "",
       "realName": "2023-10-18-Microsoft 365 E5开发者订阅管理员双重认证丢失解决方法",
       "relativePath": "/2023-10-18-Microsoft 365 E5开发者订阅管理员双重认证丢失解决方法.md"
+    },
+    {
+      "id": "2c19fbeb-fc53-4892-b89c-0e38684dbcd9",
+      "doc_id": "2c19fbeb-fc53-4892-b89c-0e38684dbcd9",
+      "title": "2c19fbeb-fc53-4892-b89c-0e38684dbcd9",
+      "updated": 1700096040000,
+      "body_original": "\n# 飞起\n\n\n`Windows 11`更新`23H2`遇到`下载错误 - 0x80246019`的解决办法：\n\n- 关闭`在最新更新可用后立即获取`选项\n\n之后即可成功下载并更新。\n\n\n# 起因\n\n\n更新前看到了这个按钮，觉得功能不错，可以第一时间获取新的更新就开启了这个选项，然后点了下载更新，结果就是报错`下载错误 - 0x80246019`。\n\n\n当我关了更新界面再重新打开试试看，结果还获取不到这个`23H2`的更新了。\n\n\n于是搜索了下，发现了神评论：\n\n\n> [https://bbs.pcbeta.com/forum.php?mod=redirect&goto=findpost&ptid=1985253&pid=54574045](https://bbs.pcbeta.com/forum.php?mod=redirect&goto=findpost&ptid=1985253&pid=54574045)\n\n\n在此感谢下！！\n\n\n再膜拜下巨硬。。。\n\n",
+      "properties": {
+        "date": "2023-11-16 00:42",
+        "updateTime": "2023-11-16T00:54:00.000Z",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "insertTime": "2023-11-16T00:42:00.000Z",
+        "recommend": "",
+        "_updated": "",
+        "excerpt": "Windows 11更新23H2遇到下载错误 - 0x80246019的解决办法：",
+        "summary": "",
+        "_date": "",
+        "tags": [
+          "windows",
+          "23H2",
+          "下载错误",
+          "0x80246019"
+        ],
+        "updated": "2023-11-16 00:54",
+        "cover": "",
+        "categories": [
+          "清学小记"
+        ],
+        "abbrlink": 2660,
+        "urlname": "2023-11-16-Windows 11 23H2更新遇到下载错误解决方法",
+        "title": "Windows 11 23H2更新遇到下载错误解决方法"
+      },
+      "body": "",
+      "realName": "2023-11-16-Windows 11 23H2更新遇到下载错误解决方法",
+      "relativePath": "/2023-11-16-Windows 11 23H2更新遇到下载错误解决方法.md"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "2c19fbeb-fc53-4892-b89c-0e38684dbcd9",
+      "created_time": "2023-11-16T00:42:00.000Z",
+      "last_edited_time": "2023-11-16T00:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "d8a50f43-ec09-4b49-9082-44b0f6627cc3"
+      },
+      "archived": false,
+      "properties": {
+        "date": "2023-11-16 00:42",
+        "updateTime": "2023-11-16T00:54:00.000Z",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "insertTime": "2023-11-16T00:42:00.000Z",
+        "recommend": "",
+        "_updated": "",
+        "excerpt": "Windows 11更新23H2遇到下载错误 - 0x80246019的解决办法：",
+        "summary": "",
+        "_date": "",
+        "tags": [
+          "windows",
+          "23H2",
+          "下载错误",
+          "0x80246019"
+        ],
+        "updated": "2023-11-16 00:54",
+        "cover": "",
+        "categories": [
+          "清学小记"
+        ],
+        "abbrlink": 2660,
+        "urlname": "2023-11-16-Windows 11 23H2更新遇到下载错误解决方法",
+        "title": "Windows 11 23H2更新遇到下载错误解决方法"
+      },
+      "url": "https://www.notion.so/Windows-11-23H2-2c19fbebfc534892b89c0e38684dbcd9",
+      "public_url": null
+    },
     {
       "object": "page",
       "id": "b17c0b3a-f643-402d-9fbf-eb71f7bc84e9",
@@ -9631,7 +9718,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2014-09-25 00:00",
+        "date": {
+          "type": "string",
+          "string": "2014-09-25 00:00"
+        },
         "updateTime": "2023-11-16T00:23:00.000Z",
         "sort": "",
         "catalog": [],
@@ -9647,13 +9737,16 @@
           "数据流量不能上网",
           "翻墙软件"
         ],
-        "updated": "2014-09-25 00:00",
+        "updated": {
+          "type": "string",
+          "string": "2014-09-25 00:00"
+        },
         "cover": "",
         "categories": [
           "洗漱必吐"
         ],
         "abbrlink": 1533,
-        "urlname": "2014-09-25-miui开启节省流量功能后数据流量不能使用的问题",
+        "urlname": "53e71856-ade1-415d-a131-8a713bc01259",
         "title": "miui开启节省流量功能后数据流量不能使用的问题"
       },
       "url": "https://www.notion.so/miui-53e71856ade1415da1318a713bc01259",
