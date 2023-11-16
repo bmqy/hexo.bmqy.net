@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-11-16 08:48:08更新)
+## 博客目录(2023-11-16 08:57:13更新)
+
+[Windows 11 23H2更新遇到下载错误解决方法](https://www.bmqy.net/2660.html)
 
 [Microsoft 365 E5开发者订阅管理员双重认证丢失解决方法](https://www.bmqy.net/2659.html)
 
