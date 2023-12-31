@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2023-11-16 08:57:13更新)
+## 博客目录(2024-01-01 00:07:43更新)
 
 [Windows 11 23H2更新遇到下载错误解决方法](https://www.bmqy.net/2660.html)
 
@@ -33,6 +33,8 @@
 [推荐正在玩的游戏：SimpleMMO，附游戏助手SMMOHelper](https://www.bmqy.net/2652.html)
 
 [集成Elog使用notion数据库](https://www.bmqy.net/2651.html)
+
+[【原创】ios捷径：法定工作日打卡提醒](https://www.bmqy.net/2318.html)
 
 [测试AI](https://www.bmqy.net/2650.html)
 
