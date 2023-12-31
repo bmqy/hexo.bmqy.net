@@ -1,9 +1,11 @@
 ---
 date: "2018-08-02 00:00"
-updateTime: "2023-05-08T00:18:00.000Z"
+updateTime: "2023-11-17T09:27:00.000Z"
+sort: ""
 catalog: []
 status: 已发布
 insertTime: "2023-04-28T14:04:00.000Z"
+recommend: ""
 _updated: ""
 excerpt: "vscode本地调试asp，需要的准备工作如下：\n1、安装“IIS\_Express”扩展，成功会有提示帮你安装好“IIS\_Express”程序；\n2、打开“IIS\_Express”程序的“applicationhost.config”文件，路径为：C:{{用户名}}；\n3、找到以下内容，设置默认首页"
 summary: ""
