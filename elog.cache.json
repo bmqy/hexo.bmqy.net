@@ -8161,7 +8161,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-04-28 14:04",
+        "date": {
+          "type": "string",
+          "string": "2023-04-28 14:04"
+        },
         "updateTime": "2023-12-31T15:55:00.000Z",
         "sort": "",
         "catalog": [],
@@ -8180,13 +8183,16 @@
           "捷径",
           "捷径自动化"
         ],
-        "updated": "2023-12-31 15:55",
+        "updated": {
+          "type": "string",
+          "string": "2023-12-31 15:55"
+        },
         "cover": "",
         "categories": [
           "燕坊清作"
         ],
         "abbrlink": 2318,
-        "urlname": "2023-04-28-【原创】ios捷径：法定工作日打卡提醒",
+        "urlname": "21f7b716-528a-46f5-9ddc-47f574cf0788",
         "title": "【原创】ios捷径：法定工作日打卡提醒"
       },
       "url": "https://www.notion.so/ios-21f7b716528a46f59ddc47f574cf0788",
@@ -12958,7 +12964,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2018-05-23 00:00",
+        "date": {
+          "type": "string",
+          "string": "2018-05-23 00:00"
+        },
         "updateTime": "2023-11-17T09:29:00.000Z",
         "sort": "",
         "catalog": [],
@@ -12973,13 +12982,16 @@
           "vscode",
           "标题栏完整路径"
         ],
-        "updated": "2018-05-23 00:00",
+        "updated": {
+          "type": "string",
+          "string": "2018-05-23 00:00"
+        },
         "cover": "",
         "categories": [
           "燕衔春泥"
         ],
         "abbrlink": 1451,
-        "urlname": "2018-05-23-vscode软件窗口标题栏显示文件完整路径",
+        "urlname": "b66872dd-650e-450c-a4f5-b70ebde0cd50",
         "title": "vscode软件窗口标题栏显示文件完整路径"
       },
       "url": "https://www.notion.so/vscode-b66872dd650e450ca4f5b70ebde0cd50",
@@ -13720,7 +13732,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2018-08-02 00:00",
+        "date": {
+          "type": "string",
+          "string": "2018-08-02 00:00"
+        },
         "updateTime": "2023-11-17T09:27:00.000Z",
         "sort": "",
         "catalog": [],
@@ -13736,13 +13751,16 @@
           "vscode",
           "本地调试"
         ],
-        "updated": "2018-08-02 00:00",
+        "updated": {
+          "type": "string",
+          "string": "2018-08-02 00:00"
+        },
         "cover": "",
         "categories": [
           "清学小记"
         ],
         "abbrlink": 1711,
-        "urlname": "2018-08-02-vscode本地调试asp",
+        "urlname": "c6b7b7b5-bd11-41e4-8719-3edd6b242e49",
         "title": "vscode本地调试asp"
       },
       "url": "https://www.notion.so/vscode-asp-c6b7b7b5bd1141e487193edd6b242e49",
