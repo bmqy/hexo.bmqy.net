@@ -10152,7 +10152,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2022-08-07 03:48",
+        "date": {
+          "type": "string",
+          "string": "2022-08-07 03:48"
+        },
         "updateTime": "2024-01-11T00:53:00.000Z",
         "sort": "",
         "catalog": [],
@@ -10168,13 +10171,16 @@
           "next",
           "再次折腾"
         ],
-        "updated": "2023-05-08 08:38",
+        "updated": {
+          "type": "string",
+          "string": "2023-05-08 08:38"
+        },
         "cover": "",
         "categories": [
           "清学小记"
         ],
         "abbrlink": 2649,
-        "urlname": "2022-08-07-再次折腾hexo",
+        "urlname": "6c96013b-9a01-4253-a721-8eb26ecb60f9",
         "title": "再次折腾hexo"
       },
       "url": "https://www.notion.so/hexo-6c96013b9a014253a7218eb26ecb60f9",
