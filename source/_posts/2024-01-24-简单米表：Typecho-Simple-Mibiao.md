@@ -1,6 +1,6 @@
 ---
 date: "2024-01-24 00:19"
-updateTime: "2024-01-24T00:35:00.000Z"
+updateTime: "2024-01-24T13:48:00.000Z"
 sort: ""
 catalog: []
 status: 已发布
@@ -16,7 +16,8 @@ tags:
   - typecho
   - 米表
   - 简单米表
-updated: "2024-01-24 00:35"
+  - Typecho-Simple-Mibiao
+updated: "2024-01-24 13:48"
 cover: ""
 categories:
   - 燕坊清作
@@ -28,6 +29,10 @@ title: 简单米表：Typecho-Simple-Mibiao
 基于 Typecho 打造的简单米表系统。
 
 功能简单，安装完成即可使用。
+
+代码库：[GitHub](https://github.com/bmqy/Typecho-Simple-Mibiao)
+
+站点：[简单米表](https://mi.bmqy.net/)
 
 ## **功能介绍**
 
