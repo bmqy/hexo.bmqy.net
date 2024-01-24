@@ -2465,17 +2465,16 @@
       "id": "6c96013b-9a01-4253-a721-8eb26ecb60f9",
       "doc_id": "6c96013b-9a01-4253-a721-8eb26ecb60f9",
       "title": "6c96013b-9a01-4253-a721-8eb26ecb60f9",
-      "updated": 1683592320000,
+      "updated": 1704934380000,
       "body_original": "\n# 2023年05月06日\n\n\n集成`Elog`，重新启用`COS`…\n\n\n## 2023-03-30\n\n\n再次更新部署到虚拟机上，弃用`COS`。\n\n\n## 2022-08-07\n\n\n再一次开始折腾`hexo`了，为了省下高昂的服务器费用，为了利用上永久的虚拟主机。 只不过可惜的是虚拟主机不能支持 https，所以无奈使用了`COS`。 还有一点就是用`markdown`写文章感觉确实不错，再加上`github action`加持，`hexo`用起来感觉也是相当不错的. 而且服务器的话`WordPress`还要考虑一堆的性能优化问题，静态博客就完全不用担心了。 下面简单记录下`hexo`的部署配置问题。\n\n\n## Hexo 配置\n\n\n### 固定 ID\n\n\n固定 ID 推荐使用`hexo-abbrlink2`\n\n- Add plugin to Hexo:\n\n```shell\nnpm install hexo-abbrlink2 --save\n```\n\n- Modify permalink in `config.yml` file:\n\n```yaml\npermalink: posts/:abbrlink/\n```\n\n- optional settings:\n\n```yaml\nabbrlink:\n  start: 1000 # the first id, default 0\n```\n\n\n### 资源目录\n\n\n```yaml\n# Directory\nsource_dir: source\n```\n\n\n在引用图片时通过路径`/images/image.jpg`，引入图片资源\n\n\n## Next 配置\n\n\n### 创建标签云\n\n\n默认无标签页，打开链接会`404` 创建标签页：\n\n\n```shell\nhexo new page tags\n```\n\n\n```markdown\n---\ndate: 2021-08-04 13:22:27\ntype: \"tags\"\n---\n```\n\n\n### 创建分类页\n\n\n默认无分类页，打开链接会`404` 创建分类页：\n\n\n```shell\nhexo new page categories\n```\n\n\n```markdown\n---\ndate: 2021-08-04 13:22:33\ntype: \"categories\"\n---\n```\n\n\n### 自定义样式\n\n\n`hexo`根目录下的`source`新增一个`_data`目录，在该目录下新建`styles.styl`，这个文件将存放我们自定义的样式，然后在`_config.next.yml`文件中`custom_file_path`选项里面将`style`那一行取消注释。\n\n\n```yaml\ncustom_file_path:\n    #head: source/_data/head.njk\n    #header: source/_data/header.njk\n    #sidebar: source/_data/sidebar.njk\n    #postMeta: source/_data/post-meta.njk\n    #postBodyEnd: source/_data/post-body-end.njk\n    #footer: source/_data/footer.njk\n    #bodyEnd: source/_data/body-end.njk\n    #variable: source/_data/variables.styl\n    #mixin: source/_data/mixins.styl\n    style: source/_data/styles.styl\n```\n\n\n### 添加备案号\n\n\n```yaml\nfooter:\n    # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn\n    beian:\n        enable: true\n        icp: xxxxxx\n```\n\n\n## 自动化部署\n\n\n### COS\n\n- Installation\n\n```yaml\nnpm install hexo-deployer-cos --save\n```\n\n- Options You can configure in _config.yml as follows:\n\n```yaml\ndeploy:\n  type: cos\n  secretId: yourSecretId\n  secretKey: yourSecretKey\n  bucket: yourBucket\n  region: yourRegion\n```\n\n\n> For projects that use pipelines, you may not want to expose COS properties in the project file, so we support getting them through environment variables.\n\n\n```yaml\nCOS_SECRET_ID=yourSecretId\nCOS_SECRET_KEY=yourSecretKey\nCOS_BUCKET=yourBucket\nCOS_REGION=yourRegion\n```\n\n\n> Environment variables have lower priority than _config.xml configuration\n\n\n### FTPSync\n\n- Install hexo-deployer-ftpsync.\n\n```shell\nnpm install hexo-deployer-ftpsync --save\n```\n\n- Edit settings.\n\n```yaml\ndeploy:\n  type: ftpsync\n  host: <host>\n  user: <user>\n  pass: <password>\n  remote: [remote]\n  port: [port]\n  ignore: [ignore]\n  connections: [connections]\n  verbose: [true|false]\n```\n\n\n### 文章更新时间设置：\n\n\n> updated_option\n\n\n\tupdated_option 控制了当 Front Matter 中没有指定 updated 时，updated 如何取值：\n\n\n\tmtime: 使用文件的最后修改时间。这是从 Hexo 3.0.0 开始的默认行为。\n\n\n\tdate: 使用 date 作为 updated 的值。可被用于 Git 工作流之中，因为使用 Git 管理站点时，文件的最后修改日期常常会发生改变\n\n\n\tempty: 直接删除 updated。使用这一选项可能会导致大部分主题和插件无法正常工作。 use_date_for_updated 选项已经被废弃，将会在下个重大版本发布时去除。请改为使用 updated_option: ‘date’。\n\n\n### CDN 缓存刷新\n\n\n### 方案一\n\n\n> 该方案参考自：https://segmentfault.com/a/1190000039707833\n\n\n\t![](https://image.bmqy.net/upload/WX20220806-220705@2x.png)\n\n\n\t但这个方案存在一个问题，由于我们的静态网站有默认索引页面 index.html，而官方提供的这个函数只会刷新对应的文件的 URL，而不会刷新索引 URL，例如http://www.bytelife.net/index.html这个文件，通常我们的请求是http://www.bytelife.net/，因此官方的方案针对于静态网站来说不算完美。\n\n\n\t优化方案 可以通过简单修改官方的函数来解决这个问题，点击刚刚创建的 CDN 缓存刷新函数列表中的函数名称，将 index.js 文件内容替换为下面的代码，最后点击右上角的“部署”按钮即可：\n\n\n```javascript\n/* eslint-disable no-param-reassign */'use strict';const TimeoutWatcher = require('./common/TimeoutWatcher');const CosCdnRefreshTask = require('./common/CosCdnRefreshTask');const { getParams, logger, getLogSummary } = require('./common/utils');exports.main_handler = async (event, context) => {    /**     * set a timer to terminate the cdn refresh task, ensure log message is printed     */    let runningTask;    const watcher = new TimeoutWatcher({        timeLimit: context.time_limit_in_ms,        trigger(error) {            if (runningTask && runningTask.cancelTask) {                runningTask.cancelTask(error);            }        },        error: new Error('task is timeout'),    });    logger({        title: 'param as follow: ',        data: { event },    });    /**     * parse param from event and process.env     */    const { secretId, secretKey, token, objects, triggerType, cdnHosts } =        getParams(event);    logger({        title: 'param is parsed success',    });    const taskResults = [];    const task = new CosCdnRefreshTask({        secretId,        secretKey,        token,        objects,        triggerType,        cdnHosts,    });    if (watcher.isTimeout()) {        // if current is timeout, trigger the cancel task in next tick        process.nextTick(() => task.cancelTask(watcher.error));    } else {        runningTask = task;    }    const results = await task.runTask();    results.forEach((item) => {        taskResults.push(item);        // 如果以 /index.html 结尾，则增加目录首页/        // 例如 https://www.xxxx.com/index.html, 则增加 https://www.xxxx.com/        if (            item.params.urls[0].lastIndexOf('/index.html') ==            item.params.urls[0].length - 11        ) {            taskResults.push(item.substr(0, item.length - 10));        }    });    watcher.clear();    logger({        title: 'cos cdn refresh full logs:',        data: taskResults,    });    const { status, messages } = getLogSummary({        name: 'cos cdn refresh',        results: taskResults,    });    logger({        messages: messages.map((item) => item.replace(/, /g, '\\n')),    });    context.callbackWaitsForEmptyEventLoop = false;    if (status === 'fail') {        throw messages.join('; ');    } else {        return messages.join('; ');    }};\n```\n\n\n### 方案二\n\n\n> 该方案参考自：https://blog.xm.mk/posts/fc83/#%E7%BC%93%E5%AD%98%E5%88%B7%E6%96%B0%E8%84%9A%E6%9C%AC\n\n\n\t使用腾讯云的 Python-SDK 实现，写一个 Python 脚本，在部署完成后执行脚本调用 API 完成缓存刷新。\n\n\n\t在仓库根目录下创建文件 flush-dns.py，文件内容如下，将其中的 https://blog.example.com/ 修改为你的 CDN 加速域名。\n\n\n```python\nimport jsonimport argparsefrom tencentcloud.common import credentialfrom tencentcloud.common.profile.client_profile import ClientProfilefrom tencentcloud.common.profile.http_profile import HttpProfilefrom tencentcloud.common.exception.tencent_cloud_sdk_exception import (    TencentCloudSDKException,)from tencentcloud.cdn.v20180606 import cdn_client, models# 传入参数parser = argparse.ArgumentParser(description='-i <secretId> -k <secretKey>')parser.add_argument('-i', '--secretid', type=str, required=True, help='secretId')parser.add_argument('-k', '--secretkey', type=str, required=True, help='secretKey')args = parser.parse_args()try:    cred = credential.Credential(args.secretid,args.secretkey)    httpProfile = HttpProfile()    httpProfile.endpoint = \"cdn.tencentcloudapi.com\"    clientProfile = ClientProfile()    clientProfile.httpProfile = httpProfile    client = cdn_client.CdnClient(cred, \"\", clientProfile)    req = models.PurgePathCacheRequest()    params = {\"Paths\": [\"https://blog.example.com/\"], \"FlushType\": \"flush\"}    req.from_json_string(json.dumps(params))    resp = client.PurgePathCache(req)    print(resp.to_json_string())except TencentCloudSDKException as err:    print(err)\n```\n\n\n> 创建完脚本后，需要在工作流中调用，配置如下：\n\n\n```yaml\n- name: Flush CDN  env:      SECRET_ID: ${{ secrets.SecretId }} # 传入鉴权信息      SECRET_KEY: ${{ secrets.SecretKey }}  run: | # 安装 sdk 并运行刷新脚本      pip install --upgrade tencentcloud-sdk-python      python flush-dns.py -i $SECRET_ID -k $SECRET_KEY\n```\n\n\n## COS 配置\n\n\n### 重定向规则\n\n\n由于当时用`WordPress`时提供的`rss`订阅地址为`/feed/`，现在的订阅地址`/feed.xml`，为了兼容`WordPress`时订阅地址，需要做重定向规则配置：\n\n- 选择要设置的存储桶 - 基础配置 - 静态网站 - 编辑 - 重定向规则 - 新增规则，参考如下图配置：\n\n\t![](https://image.bmqy.net/upload/QQ截图20220811142033.jpg)\n\n- 内容分发网络 `CDN` 配置\n\t- 回源配置\n\t- 回源跟随 301/302 配置\n\t- 配置状态 - 开启\n- 配置完毕后，即可正常访问`/feed/`订阅地址\n",
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2022-08-07 03:48"
-        },
-        "updateTime": "2023-05-09T00:32:00.000Z",
+        "date": "2022-08-07 03:48",
+        "updateTime": "2024-01-11T00:53:00.000Z",
+        "sort": "",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-04-28T14:04:00.000Z",
+        "recommend": "",
         "_updated": "2023-05-08T08:38:00.000+08:00",
         "excerpt": "再一次开始折腾hexo了，为了省下高昂的服务器费用，为了利用上永久的虚拟主机。 只不过可惜的是虚拟主机不能支持 https，所以无奈使用了COS。 还有一点就是用markdown写文章感觉确实不错，再加上github action加持，hexo用起来感觉也是相当不错的. 而且服务器的话WordPress还要考虑一堆的性能优化问题，静态博客就完全不用担心了。 下面简单记录下hexo的部署配置问题。",
         "summary": "",
@@ -2485,19 +2484,18 @@
           "next",
           "再次折腾"
         ],
-        "updated": {
-          "type": "string",
-          "string": "2023-05-08 08:38"
-        },
+        "updated": "2023-05-08 08:38",
         "cover": "",
         "categories": [
           "清学小记"
         ],
         "abbrlink": 2649,
-        "urlname": "6c96013b-9a01-4253-a721-8eb26ecb60f9",
+        "urlname": "2022-08-07-再次折腾hexo",
         "title": "再次折腾hexo"
       },
-      "body": ""
+      "body": "",
+      "realName": "2022-08-07-再次折腾hexo",
+      "relativePath": "/2022-08-07-再次折腾hexo.md"
     },
     {
       "id": "7766d2c8-6d7f-4f52-923a-e1c94b2791a8",
@@ -10137,7 +10135,7 @@
       "object": "page",
       "id": "6c96013b-9a01-4253-a721-8eb26ecb60f9",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2023-05-09T00:32:00.000Z",
+      "last_edited_time": "2024-01-11T00:53:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -10154,11 +10152,8 @@
       },
       "archived": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2022-08-07 03:48"
-        },
-        "updateTime": "2023-05-09T00:32:00.000Z",
+        "date": "2022-08-07 03:48",
+        "updateTime": "2024-01-11T00:53:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -10173,16 +10168,13 @@
           "next",
           "再次折腾"
         ],
-        "updated": {
-          "type": "string",
-          "string": "2023-05-08 08:38"
-        },
+        "updated": "2023-05-08 08:38",
         "cover": "",
         "categories": [
           "清学小记"
         ],
         "abbrlink": 2649,
-        "urlname": "6c96013b-9a01-4253-a721-8eb26ecb60f9",
+        "urlname": "2022-08-07-再次折腾hexo",
         "title": "再次折腾hexo"
       },
       "url": "https://www.notion.so/hexo-6c96013b9a014253a7218eb26ecb60f9",
