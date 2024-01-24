@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-01-24 08:41:17更新)
+## 博客目录(2024-01-24 21:56:11更新)
 
 [简单米表：Typecho-Simple-Mibiao](https://www.bmqy.net/2661.html)
 
