@@ -6361,9 +6361,94 @@
       "body": "",
       "realName": "2023-11-16-Windows 11 23H2更新遇到下载错误解决方法",
       "relativePath": "/2023-11-16-Windows 11 23H2更新遇到下载错误解决方法.md"
+    },
+    {
+      "id": "85d8f841-8dfa-4cbb-87de-6098f1273efe",
+      "doc_id": "85d8f841-8dfa-4cbb-87de-6098f1273efe",
+      "title": "85d8f841-8dfa-4cbb-87de-6098f1273efe",
+      "updated": 1706056500000,
+      "body_original": "\n基于 Typecho 打造的简单米表系统。\n\n\n功能简单，安装完成即可使用。\n\n\n## **功能介绍**\n\n- 域名管理；\n\t- 支持设置所属平台；\n\t- 支持设置出售页地址；\n\t- 支持设置标签（暂未使用）；\n- 主题选择；\n\t- 默认使用简单米表主题；\n\t- 集成[小票米表主题](https://github.com/BitCodepot/xp_mb)，感谢 @Sen.ge 分享；\n- 主题自定义设置；\n- 访问计数；\n\t- 需自行在域名服务商解析配置中，设置域名跳转地址为：`米表域名?referrer=售卖域名`\n\n## 截图预览\n\n\n### 前台界面\n\n\n![](https://image.bmqy.net/upload/tsm1.png)\n\n\n![](https://image.bmqy.net/upload/tsm2.png)\n\n\n![](https://image.bmqy.net/upload/xp1.png)\n\n\n### 后台界面\n\n\n![](https://image.bmqy.net/upload/tsma1.png)\n\n\n![](https://image.bmqy.net/upload/tsma2.png)\n\n\n![](https://image.bmqy.net/upload/tsma3.png)\n\n\n![](https://image.bmqy.net/upload/tsma4.png)\n\n\n![](https://image.bmqy.net/upload/tsma5.png)\n\n\n![](https://image.bmqy.net/upload/tsma6.png)\n\n\n## 联系作者\n\n\n[@chanel](https://t.me/tcbmqy)\n\n[@group](https://t.me/tgbmqy)\n\n",
+      "properties": {
+        "date": "2024-01-24 00:19",
+        "updateTime": "2024-01-24T00:35:00.000Z",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "insertTime": "2024-01-24T00:19:00.000Z",
+        "recommend": "",
+        "_updated": "",
+        "excerpt": "基于 Typecho 打造的简单米表系统。\n功能简单，安装完成即可使用。",
+        "summary": "",
+        "_date": "",
+        "tags": [
+          "typecho",
+          "米表",
+          "简单米表"
+        ],
+        "updated": "2024-01-24 00:35",
+        "cover": "",
+        "categories": [
+          "燕坊清作"
+        ],
+        "abbrlink": 2661,
+        "urlname": "2024-01-24-简单米表：Typecho-Simple-Mibiao",
+        "title": "简单米表：Typecho-Simple-Mibiao"
+      },
+      "body": "",
+      "realName": "2024-01-24-简单米表：Typecho-Simple-Mibiao",
+      "relativePath": "/2024-01-24-简单米表：Typecho-Simple-Mibiao.md"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "85d8f841-8dfa-4cbb-87de-6098f1273efe",
+      "created_time": "2024-01-24T00:19:00.000Z",
+      "last_edited_time": "2024-01-24T00:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "d8a50f43-ec09-4b49-9082-44b0f6627cc3"
+      },
+      "archived": false,
+      "properties": {
+        "date": "2024-01-24 00:19",
+        "updateTime": "2024-01-24T00:35:00.000Z",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "insertTime": "2024-01-24T00:19:00.000Z",
+        "recommend": "",
+        "_updated": "",
+        "excerpt": "基于 Typecho 打造的简单米表系统。\n功能简单，安装完成即可使用。",
+        "summary": "",
+        "_date": "",
+        "tags": [
+          "typecho",
+          "米表",
+          "简单米表"
+        ],
+        "updated": "2024-01-24 00:35",
+        "cover": "",
+        "categories": [
+          "燕坊清作"
+        ],
+        "abbrlink": 2661,
+        "urlname": "2024-01-24-简单米表：Typecho-Simple-Mibiao",
+        "title": "简单米表：Typecho-Simple-Mibiao"
+      },
+      "url": "https://www.notion.so/Typecho-Simple-Mibiao-85d8f8418dfa4cbb87de6098f1273efe",
+      "public_url": null
+    },
     {
       "object": "page",
       "id": "2c19fbeb-fc53-4892-b89c-0e38684dbcd9",
