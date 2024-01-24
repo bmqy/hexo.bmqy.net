@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-01-24 08:36:07更新)
+## 博客目录(2024-01-24 08:41:17更新)
+
+[简单米表：Typecho-Simple-Mibiao](https://www.bmqy.net/2661.html)
 
 [Windows 11 23H2更新遇到下载错误解决方法](https://www.bmqy.net/2660.html)
 
