@@ -6422,7 +6422,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2024-01-24 00:19",
+        "date": {
+          "type": "string",
+          "string": "2024-01-24 00:19"
+        },
         "updateTime": "2024-01-24T13:48:00.000Z",
         "sort": "",
         "catalog": [],
@@ -6439,13 +6442,16 @@
           "简单米表",
           "Typecho-Simple-Mibiao"
         ],
-        "updated": "2024-01-24 13:48",
+        "updated": {
+          "type": "string",
+          "string": "2024-01-24 13:48"
+        },
         "cover": "",
         "categories": [
           "燕坊清作"
         ],
         "abbrlink": 2661,
-        "urlname": "2024-01-24-简单米表：Typecho-Simple-Mibiao",
+        "urlname": "85d8f841-8dfa-4cbb-87de-6098f1273efe",
         "title": "简单米表：Typecho-Simple-Mibiao"
       },
       "url": "https://www.notion.so/Typecho-Simple-Mibiao-85d8f8418dfa4cbb87de6098f1273efe",
