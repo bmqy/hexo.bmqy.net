@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-02-23 18:54:59更新)
+## 博客目录(2024-03-15 13:14:19更新)
+
+[【原创】油猴脚本：论坛快捷回帖](https://www.bmqy.net/2662.html)
 
 [简单米表：Typecho-Simple-Mibiao](https://www.bmqy.net/2661.html)
 
