@@ -6399,11 +6399,11 @@
       "id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
       "doc_id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
       "title": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
-      "updated": 1710479340000,
-      "body_original": "\n# 简介\n\n\n使用自定义内容或本扩展预定义的回帖内容，快捷回复支持的论坛的发帖！\n\n\n# 特性\n\n- 支持绝大多数`Discuz`论坛，支持度`99%`\n- 登录账号可`实时同步`，换个电脑一样用\n- `AI`加持：`是帖皆可回复！！！`\n\n## 支持站点\n\n\n### Discuz\n\n- [吾爱破解](https://www.52pojie.cn/)\n- [Discuz!官方交流社区](https://www.dismall.com/forum.php)\n- [油猴中文网](https://bbs.tampermonkey.net.cn/)\n- [全球主机交流论坛](https://hostloc.com/)\n- 不一一列举，理论支持所有`discuz`论坛，请自行尝试。\n\n### 其它\n\n- [NodeSeek](https://www.nodeseek.com/)\n\n## AI支持\n\n\n### Gemini\n\n\n### 通义千问\n\n\n# 更新日志\n\n\n具体更新日志，请前往[Github](https://github.com/bmqy/bbs_quickreply?tab=readme-ov-file#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)\n\n",
+      "updated": 1710479760000,
+      "body_original": "\n# 简介\n\n\n使用自定义内容或本扩展预定义的回帖内容，快捷回复支持的论坛的发帖！\n\n\n代码库：[Github](https://github.com/bmqy/bbs_quickreply)\n\n\n脚本：[https://greasyfork.org/zh-CN/scripts/36728-论坛快捷回帖](https://greasyfork.org/zh-CN/scripts/36728-%E8%AE%BA%E5%9D%9B%E5%BF%AB%E6%8D%B7%E5%9B%9E%E5%B8%96)\n\n\n# 特性\n\n- 支持绝大多数`Discuz`论坛，支持度`99%`\n- 登录账号可`实时同步`，换个电脑一样用\n- `AI`加持：`是帖皆可回复！！！`\n\n## 支持站点\n\n\n### Discuz\n\n- [吾爱破解](https://www.52pojie.cn/)\n- [Discuz!官方交流社区](https://www.dismall.com/forum.php)\n- [油猴中文网](https://bbs.tampermonkey.net.cn/)\n- [全球主机交流论坛](https://hostloc.com/)\n- 不一一列举，理论支持所有`discuz`论坛，请自行尝试。\n\n### 其它\n\n- [NodeSeek](https://www.nodeseek.com/)\n\n## AI支持\n\n\n### Gemini\n\n\n### 通义千问\n\n\n# 更新日志\n\n\n具体更新日志，请前往[Github](https://github.com/bmqy/bbs_quickreply?tab=readme-ov-file#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)\n\n",
       "properties": {
         "date": "2024-03-15 04:55",
-        "updateTime": "2024-03-15T05:09:00.000Z",
+        "updateTime": "2024-03-15T05:16:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -6420,9 +6420,10 @@
           "AI",
           "gemini",
           "通义千问",
-          "人工智能"
+          "人工智能",
+          "Discuz"
         ],
-        "updated": "2024-03-15 05:09",
+        "updated": "2024-03-15 05:16",
         "cover": "",
         "categories": [
           "燕坊清作"
@@ -6441,7 +6442,7 @@
       "object": "page",
       "id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
       "created_time": "2024-03-15T04:55:00.000Z",
-      "last_edited_time": "2024-03-15T05:09:00.000Z",
+      "last_edited_time": "2024-03-15T05:16:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6459,7 +6460,7 @@
       "archived": false,
       "properties": {
         "date": "2024-03-15 04:55",
-        "updateTime": "2024-03-15T05:09:00.000Z",
+        "updateTime": "2024-03-15T05:16:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -6476,9 +6477,10 @@
           "AI",
           "gemini",
           "通义千问",
-          "人工智能"
+          "人工智能",
+          "Discuz"
         ],
-        "updated": "2024-03-15 05:09",
+        "updated": "2024-03-15 05:16",
         "cover": "",
         "categories": [
           "燕坊清作"
