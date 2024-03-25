@@ -6460,7 +6460,10 @@
       },
       "archived": false,
       "properties": {
-        "date": "2024-03-15 04:55",
+        "date": {
+          "type": "string",
+          "string": "2024-03-15 04:55"
+        },
         "updateTime": "2024-03-20T01:31:00.000Z",
         "sort": "",
         "catalog": [],
@@ -6482,13 +6485,16 @@
           "Discuz",
           "Discourse"
         ],
-        "updated": "2024-03-20 01:31",
+        "updated": {
+          "type": "string",
+          "string": "2024-03-20 01:31"
+        },
         "cover": "",
         "categories": [
           "燕坊清作"
         ],
         "abbrlink": 2662,
-        "urlname": "2024-03-15-【原创】油猴脚本：论坛快捷回帖",
+        "urlname": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
         "title": "【原创】油猴脚本：论坛快捷回帖"
       },
       "url": "https://www.notion.so/c0aff2fe71fd4ce68df9cb26afed0c99",
