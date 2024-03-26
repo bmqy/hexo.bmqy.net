@@ -1,6 +1,15 @@
-<div class="bmqy_copyright" style="display:none;">
+<div class="bmqy_copyright" style="display: none;">
     注：原创文章，转载请注明出自 <a href="{{ page.path }}" title="{{ page.title }}"> ⟪{{ page.title }}⟫</a> ，Thank you！
 </div>
+<script>
+    var $bmqy_copyright = document.querySelector('.bmqy_copyright');
+    var $categorySpans = document.querySelectorAll('span[itemprop=about]');
+    $categorySpans.forEach((e, i)=>{
+        if(['一清二白','洗漱必吐','清思燕想','燕坊清作','燕美清照','仿站服务'].includes(e.innerText)){
+            $bmqy_copyright.style.display = '';
+        }
+    })
+</script>
 <amp-ad width="100vw" height="320"
      type="adsense"
      data-ad-client="ca-pub-1597746402027268"
