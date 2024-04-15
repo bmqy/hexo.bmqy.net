@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-04-07 14:02:58更新)
+## 博客目录(2024-04-15 12:56:41更新)
 
 [【原创】油猴脚本：论坛快捷回帖](https://www.bmqy.net/2662.html)
 
@@ -174,9 +174,9 @@
 
 [Android手机下输入框获取焦点时, 输入法挡住输入框bug的解决方法](https://www.bmqy.net/1478.html)
 
-[wordpress头像不显示解决方法](https://www.bmqy.net/1480.html)
-
 [用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/1479.html)
+
+[wordpress头像不显示解决方法](https://www.bmqy.net/1480.html)
 
 [ueditor百度编辑器添加自定义模板并设为默认](https://www.bmqy.net/1481.html)
 
@@ -208,11 +208,11 @@
 
 [解决wordpress添加主题时列表中缩略图不显示的问题](https://www.bmqy.net/1495.html)
 
+[wordpress在指定分类下的文章内容后显示自定义推广信息](https://www.bmqy.net/1496.html)
+
 [仿站作品1](https://www.bmqy.net/1500.html)
 
 [仿站制作2](https://www.bmqy.net/1499.html)
-
-[wordpress在指定分类下的文章内容后显示自定义推广信息](https://www.bmqy.net/1496.html)
 
 [仿站制作3](https://www.bmqy.net/1498.html)
 
@@ -298,9 +298,9 @@
 
 [差一点儿就拍中了闪电](https://www.bmqy.net/1540.html)
 
-[这算一景儿三拍么](https://www.bmqy.net/1542.html)
-
 [扬帆起航](https://www.bmqy.net/1541.html)
+
+[这算一景儿三拍么](https://www.bmqy.net/1542.html)
 
 [吐一吐360的开机优化](https://www.bmqy.net/1543.html)
 
