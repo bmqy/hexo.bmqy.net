@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-04-15 12:56:41更新)
+## 博客目录(2024-04-15 14:09:21更新)
+
+[Typecho二开魔改简单指北](https://www.bmqy.net/2663.html)
 
 [【原创】油猴脚本：论坛快捷回帖](https://www.bmqy.net/2662.html)
 
@@ -174,9 +176,9 @@
 
 [Android手机下输入框获取焦点时, 输入法挡住输入框bug的解决方法](https://www.bmqy.net/1478.html)
 
-[用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/1479.html)
-
 [wordpress头像不显示解决方法](https://www.bmqy.net/1480.html)
+
+[用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/1479.html)
 
 [ueditor百度编辑器添加自定义模板并设为默认](https://www.bmqy.net/1481.html)
 
@@ -248,9 +250,9 @@
 
 [做梦也似大电影](https://www.bmqy.net/1515.html)
 
-[dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/1517.html)
-
 [dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://www.bmqy.net/1516.html)
+
+[dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/1517.html)
 
 [AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法](https://www.bmqy.net/1518.html)
 
