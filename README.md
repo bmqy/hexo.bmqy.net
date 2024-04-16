@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-04-16 10:48:14更新)
+## 博客目录(2024-04-16 10:51:17更新)
 
 [Typecho二开魔改简单指北](https://www.bmqy.net/2663.html)
 
@@ -262,9 +262,9 @@
 
 [Active Server Pages 错误 ‘ASP 0107’解决办法](https://www.bmqy.net/1521.html)
 
-[万网空间服务器上传网站后出现HTTP500.19错误](https://www.bmqy.net/1523.html)
-
 [js获取鼠标当前所在页面位置](https://www.bmqy.net/1522.html)
+
+[万网空间服务器上传网站后出现HTTP500.19错误](https://www.bmqy.net/1523.html)
 
 [ueditor编辑器创建超链接时添加class样式](https://www.bmqy.net/1524.html)
 
