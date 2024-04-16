@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-04-15 14:09:21更新)
+## 博客目录(2024-04-16 10:48:14更新)
 
 [Typecho二开魔改简单指北](https://www.bmqy.net/2663.html)
 
@@ -250,9 +250,9 @@
 
 [做梦也似大电影](https://www.bmqy.net/1515.html)
 
-[dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://www.bmqy.net/1516.html)
-
 [dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/1517.html)
+
+[dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://www.bmqy.net/1516.html)
 
 [AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法](https://www.bmqy.net/1518.html)
 
@@ -262,9 +262,9 @@
 
 [Active Server Pages 错误 ‘ASP 0107’解决办法](https://www.bmqy.net/1521.html)
 
-[js获取鼠标当前所在页面位置](https://www.bmqy.net/1522.html)
-
 [万网空间服务器上传网站后出现HTTP500.19错误](https://www.bmqy.net/1523.html)
+
+[js获取鼠标当前所在页面位置](https://www.bmqy.net/1522.html)
 
 [ueditor编辑器创建超链接时添加class样式](https://www.bmqy.net/1524.html)
 
