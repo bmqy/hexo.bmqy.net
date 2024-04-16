@@ -4809,36 +4809,35 @@
     {
       "id": "d1a63e89-bf75-4407-b71a-90ae5d107f7e",
       "doc_id": "d1a63e89-bf75-4407-b71a-90ae5d107f7e",
-      "updated": 1683504060000,
+      "updated": 1713235440000,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2017-12-13 00:00"
-        },
-        "updateTime": "2023-05-08T00:01:00.000Z",
+        "date": "2017-12-13 00:00",
+        "updateTime": "2024-04-16T02:44:00.000Z",
+        "sort": "",
         "catalog": [],
         "status": "已发布",
         "insertTime": "2023-04-28T14:04:00.000Z",
+        "recommend": "",
         "_updated": "",
         "excerpt": "菜单“Tools”→“Deployment”→“Configuration”，打开“ftp配置信息”界面；",
         "summary": "",
-        "_date": "2017-12-13T00:00:00.000+08:00",
+        "_date": "2017-12-13 00:00:00",
         "tags": [
           "ftp不显示文件",
           "idea"
         ],
-        "updated": {
-          "type": "string",
-          "string": "2017-12-13 00:00"
-        },
+        "updated": "2017-12-13 00:00",
         "cover": "",
         "categories": [
           "清学小记"
         ],
         "abbrlink": 1453,
-        "urlname": "d1a63e89-bf75-4407-b71a-90ae5d107f7e",
+        "urlname": "2017-12-13-“idea已连接上ftp但看不到文件”的解决办法",
         "title": "“idea已连接上ftp但看不到文件”的解决办法"
-      }
+      },
+      "realName": "2017-12-13-“idea已连接上ftp但看不到文件”的解决办法",
+      "relativePath": "/2017-12-13-“idea已连接上ftp但看不到文件”的解决办法.md",
+      "docPath": "/source/_posts"
     },
     {
       "id": "db581b74-9f99-44aa-bc0e-15a55db97705",
@@ -5993,7 +5992,10 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-04-15 04:51",
+        "date": {
+          "type": "string",
+          "string": "2024-04-15 04:51"
+        },
         "updateTime": "2024-04-15T06:04:00.000Z",
         "sort": "",
         "catalog": [],
@@ -6011,14 +6013,17 @@
           "vercel",
           "php"
         ],
-        "updated": "2024-04-15 06:04",
+        "updated": {
+          "type": "string",
+          "string": "2024-04-15 06:04"
+        },
         "cover": "",
         "categories": [
           "清学小记",
           "燕坊清作"
         ],
         "abbrlink": 2663,
-        "urlname": "2024-04-15-Typecho二开魔改简单指北",
+        "urlname": "8204bde2-59c8-49b0-84f3-3e59ed9fffa9",
         "title": "Typecho二开魔改简单指北"
       },
       "url": "https://www.notion.so/Typecho-8204bde259c849b084f33e59ed9fffa9",
@@ -13962,7 +13967,7 @@
       "object": "page",
       "id": "d1a63e89-bf75-4407-b71a-90ae5d107f7e",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2023-05-08T00:01:00.000Z",
+      "last_edited_time": "2024-04-16T02:44:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -13980,11 +13985,8 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2017-12-13 00:00"
-        },
-        "updateTime": "2023-05-08T00:01:00.000Z",
+        "date": "2017-12-13 00:00",
+        "updateTime": "2024-04-16T02:44:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -13998,16 +14000,13 @@
           "ftp不显示文件",
           "idea"
         ],
-        "updated": {
-          "type": "string",
-          "string": "2017-12-13 00:00"
-        },
+        "updated": "2017-12-13 00:00",
         "cover": "",
         "categories": [
           "清学小记"
         ],
         "abbrlink": 1453,
-        "urlname": "d1a63e89-bf75-4407-b71a-90ae5d107f7e",
+        "urlname": "2017-12-13-“idea已连接上ftp但看不到文件”的解决办法",
         "title": "“idea已连接上ftp但看不到文件”的解决办法"
       },
       "url": "https://www.notion.so/idea-ftp-d1a63e89bf754407b71a90ae5d107f7e",
