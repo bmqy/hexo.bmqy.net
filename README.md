@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-04-16 10:51:17更新)
+## 博客目录(2024-04-16 10:55:34更新)
 
 [Typecho二开魔改简单指北](https://www.bmqy.net/2663.html)
 
@@ -280,9 +280,9 @@
 
 [myeclipse新拷贝到电脑后错误弹窗，无法打开的解决方法](https://www.bmqy.net/1530.html)
 
-[其实我不是强迫症](https://www.bmqy.net/1532.html)
-
 [到哪都有wifi的人](https://www.bmqy.net/1531.html)
+
+[其实我不是强迫症](https://www.bmqy.net/1532.html)
 
 [miui开启节省流量功能后数据流量不能使用的问题](https://www.bmqy.net/1533.html)
 
@@ -326,9 +326,9 @@
 
 [又一波儿天空来袭](https://www.bmqy.net/1553.html)
 
-[燕美清照之天上的海](https://www.bmqy.net/1555.html)
-
 [警不能以警，察不能以察](https://www.bmqy.net/1554.html)
+
+[燕美清照之天上的海](https://www.bmqy.net/1555.html)
 
 [面对着巴西被7：1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://www.bmqy.net/1556.html)
 
