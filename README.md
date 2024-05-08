@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-05-08 18:45:47更新)
+## 博客目录(2024-05-08 19:17:30更新)
 
 [哪吒面板default主题小鸡底部增加购买同款按钮](https://www.bmqy.net/2664.html)
 
@@ -156,9 +156,9 @@
 
 [清燕的云集小店](https://www.bmqy.net/1467.html)
 
-[Google play下载app状态栏进度显示异常的应对方法](https://www.bmqy.net/1468.html)
-
 [吐槽百度翻译之离线翻译包](https://www.bmqy.net/1469.html)
+
+[Google play下载app状态栏进度显示异常的应对方法](https://www.bmqy.net/1468.html)
 
 [现在只有人民才是真正的为人民](https://www.bmqy.net/1470.html)
 
@@ -178,9 +178,9 @@
 
 [Android手机下输入框获取焦点时, 输入法挡住输入框bug的解决方法](https://www.bmqy.net/1478.html)
 
-[wordpress头像不显示解决方法](https://www.bmqy.net/1480.html)
-
 [用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/1479.html)
+
+[wordpress头像不显示解决方法](https://www.bmqy.net/1480.html)
 
 [ueditor百度编辑器添加自定义模板并设为默认](https://www.bmqy.net/1481.html)
 
