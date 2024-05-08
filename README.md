@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-05-08 18:35:06更新)
+## 博客目录(2024-05-08 18:45:47更新)
+
+[哪吒面板default主题小鸡底部增加购买同款按钮](https://www.bmqy.net/2664.html)
 
 [Typecho二开魔改简单指北](https://www.bmqy.net/2663.html)
 
