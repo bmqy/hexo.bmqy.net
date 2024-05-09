@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-05-09 13:48:58更新)
+## 博客目录(2024-05-09 14:02:03更新)
 
 [哪吒面板default主题小鸡底部增加购买同款按钮](https://www.bmqy.net/2664.html)
 
@@ -282,9 +282,9 @@
 
 [myeclipse新拷贝到电脑后错误弹窗，无法打开的解决方法](https://www.bmqy.net/1530.html)
 
-[到哪都有wifi的人](https://www.bmqy.net/1531.html)
-
 [其实我不是强迫症](https://www.bmqy.net/1532.html)
+
+[到哪都有wifi的人](https://www.bmqy.net/1531.html)
 
 [miui开启节省流量功能后数据流量不能使用的问题](https://www.bmqy.net/1533.html)
 
