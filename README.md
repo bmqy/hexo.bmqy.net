@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-05-13 11:21:26更新)
+## 博客目录(2024-05-13 11:42:59更新)
+
+[哪吒面板终极进化之VPS橱窗](https://www.bmqy.net/2665.html)
 
 [哪吒面板default主题小鸡底部增加购买同款按钮](https://www.bmqy.net/2664.html)
 
