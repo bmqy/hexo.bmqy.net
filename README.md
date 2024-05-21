@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-05-20 11:29:45更新)
+## 博客目录(2024-05-21 11:38:23更新)
 
 [【原创】油猴脚本：哪吒VPS橱窗后台脚本](https://www.bmqy.net/2666.html)
 
@@ -268,9 +268,9 @@
 
 [Active Server Pages 错误 ‘ASP 0107’解决办法](https://www.bmqy.net/1521.html)
 
-[js获取鼠标当前所在页面位置](https://www.bmqy.net/1522.html)
-
 [万网空间服务器上传网站后出现HTTP500.19错误](https://www.bmqy.net/1523.html)
+
+[js获取鼠标当前所在页面位置](https://www.bmqy.net/1522.html)
 
 [ueditor编辑器创建超链接时添加class样式](https://www.bmqy.net/1524.html)
 
