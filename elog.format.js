@@ -24,14 +24,9 @@ const format = async (doc, imageClient) => {
   const theUpdate = doc.properties.updated.string
   doc.properties.abbrlink = doc.properties.abbrlink.number || doc.properties['_abbrlink']
   doc.properties.urlname = `${theDate.split(' ')[0]}-${doc.properties.title}`
-  doc.properties.category = doc.properties.categories ? doc.properties.categories[0] : '未分类'
-  doc.properties.summary = doc.properties.excerpt ? doc.properties.excerpt : ''
-  doc.properties.date = `${new Date(theDate).toISOString()}`
-  doc.properties.lastMod = `${new Date(theUpdate).toISOString()}`
+  doc.properties.date = theDate
+  doc.properties.updated = theUpdate
   delete doc.properties['_abbrlink']
-  delete doc.properties['excerpt']
-  delete doc.properties['updated']
-  delete doc.properties['categories']
   doc.body = matterMarkdownAdapter(doc)
   return doc
 }
