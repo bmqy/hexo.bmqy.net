@@ -20,6 +20,7 @@ const format = async (doc, imageClient) => {
   delete doc.properties['_date']
   delete doc.properties['insertTime']
   delete doc.properties['updateTime']
+  delete doc.properties['ID']
   const theDate = doc.properties.date.string
   const theUpdate = doc.properties.updated.string
   doc.properties.abbrlink = doc.properties.abbrlink.number || doc.properties['_abbrlink']
