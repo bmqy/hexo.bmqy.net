@@ -1,36 +1,3 @@
----
-date: '2022-03-28 09:48'
-updateTime: '2024-06-07T03:12:00.000Z'
-sort: ''
-catalog: []
-status: 已发布
-insertTime: '2023-04-28T14:04:00.000Z'
-recommend: ''
-_updated: '2022-03-28 17:48:00'
-excerpt: |-
-  安装FreshRSS
-  docker-compose部署
-  • 创建一个目录 freshrss 并进入该位置，新建 docker-compose.yml
-summary: ''
-_date: '2022-03-28 17:48:00'
-ID:
-  prefix: null
-  number: 504
-tags:
-  - docker
-  - FreshRSS
-  - RssHub
-abbrlink:
-  type: number
-  number: 2648
-updated: '2024-06-07 03:12'
-cover: ''
-categories:
-  - 清学小记
-_abbrlink: 2648
-urlname: 2022-03-28-docker部署freshrss
-title: docker部署freshrss
----
 
 ## 安装`FreshRSS`
 

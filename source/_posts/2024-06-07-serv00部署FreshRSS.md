@@ -1,32 +1,3 @@
----
-date: '2024-06-07 02:26'
-updateTime: '2024-06-07T03:11:00.000Z'
-sort: ''
-catalog: []
-status: 已发布
-insertTime: '2024-06-07T02:26:00.000Z'
-recommend: ''
-_updated: ''
-excerpt: serv00使用手动安装的方式部署FreshRSS
-summary: ''
-_date: ''
-ID:
-  prefix: null
-  number: 616
-tags:
-  - FreshRSS
-  - serv00
-abbrlink:
-  type: number
-  number: 2667
-updated: '2024-06-07 03:11'
-cover: ''
-categories:
-  - 清学小记
-_abbrlink: 2667
-urlname: 2024-06-07-serv00部署FreshRSS
-title: serv00部署FreshRSS
----
 
 ## 安装
 

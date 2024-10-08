@@ -1,36 +1,3 @@
----
-date: '2023-08-15 05:17'
-updateTime: '2024-07-11T00:47:00.000Z'
-sort: ''
-catalog: []
-status: 已发布
-insertTime: '2023-08-15T05:17:00.000Z'
-recommend: ''
-_updated: ''
-excerpt: 经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。
-summary: ''
-_date: ''
-ID:
-  prefix: null
-  number: 595
-tags:
-  - chrome扩展
-  - rss
-  - RssHub
-  - Inoreader
-  - rss阅读器
-  - Stylus
-abbrlink:
-  type: number
-  number: 2656
-updated: '2024-07-11 00:47'
-cover: ''
-categories:
-  - 燕衔春泥
-_abbrlink: 2656
-urlname: 2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器
-title: 将chrome谷歌浏览器轻松打造成rss阅读器
----
 
 ## 前情提要
 

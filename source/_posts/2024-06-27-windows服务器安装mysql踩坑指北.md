@@ -1,33 +1,3 @@
----
-date: '2024-06-27 09:24'
-updateTime: '2024-06-27T10:17:00.000Z'
-sort: ''
-catalog: []
-status: 已发布
-insertTime: '2024-06-27T09:24:00.000Z'
-recommend: ''
-_updated: ''
-excerpt: 记录下windows服务器安装mysql的踩坑大全，不全的欢迎补充。
-summary: ''
-_date: ''
-ID:
-  prefix: null
-  number: 663
-tags:
-  - windows
-  - 服务器
-  - mysql
-abbrlink:
-  type: number
-  number: 2672
-updated: '2024-06-27 10:17'
-cover: ''
-categories:
-  - 清学小记
-_abbrlink: ''
-urlname: 2024-06-27-windows服务器安装mysql踩坑指北
-title: windows服务器安装mysql踩坑指北
----
 
 记录下windows服务器安装mysql的踩坑大全，不全的欢迎补充。
 

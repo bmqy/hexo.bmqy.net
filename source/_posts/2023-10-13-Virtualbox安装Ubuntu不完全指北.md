@@ -1,29 +1,3 @@
----
-date: "2023-10-13 06:14"
-updateTime: "2023-10-13T10:39:00.000Z"
-sort: ""
-catalog: []
-status: 已发布
-insertTime: "2023-10-13T06:14:00.000Z"
-recommend: ""
-_updated: ""
-excerpt: Virtualbox安装Ubuntu不完全指北
-summary: ""
-_date: ""
-tags:
-  - virtualbox
-  - ubuntu
-  - virtualbox增强功能
-  - virtualbox双向粘贴
-  - virtualbox拖拽文件
-updated: "2023-10-13 10:39"
-cover: ""
-categories:
-  - 清学小记
-abbrlink: 2658
-urlname: 2023-10-13-Virtualbox安装Ubuntu不完全指北
-title: Virtualbox安装Ubuntu不完全指北
----
 
 # 安装增强功能
 
@@ -34,17 +8,24 @@ title: Virtualbox安装Ubuntu不完全指北
 
 如果上述无效，打开光驱文件后，无反应，请尝试命令行安装方式：
 
+
 `sudo sh ./VBoxLinuxAdditions.run`
+
 
 如果安装完后，还是不能双向复制粘贴，尝试执行以下命令：
 
+
 `apt-get install virtualbox-guest-utils`
+
 
 `apt-get install virtualbox-guest-ext-pack`
 
+
 `apt-get install virtualbox-guest-dkms`
 
+
 # 拖放文件
+
 
 开启了增强功能还不能双向拖放文件：
 
@@ -55,3 +36,4 @@ title: Virtualbox安装Ubuntu不完全指北
 
 > 以上内容摘自：[https://blog.csdn.net/qq_45200829/article/details/128639369](https://blog.csdn.net/qq_45200829/article/details/128639369)  
 > 原因：可能是窗口系统的问题，`ubuntu`默认使用的窗口系统是`wayland`
+
