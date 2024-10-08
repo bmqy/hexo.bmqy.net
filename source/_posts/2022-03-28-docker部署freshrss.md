@@ -1,32 +1,41 @@
 ---
-date: "2022-03-28 17:48"
-updateTime: "2023-05-09T00:32:00.000Z"
+date: '2022-03-28 09:48'
+updateTime: '2024-06-07T03:12:00.000Z'
+sort: ''
 catalog: []
 status: 已发布
-insertTime: "2023-04-28T14:04:00.000Z"
-_updated: "2022-11-10T09:10:00.000+08:00"
+insertTime: '2023-04-28T14:04:00.000Z'
+recommend: ''
+_updated: '2022-03-28 17:48:00'
 excerpt: |-
   安装FreshRSS
   docker-compose部署
   • 创建一个目录 freshrss 并进入该位置，新建 docker-compose.yml
-summary: ""
-_date: "2022-03-28T17:48:00.000+08:00"
+summary: ''
+_date: '2022-03-28 17:48:00'
+ID:
+  prefix: null
+  number: 504
 tags:
   - docker
   - FreshRSS
   - RssHub
-updated: "2022-11-10 09:10"
-cover: ""
+abbrlink:
+  type: number
+  number: 2648
+updated: '2024-06-07 03:12'
+cover: ''
 categories:
   - 清学小记
-abbrlink: 2648
+_abbrlink: 2648
 urlname: 2022-03-28-docker部署freshrss
 title: docker部署freshrss
 ---
 
 ## 安装`FreshRSS`
 
-### docker-compose 部署
+
+### docker-compose部署
 
 - 创建一个目录 `freshrss` 并进入该位置，新建 docker-compose.yml
 
@@ -86,7 +95,9 @@ volumes:
 docker-compose up -d
 ```
 
-### docker 命令部署
+
+### docker命令部署
+
 
 ```text
 docker run -d --restart unless-stopped --log-opt max-size=10m \
@@ -99,11 +110,14 @@ docker run -d --restart unless-stopped --log-opt max-size=10m \
   freshrss/freshrss
 ```
 
+
 ## 访问
+
 
 ```text
 设置的站点域名（IP地址 + 端口）
 ```
+
 
 ## 第三方客户端连接
 
@@ -119,3 +133,9 @@ docker run -d --restart unless-stopped --log-opt max-size=10m \
 - 选择`订阅工具`
 - 复制右侧显示的`API`链接地址
 - 粘贴到`RSSHub`一键订阅中`FreshRSS`地址栏中
+
+## 其它
+
+
+源码手动安装方式的部署，请参考：[serv00部署FreshRSS](https://www.bmqy.net/2667.html)
+
