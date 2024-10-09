@@ -22,9 +22,12 @@ module.exports = {
     local: {
       outputDir: '/source/_posts',
       filename: 'urlname',
-      format: 'matter-markdown',
-      catalog: false,
+      format: 'markdown',
       formatExt: 'elog.format.js',
+      frontMatter: {
+        enable: true,
+        exclude: [], // 文档属性排除 cover 字段
+      },
     },
     confluence: {
       user: process.env.CONFLUENCE_USER,
