@@ -39,7 +39,7 @@ module.exports = {
     },
   },
   image: {
-    enable: true,
+    enable: false,
     platform: 'cos',
     local: {
       outputDir: '',
