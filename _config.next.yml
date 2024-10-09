@@ -151,9 +151,11 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
+    QQ: https://wpa.qq.com/msgrd?V=3&Uin=88268459&Site=https://www.bmqy.net/&Menu=yes || fab fa-qq
     GitHub: https://github.com/bmqy || fab fa-github
-    #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+    E-Mail: mailto:notice@bmqy.net || fa fa-envelope
     Weibo: https://weibo.com/bmqy || fab fa-weibo
+    Telegram: https://t.me/bmqyChatBot || fab fa-telegram
     #Google: https://plus.google.com/yourname || fab fa-google
     #Twitter: https://twitter.com/yourname || fab fa-twitter
     #FB Page: https://www.facebook.com/yourname || fab fa-facebook
