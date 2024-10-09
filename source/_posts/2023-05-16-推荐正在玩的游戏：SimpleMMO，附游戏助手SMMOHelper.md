@@ -46,7 +46,7 @@ SimpleMMO is a simple, yet deep pocket-sized MMO experience. It is an incrementa
 # 预览图
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fe0af401-5374-4994-8815-96a0095f31d7/a4bf472e-76ef-4375-8393-902ca17ddae4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241009%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241009T024804Z&X-Amz-Expires=3600&X-Amz-Signature=6c0a3b38a8c05d1ff5bd9103d6f5dba1f47d97d2d1264edea84eebb80862c0b1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fe0af401-5374-4994-8815-96a0095f31d7/a4bf472e-76ef-4375-8393-902ca17ddae4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241009%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241009T025518Z&X-Amz-Expires=3600&X-Amz-Signature=714e117439551e987f8d219c2947a602fe2c2e6f817912a2fc8386b261dbc44b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 # [SMMOHelper](https://github.com/bmqy/SMMOHelper)
@@ -72,5 +72,5 @@ SimpleMMO is a simple, yet deep pocket-sized MMO experience. It is an incrementa
 ## 效果截图
 
 
-![CF8EA95F-F6E3-4C34-B57D-76BBB141EF1A.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/fe0af401-5374-4994-8815-96a0095f31d7/1fabc8e3-7d7e-4d71-8142-2e4b2db51713/CF8EA95F-F6E3-4C34-B57D-76BBB141EF1A.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241009%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241009T024804Z&X-Amz-Expires=3600&X-Amz-Signature=f110a31e90ef54d1f9798c93b607b34266e206197eade0066c5fd8f92f1a0843&X-Amz-SignedHeaders=host&x-id=GetObject)
+![CF8EA95F-F6E3-4C34-B57D-76BBB141EF1A.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/fe0af401-5374-4994-8815-96a0095f31d7/1fabc8e3-7d7e-4d71-8142-2e4b2db51713/CF8EA95F-F6E3-4C34-B57D-76BBB141EF1A.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241009%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241009T025518Z&X-Amz-Expires=3600&X-Amz-Signature=6d2204b7e8edb611f845c09f43d2741dadfa2fc63556c8eec5644e2f52196e83&X-Amz-SignedHeaders=host&x-id=GetObject)
 
