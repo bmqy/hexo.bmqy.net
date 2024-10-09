@@ -46,7 +46,7 @@ def main():
 
     new_readme_md_content = re.sub(
         r'\<\!\-\-START_SECTION:bmqy\-\->(.|\n)*\<\!\-\-END_SECTION:bmqy\-\-\>', insert_info, readme_md_content)
-    print("==new_readme_md_content==>>", new_readme_md_content)
+    # print("==new_readme_md_content==>>", new_readme_md_content)
 
     with open(os.path.join(os.getcwd(), "README.md"), 'w', encoding='utf-8') as f:
         f.write(new_readme_md_content)
