@@ -80,7 +80,6 @@ jobs:
 
             - name: Refresh CDN # 安装 sdk 并运行刷新脚本
               run: |
-                  apt install python3-tencentcloud-sdk-python
                   python refresh-cdn.py -i $COS_SECRET_ID -k $COS_SECRET_KEY -s $SITE_URL
 
             - name: Run with setup-python 3.9
@@ -90,7 +89,7 @@ jobs:
                 update-environment: false
                 cache: 'pipenv'
             - name: Install pipenv
-              run: apt install python3-pipenv
+              run: pip3 install --user pipenv
             - name: Install dependecies
               run:  pipenv --python python3 && pipenv install
             - name: Update readme
