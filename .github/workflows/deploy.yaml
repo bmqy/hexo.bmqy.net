@@ -79,8 +79,11 @@ jobs:
             #     server-dir: ${{secrets.FTP_REMOTE}}
 
             - name: Refresh CDN # 安装 sdk 并运行刷新脚本
+              with:
+                python-version: '3.9'
+                update-environment: false
               run: |
-                  apt install --upgrade tencentcloud-sdk-python
+                  pip3 install --upgrade tencentcloud-sdk-python
                   python refresh-cdn.py -i $COS_SECRET_ID -k $COS_SECRET_KEY -s $SITE_URL
 
             - name: Run with setup-python 3.9
@@ -90,7 +93,7 @@ jobs:
                 update-environment: false
                 cache: 'pipenv'
             - name: Install pipenv
-              run: apt install --user pipenv
+              run: pip3 install --user pipenv
             - name: Install dependecies
               run:  pipenv --python python3 && pipenv install
             - name: Update readme

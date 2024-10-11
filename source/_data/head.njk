@@ -1,2 +1,15 @@
+<script>
+    (()=>{
+        const origin = window.location.origin;
+        const path = window.location.pathname;
+        if(origin !== '{{ config.url }}'){
+            window.location.href = origin + path;
+        }
+        const reg = new RegExp(/(^\/\d+$)/);
+        if(reg.test(path)){
+            window.location.href = origin + path.replace(reg, '$1.html');
+        }
+    })();
+</script>
 <script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/cm.js" async="async" defer="defer" >
     </script>
