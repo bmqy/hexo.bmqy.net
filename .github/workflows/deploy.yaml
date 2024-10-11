@@ -71,19 +71,19 @@ jobs:
             # - name: 📂 Deploy Ftp
             #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
             #   with:
-            #     server: ${{secrets.FTP_HOST}}
-            #     port: ${{secrets.FTP_PORT}}
-            #     username: ${{secrets.FTP_USERNAME}}
+            #     server: ${{ secrets.FTP_HOST }}
+            #     port: ${{ secrets.FTP_PORT }}
+            #     username: ${{ secrets.FTP_USERNAME }}
             #     password: ${{ secrets.FTP_PASSWORD }}
             #     local-dir: './public/'
-            #     server-dir: ${{secrets.FTP_REMOTE}}
+            #     server-dir: ${{ secrets.FTP_REMOTE }}
 
             - name: TencentCloud CDN Action # 刷新腾讯云CDN
               uses: suxuelengyin/Tencent-CDN-Action@v1.1
               with:
-                secret_id: $COS_SECRET_ID
-                secret_key: $COS_SECRET_KEY
-                paths: $SITE_URL
+                secret_id: ${{ secrets.COS_SECRET_ID }}
+                secret_key: ${{ secrets.COS_SECRET_KEY }}
+                paths: ${{ secrets.SITE_URL }}
 
             - name: Run with setup-python 3.9
               uses: actions/setup-python@v4
