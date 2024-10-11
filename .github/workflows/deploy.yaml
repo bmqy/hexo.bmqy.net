@@ -78,9 +78,12 @@ jobs:
             #     local-dir: './public/'
             #     server-dir: ${{secrets.FTP_REMOTE}}
 
-            - name: Refresh CDN # 安装 sdk 并运行刷新脚本
-              run: |
-                  python refresh-cdn.py -i $COS_SECRET_ID -k $COS_SECRET_KEY -s $SITE_URL
+            - name: TencentCloud CDN Action # 刷新腾讯云CDN
+              uses: suxuelengyin/Tencent-CDN-Action@latest
+              with:
+                secret_id: $COS_SECRET_ID
+                secret_key: $COS_SECRET_KEY
+                paths: $SITE_URL
 
             - name: Run with setup-python 3.9
               uses: actions/setup-python@v4
