@@ -14,7 +14,7 @@ tags:
   - rss阅读器
   - Stylus
 abbrlink: 2656
-updated: '2024-07-11 00:47'
+updated: '2024-10-11 02:57'
 cover: ''
 categories:
   - 燕衔春泥
@@ -136,6 +136,13 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 	- 依次点击：`左下角菜单按钮`、`设置`
 	- 找打`Auto-Mark As Read On Scroll`选项，选择`Yes`以开启自动标记已读功能
 
+### [Follow](https://follow.is/)
+
+
+> 下一代信息浏览器  
+> 享受前所未有的无平台体验。
+
+
 ### 配合Chrome扩展：[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
 - 安装[InoReader RSS阅读优化](https://userstyles.world/style/11774/inoreader-rss)用户样式后，效果如图：
@@ -143,6 +150,7 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 ![QQ%E6%88%AA%E5%9B%BE20230829090506.jpg](https://image.bmqy.net/upload/QQ%E6%88%AA%E5%9B%BE20230829090506.jpg)
 
 - 安装[feedly.com阅读优化](https://userstyles.world/style/16741/feedly-com)用户样式，效果如上两行展示
+- 安装[Follow阅读优化](https://userstyles.world/style/18535/follow)用户样式，食用效果更好
 
 ### [**RSS阅读器 - RSS Reader**](https://chrome.google.com/webstore/detail/rss-reader/bfdoopgbjcacghflbbdikollnphobemo)
 
