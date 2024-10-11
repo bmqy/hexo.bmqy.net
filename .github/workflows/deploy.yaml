@@ -79,7 +79,7 @@ jobs:
             #     server-dir: ${{secrets.FTP_REMOTE}}
 
             - name: TencentCloud CDN Action # 刷新腾讯云CDN
-              uses: suxuelengyin/Tencent-CDN-Action@latest
+              uses: suxuelengyin/Tencent-CDN-Action@v1.1
               with:
                 secret_id: $COS_SECRET_ID
                 secret_key: $COS_SECRET_KEY
