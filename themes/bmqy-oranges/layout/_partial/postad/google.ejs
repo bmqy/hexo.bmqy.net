@@ -1,0 +1,12 @@
+<% if(theme.postAd.google.enable) { %>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=<%- theme.postAd.google.client %>" crossOrigin="anonymous"></script>
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="<%- theme.postAd.google.client %>"
+    data-ad-slot="<%- theme.postAd.google.slot %>"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+<% } %>

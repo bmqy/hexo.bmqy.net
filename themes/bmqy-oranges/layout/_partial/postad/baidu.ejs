@@ -1,0 +1,10 @@
+<% if(theme.postAd.baidu.enable) { %>
+  <div class="<%- theme.postAd.baidu.container %>"></div>
+  <script type="text/javascript">
+    (window.slotbydup = window.slotbydup || []).push({
+      id: "<%- theme.postAd.baidu.id %>",
+      container: "<%- theme.postAd.baidu.container%>",
+      async: true
+    });
+  </script>
+<% } %>
