@@ -43,18 +43,16 @@ render_drafts: false`
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-    enable: true
-    line_number: true
-    auto_detect: false
-    tab_replace: ''
-    wrap: true
-    hljs: false
-prismjs:
-    enable: false
-    preprocess: true
-    line_number: true
-    tab_replace: ''
+  auto_detect: true
+  line_number: true
+  line_threshold: 0
+  tab_replace: ""
+  exclude_languages:
+    - example
+  wrap: true
+  hljs: false
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -100,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: oranges
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -142,7 +140,7 @@ feed:
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
-    enable: true
+    enable: false
     # enable: false
     scriptFrom: local # 默认
     pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
