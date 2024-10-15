@@ -1,7 +1,12 @@
+$theme-color = convert(hexo-config('themeColor'))
+
 /* 详情 */
 .post-content{
     .postad-container{
+        margin-top: 10px;
+        padding-top: 10px;
         overflow: hidden;
+        border-top: 1px dashed #e6e6e6;
     }
 }
 
@@ -19,4 +24,15 @@
             background-repeat: no-repeat;
         }
     }
+}
+
+/* 版权 */
+.bmqy_copyright{
+    margin: 15px 0;
+    padding: 15px;
+    border-top: 1px dashed #e6e6e6;
+    border-bottom: 1px dashed #e6e6e6;
+    color: $theme-color;
+    font-size: 1.4rem;
+    background-color: #f5f5f5;
 }

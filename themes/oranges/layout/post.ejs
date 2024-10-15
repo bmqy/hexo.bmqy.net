@@ -58,7 +58,9 @@
     </div>
   <% } %>
 
-  <% if (!page.type) { %>
+  <% if (!page.type) {
+    showCopyright = false
+  %>
   <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
   <div class="container post-details" id="post-details">
     <div class="post-content">
@@ -87,7 +89,12 @@
             if(page.tags && page.categories.length > 0) { %>
               <span class="post-categories">
                 <i class="iconfont icon-bookmark" title="<%= __('categories') %>"></i>
-                <% for(let item of page.categories.data){ %>
+                <%
+                for(let item of page.categories.data){
+                  if(['一清二白','洗漱必吐','清思燕想','燕坊清作','燕美清照','仿站服务'].includes(item.name)){
+                    showCopyright = true
+                  }
+                %>
                 <span class="span--category">
                   <a href="<%= url_for(item.path)%>" title="<%- item.name %>">
                     <b>#</b> <%- item.name %>
@@ -102,6 +109,12 @@
       <div class="markdown-body">
         <%- page.content %>
       </div>
+
+      <% if (showCopyright){ %>
+      <div class="bmqy_copyright">
+        注：原创文章，转载请注明出自 <a href="<%- page.path %>" title="<%- page.title %>"> ⟪<%- page.title %>⟫</a> ，Thank you！
+      </div>
+      <% } %>
 
       <% if(is_post() && theme.postAd.baidu.enable) { %>
         <div class="postad-container">

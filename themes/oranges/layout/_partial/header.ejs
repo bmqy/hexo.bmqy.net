@@ -53,6 +53,21 @@
     <link rel="icon" href="<%- theme.favicon.icon %>">
   <% } %>
 
+  <!-- 网址统一性处理 -->
+  <script>
+    (()=>{
+        const origin = window.location.origin;
+        const path = window.location.pathname;
+        if(origin !== '<%- config.url %>'){
+            // window.location.href = origin + path;
+        }
+        const reg = new RegExp(/(^\/\d+$)/);
+        if(reg.test(path)){
+            window.location.href = origin + path.replace(reg, '$1.html');
+        }
+    })();
+  </script>
+
   <!-- Raleway-Font -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
