@@ -61,9 +61,13 @@
         if(origin !== '<%- config.url %>'){
             window.location.href = origin + path;
         }
-        const reg = new RegExp(/(^\/\d+$)/);
+        let reg = new RegExp(/(^\/\d+$)/);
         if(reg.test(path)){
             window.location.href = origin + path.replace(reg, '$1.html');
+        }
+        reg = new RegExp(/(^\/(archive|tag|category|friends|about).html$)/);
+        if(reg.test(path)){
+            window.location.href = origin + path.replace(reg, '$1/');
         }
     })();
   </script>
