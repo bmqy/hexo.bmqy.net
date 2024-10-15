@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-10-15 09:09:44更新)
+## 博客目录(2024-10-15 09:50:31更新)
 
 [ios17.0可以安装Trollstore了](https://bmqy.net/2674.html)
 
@@ -226,11 +226,11 @@
 
 [wordpress在指定分类下的文章内容后显示自定义推广信息](https://bmqy.net/1496.html)
 
-[仿站制作3](https://bmqy.net/1498.html)
+[仿站作品1](https://bmqy.net/1500.html)
 
 [仿站制作2](https://bmqy.net/1499.html)
 
-[仿站作品1](https://bmqy.net/1500.html)
+[仿站制作3](https://bmqy.net/1498.html)
 
 [仿站制作4](https://bmqy.net/1497.html)
 
@@ -264,9 +264,9 @@
 
 [做梦也似大电影](https://bmqy.net/1515.html)
 
-[dedecms增加新留言邮件提醒和后台留言管理模块](https://bmqy.net/1517.html)
-
 [dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://bmqy.net/1516.html)
+
+[dedecms增加新留言邮件提醒和后台留言管理模块](https://bmqy.net/1517.html)
 
 [AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法](https://bmqy.net/1518.html)
 
