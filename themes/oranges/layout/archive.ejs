@@ -30,6 +30,9 @@
             <span><%- item.title %></span>
           </a>
         </div>
+        <% if(item.cover !== "") { %>
+        <div class="cover" style="background-image: url('<%- item.cover %>');"></div>
+        <% } %>
       </div>
     <%
       });
