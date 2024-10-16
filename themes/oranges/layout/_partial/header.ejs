@@ -14,6 +14,9 @@
   <% } else if (config.description){ %>
   <meta name="description" content="<%= config.description %>" />
   <%} %>
+  <% if (config.keywords){ %>
+  <meta name="keywords" content="<%= config.keywords %>" />
+  <%} %>
   <% if(is_home() && page.current > 1){ %>
     <meta name="robots" content="noindex" />
   <% } %>
@@ -45,7 +48,7 @@
       <% if (page.category) { %> : <%= page.category %><% } %>
       |
     <% } %>
-     <%= config.title %>
+     <%= config.title %> - <%= config.subtitle %>
   </title>
 
   <% if (theme.favicon.enable){ %>
