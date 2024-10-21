@@ -1,0 +1,37 @@
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+    <% if (theme.avatar.author_nickname) { %>
+      <strong>本文作者</strong>
+      <%- link_to(config.url, theme.avatar.author_nickname, {external: true}) %>
+    <% } else if (config.author) { %>
+      <strong>本文作者</strong>
+      <%- link_to(config.url, config.author, {external: true}) %>
+    <% } %>
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接</strong>
+      <%- link_to(page.permalink, page.title, {external: true}) %>
+  </li>
+  <li class="post-copyright-date">
+      <strong>发表日期</strong>
+      <%- page.date.format("YYYY-MM-DD HH:mm:ss") %>
+  </li>
+  <li class="post-copyright-date">
+    <% if (page.updated){ %>
+      <strong>更新日期</strong>
+      <%- page.updated.format("YYYY-MM-DD HH:mm:ss") %>
+    <% } %>
+  </li>
+  <li class="post-copyright-license">
+    <% if (theme.copyright.license){ %>
+      <strong>版权声明</strong>
+      <% 
+        let ccUrl = 'https://creativecommons.org/' + (theme.copyright.license === 'cc-zero' ? 'publicdomain/zero/1.0/' : 'licenses/' + theme.copyright.license + '/4.0/');
+        let ccLink = '<a href="'+ ccUrl +'"'+ 'target="_blank">'+ theme.copyright.license.toUpperCase() +'</a>';
+      %>
+      <%- theme.copyright.license_content.replace('%s', ccLink) %>
+    <% } %>
+  </li>
+</ul>
+</div>

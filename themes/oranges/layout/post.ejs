@@ -109,6 +109,7 @@
       <div class="markdown-body">
         <%- page.content %>
       </div>
+      <%- partial("_partial/post-copyright") %>
 
       <% if (showCopyright){ %>
       <div class="bmqy_copyright">
@@ -116,12 +117,12 @@
       </div>
       <% } %>
 
-      <% if(is_post() && theme.postAd.baidu.enable) { %>
+      <% if(env.env != 'development' && is_post() && theme.postAd.baidu.enable) { %>
         <div class="postad-container">
           <%- partial("_partial/postad/baidu") %>
         </div>
       <% } %>
-      <% if(is_post() && theme.postAd.google.enable) { %>
+      <% if(env.env != 'development' && is_post() && theme.postAd.google.enable) { %>
         <div class="postad-container">
           <%- partial("_partial/postad/google") %>
         </div>

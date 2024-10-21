@@ -337,3 +337,9 @@ cdns:
 
 # 主题色
 themeColor: '#007acc'
+
+# Creative Commons 4.0 International License.
+# See: https://creativecommons.org/about/cclicenses/
+copyright:
+  license: by-nc-sa
+  license_content: "本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"
