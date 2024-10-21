@@ -14,7 +14,7 @@ tags:
   - rss阅读器
   - Stylus
 abbrlink: 2656
-updated: '2024-10-11 02:57'
+updated: '2024-10-21 06:03'
 cover: ''
 categories:
   - 燕衔春泥
@@ -141,6 +141,14 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 
 > 下一代信息浏览器  
 > 享受前所未有的无平台体验。
+
+
+由于目前处于邀请注册阶段，下方不定时更新邀请码：
+
+
+```text
+l6SplskOIO
+```
 
 
 ### 配合Chrome扩展：[Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
