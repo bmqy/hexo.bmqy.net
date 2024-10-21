@@ -117,12 +117,12 @@
       </div>
       <% } %>
 
-      <% if(env.env != 'development' && is_post() && theme.postAd.baidu.enable) { %>
+      <% if(env ? (env.env != 'development' && is_post() && theme.postAd.baidu.enable) : is_post() && theme.postAd.baidu.enable) { %>
         <div class="postad-container">
           <%- partial("_partial/postad/baidu") %>
         </div>
       <% } %>
-      <% if(env.env != 'development' && is_post() && theme.postAd.google.enable) { %>
+      <% if(env ? (env.env != 'development' && is_post() && theme.postAd.google.enable) : is_post() && theme.postAd.google.enable) { %>
         <div class="postad-container">
           <%- partial("_partial/postad/google") %>
         </div>
