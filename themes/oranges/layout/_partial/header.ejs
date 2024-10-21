@@ -104,7 +104,7 @@
   <% } %>
   <%- js(['/js/fancybox.js']) %>
 
-  <% if(env ? (env.env!='development' && theme.gtag.enable) : theme.gtag.enable) { %>
+  <% if(theme.gtag.enable) { %>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<%- theme.gtag.gtagkey %>"></script>
     <script>
@@ -116,7 +116,7 @@
     </script>
   <% } %>
 
-  <% if(env ? (env.env!='development' && theme.baiduAnalytics.enable) : theme.baiduAnalytics.enable) { %>
+  <% if(theme.baiduAnalytics.enable) { %>
     <!-- Global site tag (baidu-analytics.js) - Baidu Analytics -->
     <script>
       var _hmt = _hmt || [];
@@ -129,7 +129,7 @@
       </script>
   <% } %>
 
-  <% if(env ? (env.env!='development' && is_post() && theme.postAd.baidu.enable) : is_post() && theme.postAd.baidu.enable) { %>
+  <% if(is_post() && theme.postAd.baidu.enable) { %>
     <!-- Global site tag (baidu-ad) - Baidu AD -->
     <script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/cm.js" async="async" defer="defer" >
     </script>
