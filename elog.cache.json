@@ -1272,7 +1272,7 @@
     {
       "id": "21f7b716-528a-46f5-9ddc-47f574cf0788",
       "doc_id": "21f7b716-528a-46f5-9ddc-47f574cf0788",
-      "updated": 1708599360000,
+      "updated": 1729644180000,
       "properties": {
         "date": "2023-04-28 14:04",
         "sort": "",
@@ -1290,7 +1290,7 @@
           "捷径自动化"
         ],
         "abbrlink": 2318,
-        "updated": "2024-02-22 10:56",
+        "updated": "2024-10-23 00:43",
         "cover": "",
         "categories": [
           "燕坊清作"
@@ -1876,7 +1876,7 @@
     {
       "id": "3c8b67a2-55ba-4c65-8382-0152211295f1",
       "doc_id": "3c8b67a2-55ba-4c65-8382-0152211295f1",
-      "updated": 1720567440000,
+      "updated": 1729644300000,
       "properties": {
         "date": "2020-12-15 16:00",
         "sort": "",
@@ -1894,7 +1894,7 @@
           "自动更换壁纸"
         ],
         "abbrlink": 2312,
-        "updated": "2024-07-09 23:24",
+        "updated": "2024-10-23 00:45",
         "cover": "",
         "categories": [
           "燕坊清作"
@@ -3474,7 +3474,7 @@
     {
       "id": "a1da5340-d4bb-4bbe-930a-6ae3a14dce7a",
       "doc_id": "a1da5340-d4bb-4bbe-930a-6ae3a14dce7a",
-      "updated": 1713972780000,
+      "updated": 1729644360000,
       "properties": {
         "date": "2020-10-11 00:00",
         "sort": "",
@@ -3491,7 +3491,7 @@
           "捷径自动化"
         ],
         "abbrlink": 2287,
-        "updated": "2024-04-24 15:33",
+        "updated": "2024-10-23 00:46",
         "cover": "",
         "categories": [
           "燕坊清作"
@@ -6400,13 +6400,24 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2023-08-15 05:17",
+        "date": {
+          "type": "string",
+          "string": "2023-08-15 05:17"
+        },
+        "updateTime": "2024-10-22T01:10:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2023-08-15T05:17:00.000Z",
         "recommend": "",
+        "_updated": "",
         "excerpt": "经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。",
         "summary": "",
+        "_date": "",
+        "ID": {
+          "prefix": null,
+          "number": 595
+        },
         "tags": [
           "chrome扩展",
           "rss",
@@ -6416,13 +6427,20 @@
           "Stylus",
           "邀请码"
         ],
-        "abbrlink": 2656,
-        "updated": "2024-10-22 01:10",
+        "abbrlink": {
+          "type": "number",
+          "number": 2656
+        },
+        "updated": {
+          "type": "string",
+          "string": "2024-10-22 01:10"
+        },
         "cover": "",
         "categories": [
           "燕衔春泥"
         ],
-        "urlname": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
+        "_abbrlink": 2656,
+        "urlname": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
         "title": "将chrome谷歌浏览器轻松打造成rss阅读器"
       },
       "url": "https://www.notion.so/chrome-rss-ad0bdbe68fcc41a3bf99a1b9fbd1850a",
@@ -8164,7 +8182,7 @@
       "object": "page",
       "id": "21f7b716-528a-46f5-9ddc-47f574cf0788",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2024-02-22T10:56:00.000Z",
+      "last_edited_time": "2024-10-23T00:43:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -8182,24 +8200,13 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2023-04-28 14:04"
-        },
-        "updateTime": "2024-02-22T10:56:00.000Z",
+        "date": "2023-04-28 14:04",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": 1,
-        "_updated": "",
         "excerpt": "不再推荐此快捷指令，请安装快捷指令：法定工作日闹钟\n专为法定工作日上班人士，提供的上下班打卡提醒快捷指令\n使用方法：\n1、新增快捷指令自动化；\n2、选择特定时间运行快捷指令(推荐上班之前和下班之后的某个时间)；",
         "summary": "",
-        "_date": "",
-        "ID": {
-          "prefix": null,
-          "number": 508
-        },
         "tags": [
           "ios捷径",
           "shortcuts",
@@ -8208,20 +8215,13 @@
           "捷径",
           "捷径自动化"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2318
-        },
-        "updated": {
-          "type": "string",
-          "string": "2024-02-22 10:56"
-        },
+        "abbrlink": 2318,
+        "updated": "2024-10-23 00:43",
         "cover": "",
         "categories": [
           "燕坊清作"
         ],
-        "_abbrlink": 2318,
-        "urlname": "21f7b716-528a-46f5-9ddc-47f574cf0788",
+        "urlname": "2023-04-28-【原创】ios捷径：法定工作日打卡提醒",
         "title": "【原创】ios捷径：法定工作日打卡提醒"
       },
       "url": "https://www.notion.so/ios-21f7b716528a46f59ddc47f574cf0788",
@@ -9195,7 +9195,7 @@
       "object": "page",
       "id": "3c8b67a2-55ba-4c65-8382-0152211295f1",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2024-07-09T23:24:00.000Z",
+      "last_edited_time": "2024-10-23T00:45:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -9213,24 +9213,13 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2020-12-15 16:00"
-        },
-        "updateTime": "2024-07-09T23:24:00.000Z",
+        "date": "2020-12-15 16:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": 1,
-        "_updated": "2020-12-16 00:00:00",
         "excerpt": "ios14.3+支持的自动更换壁纸应用，可配合捷径自动化，实现自动更换壁纸。\n推荐日出、日落时执行本捷径。",
         "summary": "",
-        "_date": "2020-12-16 00:00:00",
-        "ID": {
-          "prefix": null,
-          "number": 526
-        },
         "tags": [
           "ios捷径",
           "shortcuts",
@@ -9239,20 +9228,13 @@
           "捷径自动化",
           "自动更换壁纸"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2312
-        },
-        "updated": {
-          "type": "string",
-          "string": "2024-07-09 23:24"
-        },
+        "abbrlink": 2312,
+        "updated": "2024-10-23 00:45",
         "cover": "",
         "categories": [
           "燕坊清作"
         ],
-        "_abbrlink": 2312,
-        "urlname": "3c8b67a2-55ba-4c65-8382-0152211295f1",
+        "urlname": "2020-12-15-【原创】ios捷径：自动壁纸",
         "title": "【原创】ios捷径：自动壁纸"
       },
       "url": "https://www.notion.so/ios-3c8b67a255ba4c6583820152211295f1",
@@ -12850,7 +12832,7 @@
       "object": "page",
       "id": "a1da5340-d4bb-4bbe-930a-6ae3a14dce7a",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2024-04-24T15:33:00.000Z",
+      "last_edited_time": "2024-10-23T00:46:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -12868,24 +12850,13 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2020-10-11 00:00"
-        },
-        "updateTime": "2024-04-24T15:33:00.000Z",
+        "date": "2020-10-11 00:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": "",
-        "_updated": "2020-10-11 08:00:00",
         "excerpt": "为倒班人士打造的闹钟捷径。需配合ios13的捷径自动化使用。\n使用方法：\n1、设置好下面的班次名称列表(每天轮班的请列出全部班次，包括几天休息；按周或按月轮班的请忽略休息日)；\n2、按班次名称设置好对应名称的闹钟；\n3、如果是按一周或一月轮换下一班次的，请在闹钟设置中选择需要重复的工作日；",
         "summary": "",
-        "_date": "2020-10-11 08:00:00",
-        "ID": {
-          "prefix": null,
-          "number": 589
-        },
         "tags": [
           "ios捷径",
           "shortcuts",
@@ -12893,20 +12864,13 @@
           "捷径",
           "捷径自动化"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2287
-        },
-        "updated": {
-          "type": "string",
-          "string": "2024-04-24 15:33"
-        },
+        "abbrlink": 2287,
+        "updated": "2024-10-23 00:46",
         "cover": "",
         "categories": [
           "燕坊清作"
         ],
-        "_abbrlink": 2287,
-        "urlname": "a1da5340-d4bb-4bbe-930a-6ae3a14dce7a",
+        "urlname": "2020-10-11-【原创】ios捷径：倒班闹钟",
         "title": "【原创】ios捷径：倒班闹钟"
       },
       "url": "https://www.notion.so/ios-a1da5340d4bb4bbe930a6ae3a14dce7a",
