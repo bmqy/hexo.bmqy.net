@@ -10,10 +10,15 @@
     <div class="post-list">
       <div class="post-item" title="<%- item.title %>">
         <span class="time-m-d"><%- item.date.format("YYYY-MM-DD") %></span>
-        <div class="title">
-          <a href="<%- url_for(item.path) %>">
-            <span><%- item.title %></span>
-          </a>
+        <div class="post-item-main">
+          <div class="title">
+            <a href="<%- url_for(item.path) %>">
+              <span><%- item.title %></span>
+            </a>
+          </div>
+          <p class="description">
+            <%- item.excerpt %>
+          </p>
         </div>
         <% if(item.cover !== "") { %>
         <div class="cover" style="background-image: url('<%- item.cover %>');"></div>
