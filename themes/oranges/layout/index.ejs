@@ -4,7 +4,7 @@
     <% page.posts.forEach(function(item) { %>
       <div class="post-item" title="<%- item.title %>">
         <div class="time-m-d"><%- item.date.format("YYYY-MM-DD") %></div>
-        <div class="title">
+        <h3 class="title">
           <a href="<%- url_for(item.path) %>">
             <% if(item.title !== "") { %>
               <% if (item.top) { %>
@@ -16,7 +16,7 @@
               <span>untitled</span>
             <% } %>
           </a>
-        </div>
+        </h3>
         <% if(item.cover !== "") { %>
         <div class="cover" style="background-image: url('<%- item.cover %>');"></div>
         <% } %>
