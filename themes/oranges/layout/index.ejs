@@ -3,7 +3,6 @@
     <!-- 遍历渲染文章 -->
     <% page.posts.forEach(function(item) { %>
       <div class="post-item" title="<%- item.title %>">
-        <div class="time-m-d"><%- item.date.format("YYYY-MM-DD") %></div>
         <div class="post-item-main">
           <h3 class="title">
             <a href="<%- url_for(item.path) %>">
@@ -21,6 +20,7 @@
           <p class="description">
             <%- item.excerpt %>
           </p>
+          <div class="time-m-d"><%- item.date.format("YYYY-MM-DD") %></div>
         </div>
         <% if(item.cover !== "") { %>
         <div class="cover" style="background-image: url('<%- item.cover %>');"></div>

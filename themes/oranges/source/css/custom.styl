@@ -18,12 +18,15 @@ $theme-color = convert(hexo-config('themeColor'))
             flex: 1;
             word-break: break-all;
             .title {
-                font-weight: normal;
-                font-size: 1.5rem;
+                font-weight: 500;
+                font-size: 1.8rem;
+                a {
+                    color: var(--color-text-md-title);
+                }
             }
             .description{
                 margin-top: 1rem;
-                color: #aaa;
+                color: var(--color-text-a);
                 font-size: 1.4rem;
                 display: -webkit-box;
                 -webkit-line-clamp: 2;
@@ -32,10 +35,16 @@ $theme-color = convert(hexo-config('themeColor'))
                 overflow: hidden;
                 text-overflow: ellipsis;
             }
+            .time-m-d {
+                margin-top: 0.5rem;
+                margin-right: 0;
+                margin-left: 0;
+                color: var(--color-text-sub);
+            }
         }
         .cover{
-            width: 52px;
-            height: 52px;
+            width: 80px;
+            height: 80px;
             margin-left: 30px;
             background-size: cover;
             background-repeat: no-repeat;
