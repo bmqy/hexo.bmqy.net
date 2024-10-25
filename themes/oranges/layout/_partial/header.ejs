@@ -62,7 +62,7 @@
         const origin = window.location.origin;
         const path = window.location.pathname;
         if(origin !== '<%- config.url %>'){
-            // window.location.href = '<%- config.url %>' + path;
+            window.location.href = '<%- config.url %>' + path;
         }
         let reg = new RegExp(/(^\/\d+$)/);
         if(reg.test(path)){
