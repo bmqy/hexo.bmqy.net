@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-10-25 12:46:52更新)
+## 博客目录(2024-10-25 12:52:44更新)
 
 [ios17.0可以安装Trollstore了](https://bmqy.net/2674.html)
 
@@ -230,9 +230,9 @@
 
 [仿站制作2](https://bmqy.net/1499.html)
 
-[仿站制作4](https://bmqy.net/1497.html)
-
 [仿站制作3](https://bmqy.net/1498.html)
+
+[仿站制作4](https://bmqy.net/1497.html)
 
 [dedecms使用ajax调用指定栏目文章列表](https://bmqy.net/1501.html)
 
@@ -314,15 +314,15 @@
 
 [差一点儿就拍中了闪电](https://bmqy.net/1540.html)
 
-[扬帆起航](https://bmqy.net/1541.html)
-
 [这算一景儿三拍么](https://bmqy.net/1542.html)
+
+[扬帆起航](https://bmqy.net/1541.html)
 
 [吐一吐360的开机优化](https://bmqy.net/1543.html)
 
-[白云依旧](https://bmqy.net/1544.html)
-
 [八月第二波蓝天白云来袭](https://bmqy.net/1545.html)
+
+[白云依旧](https://bmqy.net/1544.html)
 
 [八月第一张](https://bmqy.net/1546.html)
 
@@ -346,9 +346,9 @@
 
 [面对着巴西被7：1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://bmqy.net/1556.html)
 
-[php-5.5.14+Apache-2.4.9+xDebug安装配置](https://bmqy.net/1558.html)
-
 [再平和自然地表现,也掩盖不了内心地焦急](https://bmqy.net/1557.html)
+
+[php-5.5.14+Apache-2.4.9+xDebug安装配置](https://bmqy.net/1558.html)
 
 [安卓手机低电量时自动关机](https://bmqy.net/1559.html)
 
