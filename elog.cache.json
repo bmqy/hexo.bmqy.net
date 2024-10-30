@@ -763,7 +763,7 @@
     {
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "doc_id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
-      "updated": 1729730040000,
+      "updated": 1730250180000,
       "properties": {
         "date": "2023-08-15 05:17",
         "sort": "",
@@ -779,10 +779,12 @@
           "Inoreader",
           "rss阅读器",
           "Stylus",
-          "邀请码"
+          "邀请码",
+          "Follow",
+          "Feedly"
         ],
         "abbrlink": 2656,
-        "updated": "2024-10-24 00:34",
+        "updated": "2024-10-30 01:03",
         "cover": "",
         "categories": [
           "燕衔春泥"
@@ -6382,7 +6384,7 @@
       "object": "page",
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "created_time": "2023-08-15T05:17:00.000Z",
-      "last_edited_time": "2024-10-24T00:34:00.000Z",
+      "last_edited_time": "2024-10-30T01:03:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6400,24 +6402,13 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2023-08-15 05:17"
-        },
-        "updateTime": "2024-10-24T00:34:00.000Z",
+        "date": "2023-08-15 05:17",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-08-15T05:17:00.000Z",
         "recommend": "",
-        "_updated": "",
         "excerpt": "经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。",
         "summary": "",
-        "_date": "",
-        "ID": {
-          "prefix": null,
-          "number": 595
-        },
         "tags": [
           "chrome扩展",
           "rss",
@@ -6425,22 +6416,17 @@
           "Inoreader",
           "rss阅读器",
           "Stylus",
-          "邀请码"
+          "邀请码",
+          "Follow",
+          "Feedly"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2656
-        },
-        "updated": {
-          "type": "string",
-          "string": "2024-10-24 00:34"
-        },
+        "abbrlink": 2656,
+        "updated": "2024-10-30 01:03",
         "cover": "",
         "categories": [
           "燕衔春泥"
         ],
-        "_abbrlink": 2656,
-        "urlname": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
+        "urlname": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
         "title": "将chrome谷歌浏览器轻松打造成rss阅读器"
       },
       "url": "https://www.notion.so/chrome-rss-ad0bdbe68fcc41a3bf99a1b9fbd1850a",
@@ -6988,13 +6974,24 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2021-01-11 16:00",
+        "date": {
+          "type": "string",
+          "string": "2021-01-11 16:00"
+        },
+        "updateTime": "2024-10-25T04:47:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": 1,
+        "_updated": "2021-01-12 00:00:00",
         "excerpt": "功能\n• 原创：作者所有原创的快捷指令；\n• 集锦：收集各位大佬的优秀作品；\n• 提交：用户可提交优秀快捷指令到集锦区；\n• 福利：各种福利活动；\n• 设置：用户自定义功能设置；\n• 更多：其它、加入社群功能；",
         "summary": "",
+        "_date": "2021-01-12 00:00:00",
+        "ID": {
+          "prefix": null,
+          "number": 488
+        },
         "tags": [
           "bmqy捷径库",
           "ios捷径",
@@ -7003,13 +7000,20 @@
           "捷径",
           "捷径库"
         ],
-        "abbrlink": 2342,
-        "updated": "2024-10-25 04:47",
+        "abbrlink": {
+          "type": "number",
+          "number": 2342
+        },
+        "updated": {
+          "type": "string",
+          "string": "2024-10-25 04:47"
+        },
         "cover": "https://image.bmqy.net/upload/20210112130050.jpg",
         "categories": [
           "燕坊清作"
         ],
-        "urlname": "2021-01-11-【原创】ios捷径：捷径库",
+        "_abbrlink": 2342,
+        "urlname": "02ff0549-4c70-458c-b334-092fc8582757",
         "title": "【原创】ios捷径：捷径库"
       },
       "url": "https://www.notion.so/ios-02ff05494c70458cb334092fc8582757",
@@ -12868,13 +12872,24 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2020-10-11 00:00",
+        "date": {
+          "type": "string",
+          "string": "2020-10-11 00:00"
+        },
+        "updateTime": "2024-10-25T04:48:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": "",
+        "_updated": "2020-10-11 08:00:00",
         "excerpt": "为倒班人士打造的闹钟捷径。需配合ios13的捷径自动化使用。\n使用方法：\n1、设置好下面的班次名称列表(每天轮班的请列出全部班次，包括几天休息；按周或按月轮班的请忽略休息日)；\n2、按班次名称设置好对应名称的闹钟；\n3、如果是按一周或一月轮换下一班次的，请在闹钟设置中选择需要重复的工作日；",
         "summary": "",
+        "_date": "2020-10-11 08:00:00",
+        "ID": {
+          "prefix": null,
+          "number": 589
+        },
         "tags": [
           "ios捷径",
           "shortcuts",
@@ -12882,13 +12897,20 @@
           "捷径",
           "捷径自动化"
         ],
-        "abbrlink": 2287,
-        "updated": "2024-10-25 04:48",
+        "abbrlink": {
+          "type": "number",
+          "number": 2287
+        },
+        "updated": {
+          "type": "string",
+          "string": "2024-10-25 04:48"
+        },
         "cover": "http://image.bmqy.net/upload/20201011132958.jpg",
         "categories": [
           "燕坊清作"
         ],
-        "urlname": "2020-10-11-【原创】ios捷径：倒班闹钟",
+        "_abbrlink": 2287,
+        "urlname": "a1da5340-d4bb-4bbe-930a-6ae3a14dce7a",
         "title": "【原创】ios捷径：倒班闹钟"
       },
       "url": "https://www.notion.so/ios-a1da5340d4bb4bbe930a6ae3a14dce7a",
