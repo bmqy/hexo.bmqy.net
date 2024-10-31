@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-10-30 09:07:47更新)
+## 博客目录(2024-10-31 10:34:22更新)
 
 [ios17.0可以安装Trollstore了](https://bmqy.net/2674.html)
 
@@ -224,9 +224,9 @@
 
 [解决wordpress添加主题时列表中缩略图不显示的问题](https://bmqy.net/1495.html)
 
-[wordpress在指定分类下的文章内容后显示自定义推广信息](https://bmqy.net/1496.html)
-
 [仿站作品1](https://bmqy.net/1500.html)
+
+[wordpress在指定分类下的文章内容后显示自定义推广信息](https://bmqy.net/1496.html)
 
 [仿站制作2](https://bmqy.net/1499.html)
 
