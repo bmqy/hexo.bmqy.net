@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-10-31 10:34:22更新)
+## 博客目录(2024-11-04 08:54:25更新)
 
 [ios17.0可以安装Trollstore了](https://bmqy.net/2674.html)
 
@@ -168,9 +168,9 @@
 
 [清燕的云集小店](https://bmqy.net/1467.html)
 
-[Google play下载app状态栏进度显示异常的应对方法](https://bmqy.net/1468.html)
-
 [吐槽百度翻译之离线翻译包](https://bmqy.net/1469.html)
+
+[Google play下载app状态栏进度显示异常的应对方法](https://bmqy.net/1468.html)
 
 [现在只有人民才是真正的为人民](https://bmqy.net/1470.html)
 
@@ -224,9 +224,9 @@
 
 [解决wordpress添加主题时列表中缩略图不显示的问题](https://bmqy.net/1495.html)
 
-[仿站作品1](https://bmqy.net/1500.html)
-
 [wordpress在指定分类下的文章内容后显示自定义推广信息](https://bmqy.net/1496.html)
+
+[仿站作品1](https://bmqy.net/1500.html)
 
 [仿站制作2](https://bmqy.net/1499.html)
 
@@ -264,9 +264,9 @@
 
 [做梦也似大电影](https://bmqy.net/1515.html)
 
-[dedecms增加新留言邮件提醒和后台留言管理模块](https://bmqy.net/1517.html)
-
 [dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://bmqy.net/1516.html)
+
+[dedecms增加新留言邮件提醒和后台留言管理模块](https://bmqy.net/1517.html)
 
 [AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法](https://bmqy.net/1518.html)
 
@@ -294,9 +294,9 @@
 
 [myeclipse新拷贝到电脑后错误弹窗，无法打开的解决方法](https://bmqy.net/1530.html)
 
-[其实我不是强迫症](https://bmqy.net/1532.html)
-
 [到哪都有wifi的人](https://bmqy.net/1531.html)
+
+[其实我不是强迫症](https://bmqy.net/1532.html)
 
 [miui开启节省流量功能后数据流量不能使用的问题](https://bmqy.net/1533.html)
 
