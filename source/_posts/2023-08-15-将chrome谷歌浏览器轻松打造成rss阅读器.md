@@ -14,8 +14,10 @@ tags:
   - rss阅读器
   - Stylus
   - 邀请码
+  - Follow
+  - Feedly
 abbrlink: 2656
-updated: '2024-10-24 00:34'
+updated: '2024-11-06 00:57'
 cover: ''
 categories:
   - 燕衔春泥
@@ -144,11 +146,14 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 > 享受前所未有的无平台体验。
 
 
-由于目前处于`邀请注册`阶段，下方不定时更新`邀请码`：
+~~由于目前处于邀请注册阶段~~，现已`公测`，如需使用`邀请码`，下方不定时更新`邀请码`，直至完全不需要邀请码或者无邀请码为止：
 
 
 ```text
 ~~l6SplskOIO~~ 已用
+~~OXpEQGRDRf~~ 已用
+~~_5nTXTltYr~~ 已用
+ufHPRdNqf1
 ```
 
 

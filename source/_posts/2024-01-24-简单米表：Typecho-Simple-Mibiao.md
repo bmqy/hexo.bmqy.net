@@ -14,8 +14,8 @@ tags:
   - 简单米表
   - Typecho-Simple-Mibiao
 abbrlink: 2661
-updated: '2024-01-24 13:48'
-cover: ''
+updated: '2024-10-25 04:44'
+cover: 'https://image.bmqy.net/upload/tsm1.png'
 categories:
   - 燕坊清作
 urlname: 2024-01-24-简单米表：Typecho-Simple-Mibiao
