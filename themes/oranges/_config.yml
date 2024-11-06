@@ -188,7 +188,7 @@ footer:
     -
       name: email
       icon: envelope
-      path: mailto:notice@bmqy.net
+      path: notice@bmqy.net
     -
       name: QQ
       icon: qq
