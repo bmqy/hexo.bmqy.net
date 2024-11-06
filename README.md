@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-11-06 16:50:45更新)
+## 博客目录(2024-11-06 17:01:30更新)
 
 [ios17.0可以安装Trollstore了](https://bmqy.net/2674.html)
 
@@ -320,9 +320,9 @@
 
 [吐一吐360的开机优化](https://bmqy.net/1543.html)
 
-[八月第二波蓝天白云来袭](https://bmqy.net/1545.html)
-
 [白云依旧](https://bmqy.net/1544.html)
+
+[八月第二波蓝天白云来袭](https://bmqy.net/1545.html)
 
 [八月第一张](https://bmqy.net/1546.html)
 
@@ -346,9 +346,9 @@
 
 [面对着巴西被7：1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://bmqy.net/1556.html)
 
-[再平和自然地表现,也掩盖不了内心地焦急](https://bmqy.net/1557.html)
-
 [php-5.5.14+Apache-2.4.9+xDebug安装配置](https://bmqy.net/1558.html)
+
+[再平和自然地表现,也掩盖不了内心地焦急](https://bmqy.net/1557.html)
 
 [安卓手机低电量时自动关机](https://bmqy.net/1559.html)
 
