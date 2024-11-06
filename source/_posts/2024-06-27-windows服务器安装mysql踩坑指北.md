@@ -1,5 +1,5 @@
 ---
-date: '2024-06-27 09:24'
+date: '2024-06-27 17:24:00'
 sort: ''
 catalog: []
 status: 已发布
@@ -11,7 +11,7 @@ tags:
   - 服务器
   - mysql
 abbrlink: 2672
-updated: '2024-06-27 10:17'
+updated: '2024-06-27 18:17:00'
 cover: ''
 categories:
   - 清学小记

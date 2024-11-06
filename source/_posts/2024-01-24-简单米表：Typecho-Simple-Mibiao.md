@@ -1,5 +1,5 @@
 ---
-date: '2024-01-24 00:19'
+date: '2024-01-24 08:19:00'
 sort: ''
 catalog: []
 status: 已发布
@@ -14,7 +14,7 @@ tags:
   - 简单米表
   - Typecho-Simple-Mibiao
 abbrlink: 2661
-updated: '2024-10-25 04:44'
+updated: '2024-10-25 12:44:00'
 cover: 'https://image.bmqy.net/upload/tsm1.png'
 categories:
   - 燕坊清作

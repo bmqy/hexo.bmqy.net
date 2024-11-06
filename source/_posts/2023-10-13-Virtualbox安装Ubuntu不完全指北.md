@@ -1,5 +1,5 @@
 ---
-date: '2023-10-13 06:14'
+date: '2023-10-13 14:14:00'
 sort: ''
 catalog: []
 status: 已发布
@@ -13,7 +13,7 @@ tags:
   - virtualbox双向粘贴
   - virtualbox拖拽文件
 abbrlink: 2658
-updated: '2023-10-13 10:39'
+updated: '2023-10-13 18:39:00'
 cover: ''
 categories:
   - 清学小记

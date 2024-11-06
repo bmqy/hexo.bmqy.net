@@ -21,8 +21,23 @@ const format = async (doc, imageClient) => {
   delete doc.properties['insertTime']
   delete doc.properties['updateTime']
   delete doc.properties['ID']
-  const theDate = doc.properties.date.string
-  const theUpdate = doc.properties.updated.string
+  // 处理日期，+8小时
+  const dateOptions = {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false,
+  };
+  let theDate = doc.properties.date.string
+  let theDateObj = new Date(theDate.replace(' ', 'T') + 'Z');
+  theDate = theDateObj.toLocaleString('zh-CN', dateOptions).replace(/\//g, '-');
+
+  let theUpdate = doc.properties.updated.string
+  let theUpdateObj = new Date(theUpdate.replace(' ', 'T') + 'Z');
+  theUpdate = theUpdateObj.toLocaleString('zh-CN', dateOptions).replace(/\//g, '-');
   doc.properties.abbrlink = doc.properties.abbrlink.number || doc.properties['_abbrlink']
   doc.properties.urlname = `${theDate.split(' ')[0]}-${doc.properties.title}`
   doc.properties.date = theDate
