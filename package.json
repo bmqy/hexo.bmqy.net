@@ -7,7 +7,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "deploy:ftp": "hexo generate && node ftp-deploy",
+    "deploy:ftp": "hexo clean && hexo generate && node ftp-deploy",
     "server": "hexo server",
     "elog:init": "elog init",
     "elog:sync-local": "elog sync -e .elog.env",
