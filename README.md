@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-11-12 09:44:51更新)
+## 博客目录(2024-11-13 12:43:35更新)
 
 [ios17.0可以安装Trollstore了](https://bmqy.net/2674.html)
 
@@ -168,9 +168,9 @@
 
 [清燕的云集小店](https://bmqy.net/1467.html)
 
-[Google play下载app状态栏进度显示异常的应对方法](https://bmqy.net/1468.html)
-
 [吐槽百度翻译之离线翻译包](https://bmqy.net/1469.html)
+
+[Google play下载app状态栏进度显示异常的应对方法](https://bmqy.net/1468.html)
 
 [现在只有人民才是真正的为人民](https://bmqy.net/1470.html)
 
@@ -346,9 +346,9 @@
 
 [面对着巴西被7：1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://bmqy.net/1556.html)
 
-[php-5.5.14+Apache-2.4.9+xDebug安装配置](https://bmqy.net/1558.html)
-
 [再平和自然地表现,也掩盖不了内心地焦急](https://bmqy.net/1557.html)
+
+[php-5.5.14+Apache-2.4.9+xDebug安装配置](https://bmqy.net/1558.html)
 
 [安卓手机低电量时自动关机](https://bmqy.net/1559.html)
 
