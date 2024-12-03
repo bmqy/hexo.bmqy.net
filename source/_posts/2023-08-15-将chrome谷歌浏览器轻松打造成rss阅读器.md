@@ -16,8 +16,10 @@ tags:
   - 邀请码
   - Follow
   - Feedly
+  - Scriptable
+  - 小组件
 abbrlink: 2656
-updated: '2024-11-14 00:52:00'
+updated: '2024-12-03 09:57:00'
 cover: ''
 categories:
   - 燕衔春泥
@@ -144,6 +146,26 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 
 > 下一代信息浏览器  
 > 享受前所未有的无平台体验。
+
+
+**使用自制小组件**
+
+- 安装[Scriptable](https://scriptable.app/)APP
+- 安装[follow](https://github.com/bmqy/scriptable-scripts/raw/refs/heads/master/dist/follow.js)小组件脚本
+
+**预览图**
+
+
+![%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175355.jpg](https://image.bmqy.net/upload/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175355.jpg)
+
+
+![%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175354.jpg](https://image.bmqy.net/upload/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175354.jpg)
+
+
+![%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175356.jpg](https://image.bmqy.net/upload/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175356.jpg)
+
+
+![%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175357.jpg](https://image.bmqy.net/upload/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175357.jpg)
 
 
 ~~由于目前处于邀请注册阶段~~，现已`公测`，如需使用`邀请码`，下方不定时更新`邀请码`，直至完全不需要邀请码或者无邀请码为止：

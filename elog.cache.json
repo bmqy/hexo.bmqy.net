@@ -791,7 +791,7 @@
     {
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "doc_id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
-      "updated": 1731545520000,
+      "updated": 1733219820000,
       "properties": {
         "date": "2023-08-15 05:17:00",
         "sort": "",
@@ -809,10 +809,12 @@
           "Stylus",
           "邀请码",
           "Follow",
-          "Feedly"
+          "Feedly",
+          "Scriptable",
+          "小组件"
         ],
         "abbrlink": 2656,
-        "updated": "2024-11-14 00:52:00",
+        "updated": "2024-12-03 09:57:00",
         "cover": "",
         "categories": [
           "燕衔春泥"
@@ -6384,7 +6386,7 @@
       "object": "page",
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "created_time": "2023-08-15T05:17:00.000Z",
-      "last_edited_time": "2024-11-14T00:52:00.000Z",
+      "last_edited_time": "2024-12-03T09:57:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6418,10 +6420,12 @@
           "Stylus",
           "邀请码",
           "Follow",
-          "Feedly"
+          "Feedly",
+          "Scriptable",
+          "小组件"
         ],
         "abbrlink": 2656,
-        "updated": "2024-11-14 00:52:00",
+        "updated": "2024-12-03 09:57:00",
         "cover": "",
         "categories": [
           "燕衔春泥"
