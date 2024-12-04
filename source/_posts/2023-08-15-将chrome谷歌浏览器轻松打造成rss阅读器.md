@@ -19,7 +19,7 @@ tags:
   - Scriptable
   - 小组件
 abbrlink: 2656
-updated: '2024-12-04 01:24:00'
+updated: '2024-12-04 01:31:00'
 cover: ''
 categories:
   - 燕衔春泥
@@ -162,10 +162,10 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 ![IMG_3808.jpeg](https://image.bmqy.net/upload/IMG_3808.jpeg)
 
 
-![%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175356.jpg](https://image.bmqy.net/upload/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175356.jpg)
+![IMG_3804.jpeg](https://image.bmqy.net/upload/IMG_3804.jpeg)
 
 
-![%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175357.jpg](https://image.bmqy.net/upload/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241203175357.jpg)
+![IMG_3805.jpeg](https://image.bmqy.net/upload/IMG_3805.jpeg)
 
 
 ~~由于目前处于邀请注册阶段~~，现已`公测`，如需使用`邀请码`，下方不定时更新`邀请码`，直至完全不需要邀请码或者无邀请码为止：
