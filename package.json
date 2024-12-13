@@ -43,5 +43,8 @@
     "hexo-theme-next": "^8.20.0",
     "hexo-word-counter": "^0.1.0",
     "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "hexo-robots": "^1.0.1"
   }
 }
