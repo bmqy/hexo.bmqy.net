@@ -208,4 +208,4 @@ robots:
         - /images/
         - /plugins/
     sitemaps:
-        - /sitemap.xml
+        - https://bmqy.net/sitemap.xml
