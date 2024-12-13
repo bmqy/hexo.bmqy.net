@@ -209,3 +209,7 @@ robots:
         - /plugins/
     sitemaps:
         - https://bmqy.net/sitemap.xml
+# gzip
+minify:
+    enable: true
+    previewServer: true

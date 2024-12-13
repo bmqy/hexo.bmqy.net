@@ -45,6 +45,7 @@
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
-    "hexo-robots": "^1.0.1"
+    "hexo-robots": "^1.0.1",
+    "hexo-yam": "^9.0.0"
   }
 }
