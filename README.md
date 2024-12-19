@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2024-12-19 09:24:09更新)
+## 博客目录(2024-12-19 09:53:14更新)
 
 [ios17.0可以安装Trollstore了](https://bmqy.net/2674.html)
 
@@ -294,9 +294,9 @@
 
 [myeclipse新拷贝到电脑后错误弹窗，无法打开的解决方法](https://bmqy.net/1530.html)
 
-[其实我不是强迫症](https://bmqy.net/1532.html)
-
 [到哪都有wifi的人](https://bmqy.net/1531.html)
+
+[其实我不是强迫症](https://bmqy.net/1532.html)
 
 [miui开启节省流量功能后数据流量不能使用的问题](https://bmqy.net/1533.html)
 
@@ -305,8 +305,6 @@
 [来四张凑数](https://bmqy.net/1535.html)
 
 [感觉不错的水天一色](https://bmqy.net/1536.html)
-
-[修身、立业、齐家、治国、平天下](https://bmqy.net/1537.html)
 
 [人闯红灯不可怕，车闯红灯也不可怕](https://bmqy.net/1538.html)
 
