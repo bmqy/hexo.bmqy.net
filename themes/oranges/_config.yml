@@ -228,6 +228,9 @@ footer:
       name: Copyright © 2014
       path: /
     -
+      name: 京ICP备2021003914号
+      path: https://beian.miit.gov.cn/
+    -
       name: Theme by Oranges | Powered by Hexo
       path: https://github.com/zchengsite/hexo-theme-oranges
     -
