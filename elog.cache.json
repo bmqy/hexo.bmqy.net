@@ -224,9 +224,9 @@
     {
       "id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
       "doc_id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
-      "updated": 1729831380000,
+      "updated": 1740704100000,
       "properties": {
-        "date": "2024-03-15 12:55:00",
+        "date": "2024-03-15 04:55:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -246,10 +246,12 @@
           "kimi",
           "ChatGpt",
           "NodeSeek",
-          "v2ex"
+          "v2ex",
+          "DeepSeek",
+          "Fluarm"
         ],
         "abbrlink": 2662,
-        "updated": "2024-10-25 12:43:00",
+        "updated": "2025-02-28 00:55:00",
         "cover": "https://image.bmqy.net/upload/QQ%E6%88%AA%E5%9B%BE20240320092325.png",
         "categories": [
           "燕坊清作"
@@ -258,7 +260,7 @@
         "title": "【原创】油猴脚本：论坛快捷回帖"
       },
       "realName": "2024-03-15-【原创】油猴脚本：论坛快捷回帖",
-      "relativePath": "\\2024-03-15-【原创】油猴脚本：论坛快捷回帖.md",
+      "relativePath": "/2024-03-15-【原创】油猴脚本：论坛快捷回帖.md",
       "docPath": "/source/_posts"
     },
     {
@@ -5959,7 +5961,7 @@
       "object": "page",
       "id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
       "created_time": "2024-03-15T04:55:00.000Z",
-      "last_edited_time": "2024-10-25T04:43:00.000Z",
+      "last_edited_time": "2025-02-28T00:55:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -5977,24 +5979,13 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2024-03-15 04:55"
-        },
-        "updateTime": "2024-10-25T04:43:00.000Z",
+        "date": "2024-03-15 04:55:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2024-03-15T04:55:00.000Z",
         "recommend": "",
-        "_updated": "",
         "excerpt": "使用自定义内容或本扩展预定义的回帖内容，快捷回复支持的论坛的发帖！",
         "summary": "",
-        "_date": "",
-        "ID": {
-          "prefix": null,
-          "number": 612
-        },
         "tags": [
           "论坛",
           "bbs",
@@ -6008,22 +5999,17 @@
           "kimi",
           "ChatGpt",
           "NodeSeek",
-          "v2ex"
+          "v2ex",
+          "DeepSeek",
+          "Fluarm"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2662
-        },
-        "updated": {
-          "type": "string",
-          "string": "2024-10-25 04:43"
-        },
+        "abbrlink": 2662,
+        "updated": "2025-02-28 00:55:00",
         "cover": "https://image.bmqy.net/upload/QQ%E6%88%AA%E5%9B%BE20240320092325.png",
         "categories": [
           "燕坊清作"
         ],
-        "_abbrlink": 2662,
-        "urlname": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
+        "urlname": "2024-03-15-【原创】油猴脚本：论坛快捷回帖",
         "title": "【原创】油猴脚本：论坛快捷回帖"
       },
       "url": "https://www.notion.so/c0aff2fe71fd4ce68df9cb26afed0c99",
@@ -6374,13 +6360,24 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2023-08-15 05:17:00",
+        "date": {
+          "type": "string",
+          "string": "2023-08-15 05:17"
+        },
+        "updateTime": "2025-02-20T00:48:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2023-08-15T05:17:00.000Z",
         "recommend": "",
+        "_updated": "",
         "excerpt": "经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。",
         "summary": "",
+        "_date": "",
+        "ID": {
+          "prefix": null,
+          "number": 595
+        },
         "tags": [
           "chrome扩展",
           "rss",
@@ -6394,13 +6391,20 @@
           "Scriptable",
           "小组件"
         ],
-        "abbrlink": 2656,
-        "updated": "2025-02-20 00:48:00",
+        "abbrlink": {
+          "type": "number",
+          "number": 2656
+        },
+        "updated": {
+          "type": "string",
+          "string": "2025-02-20 00:48"
+        },
         "cover": "",
         "categories": [
           "燕衔春泥"
         ],
-        "urlname": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
+        "_abbrlink": 2656,
+        "urlname": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
         "title": "将chrome谷歌浏览器轻松打造成rss阅读器"
       },
       "url": "https://www.notion.so/chrome-rss-ad0bdbe68fcc41a3bf99a1b9fbd1850a",
