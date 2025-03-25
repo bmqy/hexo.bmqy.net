@@ -793,7 +793,7 @@
     {
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "doc_id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
-      "updated": 1740012480000,
+      "updated": 1742863980000,
       "properties": {
         "date": "2023-08-15 05:17:00",
         "sort": "",
@@ -816,7 +816,7 @@
           "小组件"
         ],
         "abbrlink": 2656,
-        "updated": "2025-02-20 00:48:00",
+        "updated": "2025-03-25 00:53:00",
         "cover": "",
         "categories": [
           "燕衔春泥"
@@ -5419,13 +5419,24 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2025-03-08 15:30:00",
+        "date": {
+          "type": "string",
+          "string": "2025-03-08 15:30"
+        },
+        "updateTime": "2025-03-15T12:55:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2025-03-08T15:30:00.000Z",
         "recommend": "",
+        "_updated": "",
         "excerpt": "VPS橱窗 - 一个简单的哪吒面板主题",
         "summary": "",
+        "_date": "",
+        "ID": {
+          "prefix": null,
+          "number": 666
+        },
         "tags": [
           "哪吒面板",
           "vps橱窗",
@@ -5433,13 +5444,20 @@
           "nezha",
           "主题美化"
         ],
-        "abbrlink": 2675,
-        "updated": "2025-03-15 12:55:00",
+        "abbrlink": {
+          "type": "number",
+          "number": 2675
+        },
+        "updated": {
+          "type": "string",
+          "string": "2025-03-15 12:55"
+        },
         "cover": "https://image.bmqy.net/upload/nezha-vps-shop-window_.png",
         "categories": [
           "燕坊清作"
         ],
-        "urlname": "2025-03-08-VPS橱窗 - 一个简单的哪吒面板主题",
+        "_abbrlink": "",
+        "urlname": "1b07924e-7947-80f2-8bf4-e1eb9d925a85",
         "title": "VPS橱窗 - 一个简单的哪吒面板主题"
       },
       "url": "https://www.notion.so/VPS-1b07924e794780f28bf4e1eb9d925a85",
@@ -6440,7 +6458,7 @@
       "object": "page",
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "created_time": "2023-08-15T05:17:00.000Z",
-      "last_edited_time": "2025-02-20T00:48:00.000Z",
+      "last_edited_time": "2025-03-25T00:53:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6458,24 +6476,13 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2023-08-15 05:17"
-        },
-        "updateTime": "2025-02-20T00:48:00.000Z",
+        "date": "2023-08-15 05:17:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-08-15T05:17:00.000Z",
         "recommend": "",
-        "_updated": "",
         "excerpt": "经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。",
         "summary": "",
-        "_date": "",
-        "ID": {
-          "prefix": null,
-          "number": 595
-        },
         "tags": [
           "chrome扩展",
           "rss",
@@ -6489,20 +6496,13 @@
           "Scriptable",
           "小组件"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2656
-        },
-        "updated": {
-          "type": "string",
-          "string": "2025-02-20 00:48"
-        },
+        "abbrlink": 2656,
+        "updated": "2025-03-25 00:53:00",
         "cover": "",
         "categories": [
           "燕衔春泥"
         ],
-        "_abbrlink": 2656,
-        "urlname": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
+        "urlname": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
         "title": "将chrome谷歌浏览器轻松打造成rss阅读器"
       },
       "url": "https://www.notion.so/chrome-rss-ad0bdbe68fcc41a3bf99a1b9fbd1850a",

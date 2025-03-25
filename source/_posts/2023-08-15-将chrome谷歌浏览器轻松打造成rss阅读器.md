@@ -19,7 +19,7 @@ tags:
   - Scriptable
   - 小组件
 abbrlink: 2656
-updated: '2025-02-20 00:48:00'
+updated: '2025-03-25 00:53:00'
 cover: ''
 categories:
   - 燕衔春泥
@@ -130,11 +130,11 @@ title: 将chrome谷歌浏览器轻松打造成rss阅读器
 **开启滚动时自动标记为已读**
 
 - 网页端
-	- 依次点击：`头像`、`设置`、`Mark as read`
-	- 在打开的面板中进行相应设置，以启用自动标记已读功能
+    - 依次点击：`头像`、`设置`、`Mark as read`
+    - 在打开的面板中进行相应设置，以启用自动标记已读功能
 - APP端
-	- 依次点击：`左下角菜单按钮`、`设置`
-	- 找打`Auto-Mark As Read On Scroll`选项，选择`Yes`以开启自动标记已读功能
+    - 依次点击：`左下角菜单按钮`、`设置`
+    - 找打`Auto-Mark As Read On Scroll`选项，选择`Yes`以开启自动标记已读功能
 
 ### [Follow](https://follow.is/)
 
@@ -185,6 +185,7 @@ E8DAW_hvHB
 
 YClgljY7rD
  已用
+fhTTI2i_H9
 ```
 
 
