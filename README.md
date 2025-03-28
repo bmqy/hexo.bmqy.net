@@ -12,7 +12,7 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2025-03-25 09:40:28更新)
+## 博客目录(2025-03-28 18:43:38更新)
 
 [VPS橱窗 - 一个简单的哪吒面板主题](https://bmqy.net/2675.html)
 
@@ -226,9 +226,9 @@
 
 [解决wordpress添加主题时列表中缩略图不显示的问题](https://bmqy.net/1495.html)
 
-[仿站作品1](https://bmqy.net/1500.html)
-
 [wordpress在指定分类下的文章内容后显示自定义推广信息](https://bmqy.net/1496.html)
+
+[仿站作品1](https://bmqy.net/1500.html)
 
 [仿站制作3](https://bmqy.net/1498.html)
 
