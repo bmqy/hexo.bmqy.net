@@ -12,7 +12,9 @@
 
 <!--START_SECTION:bmqy-->
 
-## 博客目录(2025-04-05 09:49:13更新)
+## 博客目录(2025-04-05 10:32:47更新)
+
+[Notion工具人bot](https://bmqy.net/2676.html)
 
 [VPS橱窗 - 一个简单的哪吒面板主题](https://bmqy.net/2675.html)
 
