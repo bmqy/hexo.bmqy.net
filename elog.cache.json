@@ -5394,9 +5394,97 @@
       "realName": "2025-03-08-VPS橱窗 - 一个简单的哪吒面板主题",
       "relativePath": "/2025-03-08-VPS橱窗 - 一个简单的哪吒面板主题.md",
       "docPath": "/source/_posts"
+    },
+    {
+      "id": "1cc7924e-7947-8096-b4e0-f2182a39ff26",
+      "doc_id": "1cc7924e-7947-8096-b4e0-f2182a39ff26",
+      "updated": 1743817620000,
+      "properties": {
+        "date": "2025-04-05 01:39:00",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "recommend": "",
+        "excerpt": "一个强迫AI开发的可部署到Cloudflare Workers上的Telegram机器人，用于管理Notion数据库和GitHub仓库绑定的Bot应用。",
+        "summary": "",
+        "tags": [
+          "Cloudflare",
+          "Workers",
+          "Telegram",
+          "AI",
+          "bot",
+          "Cursor",
+          "notion",
+          "github",
+          "KV"
+        ],
+        "abbrlink": 2676,
+        "updated": "2025-04-05 01:47:00",
+        "cover": "",
+        "categories": [
+          "燕坊清作"
+        ],
+        "urlname": "2025-04-05-Notion工具人bot",
+        "title": "Notion工具人bot"
+      },
+      "realName": "2025-04-05-Notion工具人bot",
+      "relativePath": "/2025-04-05-Notion工具人bot.md",
+      "docPath": "/source/_posts"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "1cc7924e-7947-8096-b4e0-f2182a39ff26",
+      "created_time": "2025-04-05T01:39:00.000Z",
+      "last_edited_time": "2025-04-05T01:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "d8a50f43-ec09-4b49-9082-44b0f6627cc3"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "date": "2025-04-05 01:39:00",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "recommend": "",
+        "excerpt": "一个强迫AI开发的可部署到Cloudflare Workers上的Telegram机器人，用于管理Notion数据库和GitHub仓库绑定的Bot应用。",
+        "summary": "",
+        "tags": [
+          "Cloudflare",
+          "Workers",
+          "Telegram",
+          "AI",
+          "bot",
+          "Cursor",
+          "notion",
+          "github",
+          "KV"
+        ],
+        "abbrlink": 2676,
+        "updated": "2025-04-05 01:47:00",
+        "cover": "",
+        "categories": [
+          "燕坊清作"
+        ],
+        "urlname": "2025-04-05-Notion工具人bot",
+        "title": "Notion工具人bot"
+      },
+      "url": "https://www.notion.so/Notion-bot-1cc7924e79478096b4e0f2182a39ff26",
+      "public_url": null
+    },
     {
       "object": "page",
       "id": "1b07924e-7947-80f2-8bf4-e1eb9d925a85",
@@ -10217,26 +10305,44 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2015-07-04 16:00:00",
+        "date": {
+          "type": "string",
+          "string": "2015-07-04 16:00"
+        },
+        "updateTime": "2025-03-31T09:36:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": "",
+        "_updated": "",
         "excerpt": "",
         "summary": "",
+        "_date": "2015-07-05 00:00:00",
+        "ID": {
+          "prefix": null,
+          "number": 542
+        },
         "tags": [
           "aspcms",
           "dedecms",
           "wordpress",
           "仿站服务"
         ],
-        "abbrlink": 1499,
-        "updated": "2015-07-04 16:00:00",
+        "abbrlink": {
+          "type": "number",
+          "number": 1499
+        },
+        "updated": {
+          "type": "string",
+          "string": "2015-07-04 16:00"
+        },
         "cover": "",
         "categories": [
           "仿站服务"
         ],
-        "urlname": "2015-07-04-仿站制作2",
+        "_abbrlink": 1499,
+        "urlname": "58cc163d-4a80-4bbc-b706-11be604eb108",
         "title": "仿站制作2"
       },
       "url": "https://www.notion.so/2-58cc163d4a804bbcb70611be604eb108",
