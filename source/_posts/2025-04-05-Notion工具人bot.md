@@ -17,7 +17,7 @@ tags:
   - github
   - KV
 abbrlink: 2676
-updated: '2025-04-05 01:47:00'
+updated: '2025-04-05 05:10:00'
 cover: ''
 categories:
   - 燕坊清作
@@ -26,6 +26,9 @@ title: Notion工具人bot
 ---
 
 一个强迫`AI`开发的可部署到`Cloudflare Workers`上的`Telegram`机器人，用于管理`Notion`数据库和`GitHub`仓库绑定的`Bot`应用。
+
+
+GitHub：[https://github.com/bmqy/notion-tools-bot](https://github.com/bmqy/notion-tools-bot)
 
 
 **功能特点**
