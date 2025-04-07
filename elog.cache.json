@@ -607,9 +607,9 @@
     {
       "id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
       "doc_id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
-      "updated": 1720583460000,
+      "updated": 1744015500000,
       "properties": {
-        "date": "2023-05-06 14:08:00",
+        "date": "2023-05-06 06:08:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -623,7 +623,7 @@
           "hexo"
         ],
         "abbrlink": 2651,
-        "updated": "2024-07-10 11:51:00",
+        "updated": "2025-04-07 08:45:00",
         "cover": "",
         "categories": [
           "清学小记"
@@ -632,7 +632,7 @@
         "title": "集成Elog使用notion数据库"
       },
       "realName": "2023-05-06-集成Elog使用notion数据库",
-      "relativePath": "\\2023-05-06-集成Elog使用notion数据库.md",
+      "relativePath": "/2023-05-06-集成Elog使用notion数据库.md",
       "docPath": "/source/_posts"
     },
     {
@@ -2223,7 +2223,7 @@
     {
       "id": "58cc163d-4a80-4bbc-b706-11be604eb108",
       "doc_id": "58cc163d-4a80-4bbc-b706-11be604eb108",
-      "updated": 1743413760000,
+      "updated": 1744014300000,
       "properties": {
         "date": "2015-07-04 16:00:00",
         "sort": "",
@@ -5455,13 +5455,24 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2025-04-05 01:39:00",
+        "date": {
+          "type": "string",
+          "string": "2025-04-05 01:39"
+        },
+        "updateTime": "2025-04-05T05:10:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2025-04-05T01:39:00.000Z",
         "recommend": "",
+        "_updated": "",
         "excerpt": "一个强迫AI开发的可部署到Cloudflare Workers上的Telegram机器人，用于管理Notion数据库和GitHub仓库绑定的Bot应用。",
         "summary": "",
+        "_date": "",
+        "ID": {
+          "prefix": null,
+          "number": 667
+        },
         "tags": [
           "Cloudflare",
           "Workers",
@@ -5473,13 +5484,20 @@
           "github",
           "KV"
         ],
-        "abbrlink": 2676,
-        "updated": "2025-04-05 05:10:00",
+        "abbrlink": {
+          "type": "number",
+          "number": 2676
+        },
+        "updated": {
+          "type": "string",
+          "string": "2025-04-05 05:10"
+        },
         "cover": "",
         "categories": [
           "燕坊清作"
         ],
-        "urlname": "2025-04-05-Notion工具人bot",
+        "_abbrlink": "",
+        "urlname": "1cc7924e-7947-8096-b4e0-f2182a39ff26",
         "title": "Notion工具人bot"
       },
       "url": "https://www.notion.so/Notion-bot-1cc7924e79478096b4e0f2182a39ff26",
@@ -6877,7 +6895,7 @@
       "object": "page",
       "id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
       "created_time": "2023-05-06T06:08:00.000Z",
-      "last_edited_time": "2024-07-10T03:51:00.000Z",
+      "last_edited_time": "2025-04-07T08:45:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6895,44 +6913,26 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2023-05-06 06:08"
-        },
-        "updateTime": "2024-07-10T03:51:00.000Z",
+        "date": "2023-05-06 06:08:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-05-06T06:08:00.000Z",
         "recommend": "",
-        "_updated": "",
         "excerpt": "为hexo集成elog使用notion数据库，这样更方便写博客。",
         "summary": "",
-        "_date": "",
-        "ID": {
-          "prefix": null,
-          "number": 529
-        },
         "tags": [
           "elog",
           "notion",
           "notion数据库",
           "hexo"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2651
-        },
-        "updated": {
-          "type": "string",
-          "string": "2024-07-10 03:51"
-        },
+        "abbrlink": 2651,
+        "updated": "2025-04-07 08:45:00",
         "cover": "",
         "categories": [
           "清学小记"
         ],
-        "_abbrlink": 2651,
-        "urlname": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
+        "urlname": "2023-05-06-集成Elog使用notion数据库",
         "title": "集成Elog使用notion数据库"
       },
       "url": "https://www.notion.so/Elog-notion-432906fc92ac4d999bcded1c0dcefc0c",
@@ -10287,7 +10287,7 @@
       "object": "page",
       "id": "58cc163d-4a80-4bbc-b706-11be604eb108",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2025-03-31T09:36:00.000Z",
+      "last_edited_time": "2025-04-07T08:25:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -10305,44 +10305,26 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2015-07-04 16:00"
-        },
-        "updateTime": "2025-03-31T09:36:00.000Z",
+        "date": "2015-07-04 16:00:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": "",
-        "_updated": "",
         "excerpt": "",
         "summary": "",
-        "_date": "2015-07-05 00:00:00",
-        "ID": {
-          "prefix": null,
-          "number": 542
-        },
         "tags": [
           "aspcms",
           "dedecms",
           "wordpress",
           "仿站服务"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 1499
-        },
-        "updated": {
-          "type": "string",
-          "string": "2015-07-04 16:00"
-        },
+        "abbrlink": 1499,
+        "updated": "2015-07-04 16:00:00",
         "cover": "",
         "categories": [
           "仿站服务"
         ],
-        "_abbrlink": 1499,
-        "urlname": "58cc163d-4a80-4bbc-b706-11be604eb108",
+        "urlname": "2015-07-04-仿站制作2",
         "title": "仿站制作2"
       },
       "url": "https://www.notion.so/2-58cc163d4a804bbcb70611be604eb108",
