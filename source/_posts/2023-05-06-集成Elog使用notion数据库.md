@@ -1,5 +1,5 @@
 ---
-date: '2023-05-06 14:08:00'
+date: '2023-05-06 06:08:00'
 sort: ''
 catalog: []
 status: 已发布
@@ -12,7 +12,7 @@ tags:
   - notion数据库
   - hexo
 abbrlink: 2651
-updated: '2024-07-10 11:51:00'
+updated: '2025-04-07 08:45:00'
 cover: ''
 categories:
   - 清学小记
@@ -46,18 +46,10 @@ title: 集成Elog使用notion数据库
 
 `notion`数据库的设置请参考`elog`中的[文档](https://elog.1874.cool/notion/gvnxobqogetukays#notion)
 
-
 > 使用 [**Database 模板**](https://1874.notion.site/09ff9e1e141744c6af0a1f69d2a3d834?v=a09065f9266446afa745b475044daca6) 创建一个数据库
-
-
 > 创建 `Integration Token`，具体请参考 [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-1-create-an-integration)
-
-
 > 将复制的数据库连接到刚创建的 `Integration`，具体请参考 [**Notion 官方教程**](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration)
-
-
 > 获取数据库 `DatabaseId`
-
 
 ### 文章导入Notion
 
@@ -89,6 +81,12 @@ title: 集成Elog使用notion数据库
 
 
 请参考[官方文档](https://elog.1874.cool/notion/vy55q9xwlqlsfrvk#notion-%E7%A4%BA%E4%BE%8B)
+
+
+### 使用Notion工具人bot
+
+
+参考[Notion工具人bot](https://bmqy.net/2676.html)部署自己的机器人，即可使用。
 
 
 ### Pipedream workflows触发github actions

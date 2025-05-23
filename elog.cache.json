@@ -224,9 +224,9 @@
     {
       "id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
       "doc_id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
-      "updated": 1729831380000,
+      "updated": 1740704100000,
       "properties": {
-        "date": "2024-03-15 12:55:00",
+        "date": "2024-03-15 04:55:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -246,10 +246,12 @@
           "kimi",
           "ChatGpt",
           "NodeSeek",
-          "v2ex"
+          "v2ex",
+          "DeepSeek",
+          "Fluarm"
         ],
         "abbrlink": 2662,
-        "updated": "2024-10-25 12:43:00",
+        "updated": "2025-02-28 00:55:00",
         "cover": "https://image.bmqy.net/upload/QQ%E6%88%AA%E5%9B%BE20240320092325.png",
         "categories": [
           "燕坊清作"
@@ -258,7 +260,7 @@
         "title": "【原创】油猴脚本：论坛快捷回帖"
       },
       "realName": "2024-03-15-【原创】油猴脚本：论坛快捷回帖",
-      "relativePath": "\\2024-03-15-【原创】油猴脚本：论坛快捷回帖.md",
+      "relativePath": "/2024-03-15-【原创】油猴脚本：论坛快捷回帖.md",
       "docPath": "/source/_posts"
     },
     {
@@ -417,7 +419,7 @@
     {
       "id": "c3980a84-f928-460d-9de7-19ca65b65a33",
       "doc_id": "c3980a84-f928-460d-9de7-19ca65b65a33",
-      "updated": 1731472740000,
+      "updated": 1741789560000,
       "properties": {
         "date": "2024-05-13 03:16:00",
         "sort": "",
@@ -438,7 +440,7 @@
           "vps橱窗"
         ],
         "abbrlink": 2665,
-        "updated": "2024-11-13 04:39:00",
+        "updated": "2025-03-12 14:26:00",
         "cover": "https://image.bmqy.net/upload/QQ20240820-084107.png",
         "categories": [
           "燕坊清作"
@@ -605,9 +607,9 @@
     {
       "id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
       "doc_id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
-      "updated": 1720583460000,
+      "updated": 1744015500000,
       "properties": {
-        "date": "2023-05-06 14:08:00",
+        "date": "2023-05-06 06:08:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -621,7 +623,7 @@
           "hexo"
         ],
         "abbrlink": 2651,
-        "updated": "2024-07-10 11:51:00",
+        "updated": "2025-04-07 08:45:00",
         "cover": "",
         "categories": [
           "清学小记"
@@ -630,7 +632,7 @@
         "title": "集成Elog使用notion数据库"
       },
       "realName": "2023-05-06-集成Elog使用notion数据库",
-      "relativePath": "\\2023-05-06-集成Elog使用notion数据库.md",
+      "relativePath": "/2023-05-06-集成Elog使用notion数据库.md",
       "docPath": "/source/_posts"
     },
     {
@@ -791,7 +793,7 @@
     {
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "doc_id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
-      "updated": 1734074280000,
+      "updated": 1742863980000,
       "properties": {
         "date": "2023-08-15 05:17:00",
         "sort": "",
@@ -814,7 +816,7 @@
           "小组件"
         ],
         "abbrlink": 2656,
-        "updated": "2024-12-13 07:18:00",
+        "updated": "2025-03-25 00:53:00",
         "cover": "",
         "categories": [
           "燕衔春泥"
@@ -1584,9 +1586,9 @@
     {
       "id": "32283006-11f7-460e-a302-4d4210a52fae",
       "doc_id": "32283006-11f7-460e-a302-4d4210a52fae",
-      "updated": 1717600200000,
+      "updated": 1742981580000,
       "properties": {
-        "date": "2015-07-05 00:00:00",
+        "date": "2015-07-04 16:00:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -1600,16 +1602,16 @@
           "仿站服务"
         ],
         "abbrlink": 1498,
-        "updated": "2015-07-05 00:00:00",
+        "updated": "2015-07-04 16:00:00",
         "cover": "",
         "categories": [
           "仿站服务"
         ],
-        "urlname": "2015-07-05-仿站制作3",
+        "urlname": "2015-07-04-仿站制作3",
         "title": "仿站制作3"
       },
-      "realName": "2015-07-05-仿站制作3",
-      "relativePath": "\\2015-07-05-仿站制作3.md",
+      "realName": "2015-07-04-仿站制作3",
+      "relativePath": "/2015-07-04-仿站制作3.md",
       "docPath": "/source/_posts"
     },
     {
@@ -1731,9 +1733,9 @@
     {
       "id": "3adcadd1-46c8-4e63-aff6-4c8d5c825c5d",
       "doc_id": "3adcadd1-46c8-4e63-aff6-4c8d5c825c5d",
-      "updated": 1717600320000,
+      "updated": 1742980740000,
       "properties": {
-        "date": "2015-07-05 00:00:00",
+        "date": "2015-07-04 16:00:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -1747,16 +1749,16 @@
           "仿站服务"
         ],
         "abbrlink": 1497,
-        "updated": "2015-07-05 00:00:00",
+        "updated": "2015-07-04 16:00:00",
         "cover": "",
         "categories": [
           "仿站服务"
         ],
-        "urlname": "2015-07-05-仿站制作4",
+        "urlname": "2015-07-04-仿站制作4",
         "title": "仿站制作4"
       },
-      "realName": "2015-07-05-仿站制作4",
-      "relativePath": "\\2015-07-05-仿站制作4.md",
+      "realName": "2015-07-04-仿站制作4",
+      "relativePath": "/2015-07-04-仿站制作4.md",
       "docPath": "/source/_posts"
     },
     {
@@ -2221,9 +2223,9 @@
     {
       "id": "58cc163d-4a80-4bbc-b706-11be604eb108",
       "doc_id": "58cc163d-4a80-4bbc-b706-11be604eb108",
-      "updated": 1717600140000,
+      "updated": 1744014300000,
       "properties": {
-        "date": "2015-07-05 00:00:00",
+        "date": "2015-07-04 16:00:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -2237,16 +2239,16 @@
           "仿站服务"
         ],
         "abbrlink": 1499,
-        "updated": "2015-07-05 00:00:00",
+        "updated": "2015-07-04 16:00:00",
         "cover": "",
         "categories": [
           "仿站服务"
         ],
-        "urlname": "2015-07-05-仿站制作2",
+        "urlname": "2015-07-04-仿站制作2",
         "title": "仿站制作2"
       },
-      "realName": "2015-07-05-仿站制作2",
-      "relativePath": "\\2015-07-05-仿站制作2.md",
+      "realName": "2015-07-04-仿站制作2",
+      "relativePath": "/2015-07-04-仿站制作2.md",
       "docPath": "/source/_posts"
     },
     {
@@ -5360,9 +5362,213 @@
       "realName": "2022-03-15-node项目部署到ftp",
       "relativePath": "\\2022-03-15-node项目部署到ftp.md",
       "docPath": "/source/_posts"
+    },
+    {
+      "id": "1b07924e-7947-80f2-8bf4-e1eb9d925a85",
+      "doc_id": "1b07924e-7947-80f2-8bf4-e1eb9d925a85",
+      "updated": 1742043300000,
+      "properties": {
+        "date": "2025-03-08 15:30:00",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "recommend": "",
+        "excerpt": "VPS橱窗 - 一个简单的哪吒面板主题",
+        "summary": "",
+        "tags": [
+          "哪吒面板",
+          "vps橱窗",
+          "VPS",
+          "nezha",
+          "主题美化"
+        ],
+        "abbrlink": 2675,
+        "updated": "2025-03-15 12:55:00",
+        "cover": "https://image.bmqy.net/upload/nezha-vps-shop-window_.png",
+        "categories": [
+          "燕坊清作"
+        ],
+        "urlname": "2025-03-08-VPS橱窗 - 一个简单的哪吒面板主题",
+        "title": "VPS橱窗 - 一个简单的哪吒面板主题"
+      },
+      "realName": "2025-03-08-VPS橱窗 - 一个简单的哪吒面板主题",
+      "relativePath": "/2025-03-08-VPS橱窗 - 一个简单的哪吒面板主题.md",
+      "docPath": "/source/_posts"
+    },
+    {
+      "id": "1cc7924e-7947-8096-b4e0-f2182a39ff26",
+      "doc_id": "1cc7924e-7947-8096-b4e0-f2182a39ff26",
+      "updated": 1743829800000,
+      "properties": {
+        "date": "2025-04-05 01:39:00",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "recommend": "",
+        "excerpt": "一个强迫AI开发的可部署到Cloudflare Workers上的Telegram机器人，用于管理Notion数据库和GitHub仓库绑定的Bot应用。",
+        "summary": "",
+        "tags": [
+          "Cloudflare",
+          "Workers",
+          "Telegram",
+          "AI",
+          "bot",
+          "Cursor",
+          "notion",
+          "github",
+          "KV"
+        ],
+        "abbrlink": 2676,
+        "updated": "2025-04-05 05:10:00",
+        "cover": "",
+        "categories": [
+          "燕坊清作"
+        ],
+        "urlname": "2025-04-05-Notion工具人bot",
+        "title": "Notion工具人bot"
+      },
+      "realName": "2025-04-05-Notion工具人bot",
+      "relativePath": "/2025-04-05-Notion工具人bot.md",
+      "docPath": "/source/_posts"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "1cc7924e-7947-8096-b4e0-f2182a39ff26",
+      "created_time": "2025-04-05T01:39:00.000Z",
+      "last_edited_time": "2025-04-05T05:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "d8a50f43-ec09-4b49-9082-44b0f6627cc3"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "date": {
+          "type": "string",
+          "string": "2025-04-05 01:39"
+        },
+        "updateTime": "2025-04-05T05:10:00.000Z",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "insertTime": "2025-04-05T01:39:00.000Z",
+        "recommend": "",
+        "_updated": "",
+        "excerpt": "一个强迫AI开发的可部署到Cloudflare Workers上的Telegram机器人，用于管理Notion数据库和GitHub仓库绑定的Bot应用。",
+        "summary": "",
+        "_date": "",
+        "ID": {
+          "prefix": null,
+          "number": 667
+        },
+        "tags": [
+          "Cloudflare",
+          "Workers",
+          "Telegram",
+          "AI",
+          "bot",
+          "Cursor",
+          "notion",
+          "github",
+          "KV"
+        ],
+        "abbrlink": {
+          "type": "number",
+          "number": 2676
+        },
+        "updated": {
+          "type": "string",
+          "string": "2025-04-05 05:10"
+        },
+        "cover": "",
+        "categories": [
+          "燕坊清作"
+        ],
+        "_abbrlink": "",
+        "urlname": "1cc7924e-7947-8096-b4e0-f2182a39ff26",
+        "title": "Notion工具人bot"
+      },
+      "url": "https://www.notion.so/Notion-bot-1cc7924e79478096b4e0f2182a39ff26",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "1b07924e-7947-80f2-8bf4-e1eb9d925a85",
+      "created_time": "2025-03-08T15:30:00.000Z",
+      "last_edited_time": "2025-03-15T12:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "d8a50f43-ec09-4b49-9082-44b0f6627cc3"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "date": {
+          "type": "string",
+          "string": "2025-03-08 15:30"
+        },
+        "updateTime": "2025-03-15T12:55:00.000Z",
+        "sort": "",
+        "catalog": [],
+        "status": "已发布",
+        "insertTime": "2025-03-08T15:30:00.000Z",
+        "recommend": "",
+        "_updated": "",
+        "excerpt": "VPS橱窗 - 一个简单的哪吒面板主题",
+        "summary": "",
+        "_date": "",
+        "ID": {
+          "prefix": null,
+          "number": 666
+        },
+        "tags": [
+          "哪吒面板",
+          "vps橱窗",
+          "VPS",
+          "nezha",
+          "主题美化"
+        ],
+        "abbrlink": {
+          "type": "number",
+          "number": 2675
+        },
+        "updated": {
+          "type": "string",
+          "string": "2025-03-15 12:55"
+        },
+        "cover": "https://image.bmqy.net/upload/nezha-vps-shop-window_.png",
+        "categories": [
+          "燕坊清作"
+        ],
+        "_abbrlink": "",
+        "urlname": "1b07924e-7947-80f2-8bf4-e1eb9d925a85",
+        "title": "VPS橱窗 - 一个简单的哪吒面板主题"
+      },
+      "url": "https://www.notion.so/VPS-1b07924e794780f28bf4e1eb9d925a85",
+      "public_url": null
+    },
     {
       "object": "page",
       "id": "b3aedfcb-5682-468b-9b60-9eef59885650",
@@ -5756,7 +5962,7 @@
       "object": "page",
       "id": "c3980a84-f928-460d-9de7-19ca65b65a33",
       "created_time": "2024-05-13T03:16:00.000Z",
-      "last_edited_time": "2024-11-13T04:39:00.000Z",
+      "last_edited_time": "2025-03-12T14:26:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -5778,7 +5984,7 @@
           "type": "string",
           "string": "2024-05-13 03:16"
         },
-        "updateTime": "2024-11-13T04:39:00.000Z",
+        "updateTime": "2025-03-12T14:26:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -5809,7 +6015,7 @@
         },
         "updated": {
           "type": "string",
-          "string": "2024-11-13 04:39"
+          "string": "2025-03-12 14:26"
         },
         "cover": "https://image.bmqy.net/upload/QQ20240820-084107.png",
         "categories": [
@@ -5959,7 +6165,7 @@
       "object": "page",
       "id": "c0aff2fe-71fd-4ce6-8df9-cb26afed0c99",
       "created_time": "2024-03-15T04:55:00.000Z",
-      "last_edited_time": "2024-10-25T04:43:00.000Z",
+      "last_edited_time": "2025-02-28T00:55:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -5981,7 +6187,7 @@
           "type": "string",
           "string": "2024-03-15 04:55"
         },
-        "updateTime": "2024-10-25T04:43:00.000Z",
+        "updateTime": "2025-02-28T00:55:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -6008,7 +6214,9 @@
           "kimi",
           "ChatGpt",
           "NodeSeek",
-          "v2ex"
+          "v2ex",
+          "DeepSeek",
+          "Fluarm"
         ],
         "abbrlink": {
           "type": "number",
@@ -6016,7 +6224,7 @@
         },
         "updated": {
           "type": "string",
-          "string": "2024-10-25 04:43"
+          "string": "2025-02-28 00:55"
         },
         "cover": "https://image.bmqy.net/upload/QQ%E6%88%AA%E5%9B%BE20240320092325.png",
         "categories": [
@@ -6356,7 +6564,7 @@
       "object": "page",
       "id": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
       "created_time": "2023-08-15T05:17:00.000Z",
-      "last_edited_time": "2024-12-13T07:18:00.000Z",
+      "last_edited_time": "2025-03-25T00:53:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6374,13 +6582,24 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2023-08-15 05:17:00",
+        "date": {
+          "type": "string",
+          "string": "2023-08-15 05:17"
+        },
+        "updateTime": "2025-03-25T00:53:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
+        "insertTime": "2023-08-15T05:17:00.000Z",
         "recommend": "",
+        "_updated": "",
         "excerpt": "经常用chrome浏览器、又习惯使用rss阅读文章的朋友们，现在找到了两者完美结合的方法，轻松将chrome谷歌浏览器打造成rss阅读器。",
         "summary": "",
+        "_date": "",
+        "ID": {
+          "prefix": null,
+          "number": 595
+        },
         "tags": [
           "chrome扩展",
           "rss",
@@ -6394,13 +6613,20 @@
           "Scriptable",
           "小组件"
         ],
-        "abbrlink": 2656,
-        "updated": "2024-12-13 07:18:00",
+        "abbrlink": {
+          "type": "number",
+          "number": 2656
+        },
+        "updated": {
+          "type": "string",
+          "string": "2025-03-25 00:53"
+        },
         "cover": "",
         "categories": [
           "燕衔春泥"
         ],
-        "urlname": "2023-08-15-将chrome谷歌浏览器轻松打造成rss阅读器",
+        "_abbrlink": 2656,
+        "urlname": "ad0bdbe6-8fcc-41a3-bf99-a1b9fbd1850a",
         "title": "将chrome谷歌浏览器轻松打造成rss阅读器"
       },
       "url": "https://www.notion.so/chrome-rss-ad0bdbe68fcc41a3bf99a1b9fbd1850a",
@@ -6669,7 +6895,7 @@
       "object": "page",
       "id": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
       "created_time": "2023-05-06T06:08:00.000Z",
-      "last_edited_time": "2024-07-10T03:51:00.000Z",
+      "last_edited_time": "2025-04-07T08:45:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -6687,44 +6913,26 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2023-05-06 06:08"
-        },
-        "updateTime": "2024-07-10T03:51:00.000Z",
+        "date": "2023-05-06 06:08:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-05-06T06:08:00.000Z",
         "recommend": "",
-        "_updated": "",
         "excerpt": "为hexo集成elog使用notion数据库，这样更方便写博客。",
         "summary": "",
-        "_date": "",
-        "ID": {
-          "prefix": null,
-          "number": 529
-        },
         "tags": [
           "elog",
           "notion",
           "notion数据库",
           "hexo"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 2651
-        },
-        "updated": {
-          "type": "string",
-          "string": "2024-07-10 03:51"
-        },
+        "abbrlink": 2651,
+        "updated": "2025-04-07 08:45:00",
         "cover": "",
         "categories": [
           "清学小记"
         ],
-        "_abbrlink": 2651,
-        "urlname": "432906fc-92ac-4d99-9bcd-ed1c0dcefc0c",
+        "urlname": "2023-05-06-集成Elog使用notion数据库",
         "title": "集成Elog使用notion数据库"
       },
       "url": "https://www.notion.so/Elog-notion-432906fc92ac4d999bcded1c0dcefc0c",
@@ -8599,7 +8807,7 @@
       "object": "page",
       "id": "32283006-11f7-460e-a302-4d4210a52fae",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2024-06-05T15:10:00.000Z",
+      "last_edited_time": "2025-03-26T09:33:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -8621,7 +8829,7 @@
           "type": "string",
           "string": "2015-07-04 16:00"
         },
-        "updateTime": "2024-06-05T15:10:00.000Z",
+        "updateTime": "2025-03-26T09:33:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -9045,7 +9253,7 @@
       "object": "page",
       "id": "3adcadd1-46c8-4e63-aff6-4c8d5c825c5d",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2024-06-05T15:12:00.000Z",
+      "last_edited_time": "2025-03-26T09:19:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -9067,7 +9275,7 @@
           "type": "string",
           "string": "2015-07-04 16:00"
         },
-        "updateTime": "2024-06-05T15:12:00.000Z",
+        "updateTime": "2025-03-26T09:19:00.000Z",
         "sort": "",
         "catalog": [],
         "status": "已发布",
@@ -10079,7 +10287,7 @@
       "object": "page",
       "id": "58cc163d-4a80-4bbc-b706-11be604eb108",
       "created_time": "2023-04-28T14:04:00.000Z",
-      "last_edited_time": "2024-06-05T15:09:00.000Z",
+      "last_edited_time": "2025-04-07T08:25:00.000Z",
       "created_by": {
         "object": "user",
         "id": "c140e7d0-78bc-46dc-8679-7d20b42ffe03"
@@ -10097,44 +10305,26 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": {
-          "type": "string",
-          "string": "2015-07-04 16:00"
-        },
-        "updateTime": "2024-06-05T15:09:00.000Z",
+        "date": "2015-07-04 16:00:00",
         "sort": "",
         "catalog": [],
         "status": "已发布",
-        "insertTime": "2023-04-28T14:04:00.000Z",
         "recommend": "",
-        "_updated": "",
         "excerpt": "",
         "summary": "",
-        "_date": "2015-07-05 00:00:00",
-        "ID": {
-          "prefix": null,
-          "number": 542
-        },
         "tags": [
           "aspcms",
           "dedecms",
           "wordpress",
           "仿站服务"
         ],
-        "abbrlink": {
-          "type": "number",
-          "number": 1499
-        },
-        "updated": {
-          "type": "string",
-          "string": "2015-07-04 16:00"
-        },
+        "abbrlink": 1499,
+        "updated": "2015-07-04 16:00:00",
         "cover": "",
         "categories": [
           "仿站服务"
         ],
-        "_abbrlink": 1499,
-        "urlname": "58cc163d-4a80-4bbc-b706-11be604eb108",
+        "urlname": "2015-07-04-仿站制作2",
         "title": "仿站制作2"
       },
       "url": "https://www.notion.so/2-58cc163d4a804bbcb70611be604eb108",
