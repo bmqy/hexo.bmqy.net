@@ -102,8 +102,8 @@ theme: oranges
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-    type: 'cos'
+## deploy:
+##    type: 'cos'
 abbrlink:
     start: 2648 # the first id, default 0
 search:

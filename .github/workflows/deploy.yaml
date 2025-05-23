@@ -34,39 +34,39 @@ jobs:
                 operating-system: ['ubuntu-20.04']
 
         steps:
-            - name: 检查分支
-              uses: actions/checkout@master
+            # - name: 检查分支
+            #   uses: actions/checkout@master
 
-            - name: 安装node环境
-              uses: actions/setup-node@master
-              with:
-                node-version: "16.14.0"
+            # - name: 安装node环境
+            #   uses: actions/setup-node@master
+            #   with:
+            #     node-version: "16.14.0"
 
-            - name: Install depends
-              run: |
-                  npm install
-            - name: Elog Sync
-              run: |
-                  npm run elog:sync
+            # - name: Install depends
+            #   run: |
+            #       npm install
+            # - name: Elog Sync
+            #   run: |
+            #       npm run elog:sync
             
-            - name: 提交notion拉取的文章到GitHub仓库
-              run: |
-                echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
-                git config --global user.email "qq88268459@126.com"
-                git config --global user.name "bmqy"
-                git add .
-                git commit -m "更新文档" -a
+            # - name: 提交notion拉取的文章到GitHub仓库
+            #   run: |
+            #     echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
+            #     git config --global user.email "qq88268459@126.com"
+            #     git config --global user.name "bmqy"
+            #     git add .
+            #     git commit -m "更新文档" -a
                   
-            - name: Clean
-              run: |
-                  npm run clean
-            - name: Build
-              run: |
-                  npm run build
+            # - name: Clean
+            #   run: |
+            #       npm run clean
+            # - name: Build
+            #   run: |
+            #       npm run build
             
-            - name: Deploy
-              run: |
-                  npm run deploy
+            # - name: Deploy
+            #   run: |
+            #       npm run deploy
                   
             # - name: 📂 Deploy Ftp
             #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -78,36 +78,36 @@ jobs:
             #     local-dir: './public/'
             #     server-dir: ${{ secrets.FTP_REMOTE }}
 
-            - name: TencentCloud CDN Action # 刷新腾讯云CDN
-              uses: suxuelengyin/Tencent-CDN-Action@v1.1
-              with:
-                secret_id: ${{ secrets.COS_SECRET_ID }}
-                secret_key: ${{ secrets.COS_SECRET_KEY }}
-                paths: ${{ secrets.SITE_URL }}
+            # - name: TencentCloud CDN Action # 刷新腾讯云CDN
+            #   uses: suxuelengyin/Tencent-CDN-Action@v1.1
+            #   with:
+            #     secret_id: ${{ secrets.COS_SECRET_ID }}
+            #     secret_key: ${{ secrets.COS_SECRET_KEY }}
+            #     paths: ${{ secrets.SITE_URL }}
 
-            - name: Run with setup-python 3.9
-              uses: actions/setup-python@v4
-              with:
-                python-version: '3.9'
-                update-environment: false
-                cache: 'pipenv'
-            - name: Install pipenv
-              run: pip3 install --user pipenv
-            - name: Install dependecies
-              run:  pipenv --python python3 && pipenv install
-            - name: Update readme
-              run: pipenv run python readme.py
+            # - name: Run with setup-python 3.9
+            #   uses: actions/setup-python@v4
+            #   with:
+            #     python-version: '3.9'
+            #     update-environment: false
+            #     cache: 'pipenv'
+            # - name: Install pipenv
+            #   run: pip3 install --user pipenv
+            # - name: Install dependecies
+            #   run:  pipenv --python python3 && pipenv install
+            # - name: Update readme
+            #   run: pipenv run python readme.py
 
-            - name: Commit README.md # 更新README.md
-              run: |
-                  git diff
-                  git add README.md
-                  git commit -m "Github Action Auto Updated"
+            # - name: Commit README.md # 更新README.md
+            #   run: |
+            #       git diff
+            #       git add README.md
+            #       git commit -m "Github Action Auto Updated"
 
-            - name: 推送更新到仓库
-              uses: ad-m/github-push-action@master
-              with:
-                github_token: ${{ secrets.GITHUB_TOKEN }}
+            # - name: 推送更新到仓库
+            #   uses: ad-m/github-push-action@master
+            #   with:
+            #     github_token: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Notify workflow status to telegram
               uses: yakuhzi/notify-workflow@v2
